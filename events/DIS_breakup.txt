@@ -1,0 +1,1284 @@
+﻿###########################
+# Disunited States Breakup Events
+###########################
+# By Killeritch
+###########################
+
+add_namespace = DIS_breakup
+
+country_event = { # Alaska declares independence
+	id = DIS_breakup.1
+	title = DIS_breakup.1.t
+	desc = DIS_breakup.1.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		AKX = {
+			add_state_core = 463
+			transfer_state = 463
+			# load_oob = AKX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.1.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = AKX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.1.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.1.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = AKX type = annex_everything }
+		AKX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Hawaii declares independence
+	id = DIS_breakup.2
+	title = DIS_breakup.2.t
+	desc = DIS_breakup.2.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		HIX = {
+			add_state_core = 629
+			transfer_state = 629
+			# load_oob = HIX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.2.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = HIX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.2.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.2.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = HIX type = annex_everything }
+		HIX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Cascadia declares independence
+	id = DIS_breakup.3
+	title = DIS_breakup.3.t
+	desc = DIS_breakup.3.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		CSC = {
+			add_state_core = 385
+			add_state_core = 386
+			transfer_state = 385
+			transfer_state = 386
+			# load_oob = CSC_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.3.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = CSC type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.3.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.3.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = CSC type = annex_everything }
+		CSC = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # California declares independence
+	id = DIS_breakup.4
+	title = DIS_breakup.4.t
+	desc = DIS_breakup.4.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		CAX = {
+			add_state_core = 378
+			transfer_state = 378
+			# load_oob = CAX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.4.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = CAX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.4.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.4.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = CAX type = annex_everything }
+		CAX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Utah declares independence
+	id = DIS_breakup.5
+	title = DIS_breakup.5.t
+	desc = DIS_breakup.5.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		UTX = {
+			add_state_core = 380
+			transfer_state = 380
+			# load_oob = UTX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.5.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = UTX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.5.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.5.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = UTX type = annex_everything }
+		UTX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Texas declares independence
+	id = DIS_breakup.6
+	title = DIS_breakup.6.t
+	desc = DIS_breakup.6.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		TXX = {
+			add_state_core = 375
+			transfer_state = 375
+			# load_oob = TXX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.6.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = TXX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.6.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.6.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = TXX type = annex_everything }
+		TXX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # New York declares independence
+	id = DIS_breakup.7
+	title = DIS_breakup.7.t
+	desc = DIS_breakup.7.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		NYX = {
+			add_state_core = 358
+			transfer_state = 358
+			# load_oob = NYX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.7.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = NYX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.7.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.7.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = NYX type = annex_everything }
+		NYX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # New England declares independence
+	id = DIS_breakup.8
+	title = DIS_breakup.8.t
+	desc = DIS_breakup.8.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		NWN = {
+			add_state_core = 357
+			transfer_state = 357
+			# load_oob = NWN_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.8.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = NWN type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.8.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.8.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = NWN type = annex_everything }
+		NWN = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Oklahoma declares independence
+	id = DIS_breakup.9
+	title = DIS_breakup.9.t
+	desc = DIS_breakup.9.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		OKX = {
+			add_state_core = 374
+			transfer_state = 374
+			# load_oob = OKX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.9.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = OKX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.9.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.9.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = OKX type = annex_everything }
+		OKX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # CSA declares independence
+	id = DIS_breakup.10
+	title = DIS_breakup.10.t
+	desc = DIS_breakup.10.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		CSA = {
+			add_state_core = 364
+			add_state_core = 365
+			add_state_core = 367
+			add_state_core = 370
+			transfer_state = 364
+			transfer_state = 365
+			transfer_state = 367
+			transfer_state = 370
+			# load_oob = CSA_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.10.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = CSA type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.10.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.10.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = CSA type = annex_everything }
+		CSA = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Louisiana declares independence
+	id = DIS_breakup.11
+	title = DIS_breakup.11.t
+	desc = DIS_breakup.11.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		LAX = {
+			add_state_core = 371
+			transfer_state = 371
+			# load_oob = LAX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.11.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = LAX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.11.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.11.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = LAX type = annex_everything }
+		LAX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Florida declares independence
+	id = DIS_breakup.12
+	title = DIS_breakup.12.t
+	desc = DIS_breakup.12.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		FLX = {
+			add_state_core = 366
+			transfer_state = 366
+			# load_oob = FLX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.12.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = FLX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.12.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.12.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = FLX type = annex_everything }
+		FLX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Nevada declares independence
+	id = DIS_breakup.13
+	title = DIS_breakup.13.t
+	desc = DIS_breakup.13.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		NVX = {
+			add_state_core = 379
+			transfer_state = 379
+			# load_oob = NVX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.13.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = NVX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.13.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.13.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = NVX type = annex_everything }
+		NVX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Arizona declares independence
+	id = DIS_breakup.14
+	title = DIS_breakup.14.t
+	desc = DIS_breakup.14.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		AZX = {
+			add_state_core = 377
+			transfer_state = 377
+			# load_oob = AZX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.14.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = AZX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.14.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.14.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = AZX type = annex_everything }
+		AZX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # New Mexico declares independence
+	id = DIS_breakup.15
+	title = DIS_breakup.15.t
+	desc = DIS_breakup.15.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		NMX = {
+			add_state_core = 376
+			transfer_state = 376
+			# load_oob = NMX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.15.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = NMX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.15.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.15.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = NMX type = annex_everything }
+		NMX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Idaho declares independence
+	id = DIS_breakup.16
+	title = DIS_breakup.16.t
+	desc = DIS_breakup.16.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		IDX = {
+			add_state_core = 387
+			transfer_state = 387
+			# load_oob = IDX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.16.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = IDX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.16.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.16.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = IDX type = annex_everything }
+		IDX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Arkansas declares independence
+	id = DIS_breakup.17
+	title = DIS_breakup.17.t
+	desc = DIS_breakup.17.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		ARX = {
+			add_state_core = 372
+			transfer_state = 372
+			# load_oob = ARX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.17.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = ARX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.17.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.17.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = ARX type = annex_everything }
+		ARX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Missouri declares independence
+	id = DIS_breakup.18
+	title = DIS_breakup.18.t
+	desc = DIS_breakup.18.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		MOX = {
+			add_state_core = 373
+			transfer_state = 373
+			# load_oob = MOX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.18.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = MOX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.18.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.18.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = MOX type = annex_everything }
+		MOX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Tennessee declares independence
+	id = DIS_breakup.19
+	title = DIS_breakup.19.t
+	desc = DIS_breakup.19.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		TNX = {
+			add_state_core = 368
+			transfer_state = 368
+			# load_oob = TNX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.19.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = TNX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.19.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.19.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = TNX type = annex_everything }
+		TNX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Kentucky declares independence
+	id = DIS_breakup.20
+	title = DIS_breakup.20.t
+	desc = DIS_breakup.20.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		KYX = {
+			add_state_core = 369
+			transfer_state = 369
+			# load_oob = KYX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.20.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = KYX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.20.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.20.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = KYX type = annex_everything }
+		KYX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Virginia declares independence
+	id = DIS_breakup.21
+	title = DIS_breakup.21.t
+	desc = DIS_breakup.21.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		VAX = {
+			add_state_core = 362
+			transfer_state = 362
+			# load_oob = VAX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.21.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = VAX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.21.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.21.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = VAX type = annex_everything }
+		VAX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # North Carolina declares independence
+	id = DIS_breakup.22
+	title = DIS_breakup.22.t
+	desc = DIS_breakup.22.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		NCX = {
+			add_state_core = 363
+			transfer_state = 363
+			# load_oob = NCX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.22.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = NCX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.22.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.22.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = NCX type = annex_everything }
+		NCX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Maryland declares independence
+	id = DIS_breakup.23
+	title = DIS_breakup.23.t
+	desc = DIS_breakup.23.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		MDX = {
+			add_state_core = 361
+			transfer_state = 361
+			# load_oob = MDX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.23.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = MDX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.23.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.23.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = MDX type = annex_everything }
+		MDX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # New Jersey declares independence
+	id = DIS_breakup.24
+	title = DIS_breakup.24.t
+	desc = DIS_breakup.24.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		NJX = {
+			add_state_core = 359
+			transfer_state = 359
+			# load_oob = NJX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.24.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = NJX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.24.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.24.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = NJX type = annex_everything }
+		NJX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Puerto Rico declares independence
+	id = DIS_breakup.25
+	title = DIS_breakup.25.t
+	desc = DIS_breakup.25.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		PRX = {
+			add_state_core = 686
+			transfer_state = 686
+			# load_oob = PRX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.25.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = PRX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.25.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.25.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = PRX type = annex_everything }
+		PRX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Rocky Mountains declare independence
+	id = DIS_breakup.26
+	title = DIS_breakup.26.t
+	desc = DIS_breakup.26.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		RKY = {
+			add_state_core = 381
+			add_state_core = 382
+			add_state_core = 388
+			transfer_state = 381
+			transfer_state = 382
+			transfer_state = 388
+			# load_oob = RKY_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.26.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = RKY type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.26.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.26.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = RKY type = annex_everything }
+		RKY = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Great Plains declare independence
+	id = DIS_breakup.27
+	title = DIS_breakup.27.t
+	desc = DIS_breakup.27.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		GPL = {
+			add_state_core = 383
+			add_state_core = 384
+			add_state_core = 389
+			add_state_core = 390
+			add_state_core = 391
+			add_state_core = 392
+			transfer_state = 383
+			transfer_state = 384
+			transfer_state = 389
+			transfer_state = 390
+			transfer_state = 391
+			transfer_state = 392
+			# load_oob = GPL_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.27.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = GPL type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.27.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.27.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = GPL type = annex_everything }
+		GPL = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Rust Belt declares independence
+	id = DIS_breakup.28
+	title = DIS_breakup.28.t
+	desc = DIS_breakup.28.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		RST = {
+			add_state_core = 261
+			add_state_core = 360
+			add_state_core = 393
+			add_state_core = 394
+			add_state_core = 395
+			add_state_core = 396
+			transfer_state = 261
+			transfer_state = 360
+			transfer_state = 393
+			transfer_state = 394
+			transfer_state = 395
+			transfer_state = 396
+			# load_oob = RST_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.28.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = RST type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.28.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.28.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = RST type = annex_everything }
+		RST = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # test event, all nations revolt at once
+	id = DIS_breakup.100
+	title = DIS_breakup.100.t
+	desc = DIS_breakup.100.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DIS_breakup.100.a
+		country_event = { id = DIS_breakup.1 }
+		country_event = { id = DIS_breakup.2 }
+		country_event = { id = DIS_breakup.3 }
+		country_event = { id = DIS_breakup.4 }
+		country_event = { id = DIS_breakup.5 }
+		country_event = { id = DIS_breakup.6 }
+		country_event = { id = DIS_breakup.7 }
+		country_event = { id = DIS_breakup.8 }
+		country_event = { id = DIS_breakup.9 }
+		country_event = { id = DIS_breakup.10 }
+		country_event = { id = DIS_breakup.11 }
+		country_event = { id = DIS_breakup.12 }
+		country_event = { id = DIS_breakup.13 }
+		country_event = { id = DIS_breakup.14 }
+		country_event = { id = DIS_breakup.15 }
+		country_event = { id = DIS_breakup.16 }
+		country_event = { id = DIS_breakup.17 }
+		country_event = { id = DIS_breakup.18 }
+		country_event = { id = DIS_breakup.19 }
+		country_event = { id = DIS_breakup.20 }
+		country_event = { id = DIS_breakup.21 }
+		country_event = { id = DIS_breakup.22 }
+		country_event = { id = DIS_breakup.23 }
+		country_event = { id = DIS_breakup.24 }
+		country_event = { id = DIS_breakup.25 }
+		country_event = { id = DIS_breakup.26 }
+		country_event = { id = DIS_breakup.27 }
+		country_event = { id = DIS_breakup.28 }
+	}
+}

@@ -1,0 +1,555 @@
+﻿###########################
+# Disunited States Joining Together Events
+###########################
+# By Killeritch
+###########################
+
+add_namespace = DIS_join
+
+country_event = { # Idaho
+	id = DIS_join.1
+	title = DIS_join.1.t
+	desc = DIS_join.1.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = IDX
+		owns_state = 387
+		has_war = no
+		CSC = {
+			owns_state = 385
+			owns_state = 386
+			has_war = no
+		}
+		RKY = {
+			owns_state = 381
+			owns_state = 382
+			owns_state = 388
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join Rockies
+		name = DIS_join.1.a
+		ai_chance = {
+			base = 60
+		}
+		RKY = {
+			country_event = { id = DIS_join.2 days = 1 }
+		}
+	}
+
+	option = { #ask to join Cascadia
+		name = DIS_join.1.b
+		ai_chance = {
+			base = 20
+		}
+		CSC = {
+			country_event = { id = DIS_join.2 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.1.c
+		ai_chance = {
+			base = 20
+		}
+	}
+}
+
+country_event = { #Idaho wants to join Rockies/Cascadia
+	id = DIS_join.2
+	title = DIS_join.2.t
+	desc = DIS_join.2.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.2.a
+		annex_country = { target = IDX }
+		add_state_core = 387
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.2.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Missouri
+	id = DIS_join.3
+	title = DIS_join.3.t
+	desc = DIS_join.3.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = MOX
+		owns_state = 373
+		has_war = no
+		GPL = {
+			owns_state = 383
+			owns_state = 392
+			has_war = no
+		}
+		CSA = {
+			owns_state = 364
+			owns_state = 365
+			owns_state = 367
+			owns_state = 370
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join CSA
+		name = DIS_join.3.a
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 2
+				CSA = {
+					owns_state = 372
+				}
+			}
+			modifier = {
+				factor = 2
+				CSA = {
+					owns_state = 368
+				}
+			}
+		}
+		CSA = {
+			country_event = { id = DIS_join.4 days = 1 }
+		}
+	}
+
+	option = { #ask to join Great Plains
+		name = DIS_join.3.b
+		ai_chance = {
+			base = 60
+		}
+		GPL = {
+			country_event = { id = DIS_join.4 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.3.c
+		ai_chance = {
+			base = 20
+		}
+	}
+}
+
+country_event = { #Missouri wants to join CSA/Great Plains
+	id = DIS_join.4
+	title = DIS_join.4.t
+	desc = DIS_join.4.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.4.a
+		annex_country = { target = MOX }
+		add_state_core = 373
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.4.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Arkansas
+	id = DIS_join.5
+	title = DIS_join.5.t
+	desc = DIS_join.5.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = ARX
+		owns_state = 372
+		has_war = no
+		CSA = {
+			owns_state = 364
+			owns_state = 365
+			owns_state = 367
+			owns_state = 370
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join CSA
+		name = DIS_join.5.a
+		ai_chance = {
+			base = 95
+			modifier = {
+				factor = 2
+				CSA = {
+					owns_state = 368
+				}
+			}
+		}
+		CSA = {
+			country_event = { id = DIS_join.6 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.5.c
+		ai_chance = {
+			base = 5
+		}
+	}
+}
+
+country_event = { #Arkansas wants to join CSA
+	id = DIS_join.6
+	title = DIS_join.6.t
+	desc = DIS_join.6.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.6.a
+		annex_country = { target = ARX }
+		add_state_core = 372
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.6.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Tennessee
+	id = DIS_join.7
+	title = DIS_join.7.t
+	desc = DIS_join.7.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = TNX
+		owns_state = 368
+		has_war = no
+		CSA = {
+			owns_state = 364
+			owns_state = 365
+			owns_state = 367
+			owns_state = 370
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join CSA
+		name = DIS_join.7.a
+		ai_chance = {
+			base = 95
+			modifier = {
+				factor = 2
+				CSA = {
+					owns_state = 372
+				}
+			}
+			modifier = {
+				factor = 2
+				CSA = {
+					owns_state = 363
+				}
+			}
+		}
+		CSA = {
+			country_event = { id = DIS_join.8 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.7.c
+		ai_chance = {
+			base = 5
+		}
+	}
+}
+
+country_event = { #Tennessee wants to join CSA
+	id = DIS_join.8
+	title = DIS_join.8.t
+	desc = DIS_join.8.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.8.a
+		annex_country = { target = TNX }
+		add_state_core = 368
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.8.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # North Carolina
+	id = DIS_join.9
+	title = DIS_join.9.t
+	desc = DIS_join.9.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = NCX
+		owns_state = 363
+		has_war = no
+		CSA = {
+			owns_state = 364
+			owns_state = 365
+			owns_state = 367
+			owns_state = 370
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join CSA
+		name = DIS_join.9.a
+		ai_chance = {
+			base = 95
+			modifier = {
+				factor = 2
+				CSA = {
+					owns_state = 368
+				}
+			}
+		}
+		CSA = {
+			country_event = { id = DIS_join.10 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.9.c
+		ai_chance = {
+			base = 5
+		}
+	}
+}
+
+country_event = { #North Carolina wants to join CSA
+	id = DIS_join.10
+	title = DIS_join.10.t
+	desc = DIS_join.10.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.10.a
+		annex_country = { target = NCX }
+		add_state_core = 363
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.10.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Louisiana
+	id = DIS_join.11
+	title = DIS_join.11.t
+	desc = DIS_join.11.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = LAX
+		owns_state = 371
+		has_war = no
+		CSA = {
+			owns_state = 364
+			owns_state = 365
+			owns_state = 367
+			owns_state = 370
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join CSA
+		name = DIS_join.11.a
+		ai_chance = {
+			base = 50
+		}
+		CSA = {
+			country_event = { id = DIS_join.12 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.11.c
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+country_event = { #Louisiana wants to join CSA
+	id = DIS_join.12
+	title = DIS_join.12.t
+	desc = DIS_join.12.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.12.a
+		annex_country = { target = LAX }
+		add_state_core = 371
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.12.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { # Florida
+	id = DIS_join.13
+	title = DIS_join.13.t
+	desc = DIS_join.13.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = FLX
+		owns_state = 366
+		has_war = no
+		CSA = {
+			owns_state = 364
+			owns_state = 365
+			owns_state = 367
+			owns_state = 370
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join CSA
+		name = DIS_join.13.a
+		ai_chance = {
+			base = 50
+		}
+		CSA = {
+			country_event = { id = DIS_join.14 days = 1 }
+		}
+	}
+
+	option = { #stay independent
+		name = DIS_join.13.c
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+country_event = { #Florida wants to join CSA
+	id = DIS_join.14
+	title = DIS_join.14.t
+	desc = DIS_join.14.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DIS_join.14.a
+		annex_country = { target = FLX }
+		add_state_core = 366
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #no thanks
+		name = DIS_join.14.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
