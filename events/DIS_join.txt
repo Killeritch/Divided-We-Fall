@@ -213,13 +213,7 @@ country_event = { # Arkansas
 	option = { #ask to join CSA
 		name = DIS_join.5.a
 		ai_chance = {
-			base = 95
-			modifier = {
-				factor = 2
-				CSA = {
-					owns_state = 368
-				}
-			}
+			base = 100
 		}
 		CSA = {
 			country_event = { id = DIS_join.6 days = 1 }
@@ -229,7 +223,7 @@ country_event = { # Arkansas
 	option = { #stay independent
 		name = DIS_join.5.c
 		ai_chance = {
-			base = 5
+			base = 0
 		}
 	}
 }
@@ -288,19 +282,7 @@ country_event = { # Tennessee
 	option = { #ask to join CSA
 		name = DIS_join.7.a
 		ai_chance = {
-			base = 95
-			modifier = {
-				factor = 2
-				CSA = {
-					owns_state = 372
-				}
-			}
-			modifier = {
-				factor = 2
-				CSA = {
-					owns_state = 363
-				}
-			}
+			base = 100
 		}
 		CSA = {
 			country_event = { id = DIS_join.8 days = 1 }
@@ -310,7 +292,7 @@ country_event = { # Tennessee
 	option = { #stay independent
 		name = DIS_join.7.c
 		ai_chance = {
-			base = 5
+			base = 0
 		}
 	}
 }
@@ -369,13 +351,7 @@ country_event = { # North Carolina
 	option = { #ask to join CSA
 		name = DIS_join.9.a
 		ai_chance = {
-			base = 95
-			modifier = {
-				factor = 2
-				CSA = {
-					owns_state = 368
-				}
-			}
+			base = 100
 		}
 		CSA = {
 			country_event = { id = DIS_join.10 days = 1 }
@@ -385,7 +361,7 @@ country_event = { # North Carolina
 	option = { #stay independent
 		name = DIS_join.9.c
 		ai_chance = {
-			base = 5
+			base = 0
 		}
 	}
 }

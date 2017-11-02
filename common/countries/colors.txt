@@ -686,8 +686,8 @@ ORX = {
 	color_ui = rgb { 87 160 255 }
 }
 PAX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb  { 67  149  189 } #the blue from Pennsylvania's state seal
+	color_ui = rgb  { 67  149  189 } #the blue from Pennsylvania's state seal
 }
 RIX = {
 	color = rgb { 20 133 237 }
@@ -758,8 +758,8 @@ PRX = {
 	color_ui = rgb { 51  181  213 } #sky blue from Puerto Rico's flag
 }
 RKY = {
-	color = rgb { 119  47  33 } #just a random brown
-	color_ui = rgb { 119  47  33 } #just a random brown
+	color = rgb { 150  75  0 } #just a random brown
+	color_ui = rgb { 150  75  0 } #just a random brown
 }
 RST = {
 	color = rgb { 255  0  0 } #red for the workers' blood

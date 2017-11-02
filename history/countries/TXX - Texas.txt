@@ -91,6 +91,17 @@ set_technology = {
 	}
 }
 
+create_country_leader = {
+	name = "James Allred"
+	desc = "POLITICS_WENDELL_WILKIE_DESC"
+	picture = "Portrait_James_Allred.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
 
 
 

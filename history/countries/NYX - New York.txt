@@ -119,6 +119,38 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+	name = "Thomas E. Dewey"
+	desc = "POLITICS_THOMAS_DEWEY_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Wendell Wilkie"
+	desc = "POLITICS_WENDELL_WILKIE_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_Wendell_Willkie.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Norman Thomas"
+	desc = "POLITICS_WENDELL_WILKIE_DESC"
+	picture = "Portrait_Norman_Thomas.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
 
 ### Ship Variants ###
 

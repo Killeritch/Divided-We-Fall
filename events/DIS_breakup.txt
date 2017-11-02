@@ -1200,13 +1200,11 @@ country_event = { # Rust Belt declares independence
 	immediate = {
 		RST = {
 			add_state_core = 261
-			add_state_core = 360
 			add_state_core = 393
 			add_state_core = 394
 			add_state_core = 395
 			add_state_core = 396
 			transfer_state = 261
-			transfer_state = 360
 			transfer_state = 393
 			transfer_state = 394
 			transfer_state = 395
@@ -1237,6 +1235,49 @@ country_event = { # Rust Belt declares independence
 		}
 		declare_war_on = { target = RST type = annex_everything }
 		RST = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Pennsylvania declares independence
+	id = DIS_breakup.29
+	title = DIS_breakup.29.t
+	desc = DIS_breakup.29.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		PAX = {
+			add_state_core = 360
+			transfer_state = 360
+			# load_oob = PAX_1936
+		}
+	}
+
+	option = {
+		name = DIS_breakup.29.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = PAX type = annex_everything }
+	}
+
+	option = {
+		name = DIS_breakup.29.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DIS_breakup.29.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = PAX type = annex_everything }
+		PAX = {
 			change_tag_from = USA
 		}
 	}
@@ -1280,5 +1321,6 @@ country_event = { # test event, all nations revolt at once
 		country_event = { id = DIS_breakup.26 }
 		country_event = { id = DIS_breakup.27 }
 		country_event = { id = DIS_breakup.28 }
+		country_event = { id = DIS_breakup.29 }
 	}
 }
