@@ -1,15 +1,15 @@
 ﻿###########################
-# Disunited States Breakup Events
+# Divided We Fall Breakup Events
 ###########################
 # By Killeritch
 ###########################
 
-add_namespace = DIS_breakup
+add_namespace = DWF_breakup
 
 country_event = { # Alaska declares independence
-	id = DIS_breakup.1
-	title = DIS_breakup.1.t
-	desc = DIS_breakup.1.d
+	id = DWF_breakup.1
+	title = DWF_breakup.1.t
+	desc = DWF_breakup.1.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -23,7 +23,7 @@ country_event = { # Alaska declares independence
 	}
 
 	option = {
-		name = DIS_breakup.1.a
+		name = DWF_breakup.1.a
 		ai_chance = {
 			base = 100
 		}
@@ -31,14 +31,14 @@ country_event = { # Alaska declares independence
 	}
 
 	option = {
-		name = DIS_breakup.1.b
+		name = DWF_breakup.1.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.1.c
+		name = DWF_breakup.1.c
 		ai_chance = {
 			base = 0
 		}
@@ -50,9 +50,9 @@ country_event = { # Alaska declares independence
 }
 
 country_event = { # Hawaii declares independence
-	id = DIS_breakup.2
-	title = DIS_breakup.2.t
-	desc = DIS_breakup.2.d
+	id = DWF_breakup.2
+	title = DWF_breakup.2.t
+	desc = DWF_breakup.2.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -66,7 +66,7 @@ country_event = { # Hawaii declares independence
 	}
 
 	option = {
-		name = DIS_breakup.2.a
+		name = DWF_breakup.2.a
 		ai_chance = {
 			base = 100
 		}
@@ -74,14 +74,14 @@ country_event = { # Hawaii declares independence
 	}
 
 	option = {
-		name = DIS_breakup.2.b
+		name = DWF_breakup.2.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.2.c
+		name = DWF_breakup.2.c
 		ai_chance = {
 			base = 0
 		}
@@ -93,9 +93,9 @@ country_event = { # Hawaii declares independence
 }
 
 country_event = { # Cascadia declares independence
-	id = DIS_breakup.3
-	title = DIS_breakup.3.t
-	desc = DIS_breakup.3.d
+	id = DWF_breakup.3
+	title = DWF_breakup.3.t
+	desc = DWF_breakup.3.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -111,7 +111,7 @@ country_event = { # Cascadia declares independence
 	}
 
 	option = {
-		name = DIS_breakup.3.a
+		name = DWF_breakup.3.a
 		ai_chance = {
 			base = 100
 		}
@@ -119,14 +119,14 @@ country_event = { # Cascadia declares independence
 	}
 
 	option = {
-		name = DIS_breakup.3.b
+		name = DWF_breakup.3.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.3.c
+		name = DWF_breakup.3.c
 		ai_chance = {
 			base = 0
 		}
@@ -138,9 +138,9 @@ country_event = { # Cascadia declares independence
 }
 
 country_event = { # California declares independence
-	id = DIS_breakup.4
-	title = DIS_breakup.4.t
-	desc = DIS_breakup.4.d
+	id = DWF_breakup.4
+	title = DWF_breakup.4.t
+	desc = DWF_breakup.4.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -154,7 +154,7 @@ country_event = { # California declares independence
 	}
 
 	option = {
-		name = DIS_breakup.4.a
+		name = DWF_breakup.4.a
 		ai_chance = {
 			base = 100
 		}
@@ -162,14 +162,14 @@ country_event = { # California declares independence
 	}
 
 	option = {
-		name = DIS_breakup.4.b
+		name = DWF_breakup.4.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.4.c
+		name = DWF_breakup.4.c
 		ai_chance = {
 			base = 0
 		}
@@ -181,9 +181,9 @@ country_event = { # California declares independence
 }
 
 country_event = { # Utah declares independence
-	id = DIS_breakup.5
-	title = DIS_breakup.5.t
-	desc = DIS_breakup.5.d
+	id = DWF_breakup.5
+	title = DWF_breakup.5.t
+	desc = DWF_breakup.5.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -197,7 +197,7 @@ country_event = { # Utah declares independence
 	}
 
 	option = {
-		name = DIS_breakup.5.a
+		name = DWF_breakup.5.a
 		ai_chance = {
 			base = 100
 		}
@@ -205,14 +205,14 @@ country_event = { # Utah declares independence
 	}
 
 	option = {
-		name = DIS_breakup.5.b
+		name = DWF_breakup.5.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.5.c
+		name = DWF_breakup.5.c
 		ai_chance = {
 			base = 0
 		}
@@ -224,9 +224,9 @@ country_event = { # Utah declares independence
 }
 
 country_event = { # Texas declares independence
-	id = DIS_breakup.6
-	title = DIS_breakup.6.t
-	desc = DIS_breakup.6.d
+	id = DWF_breakup.6
+	title = DWF_breakup.6.t
+	desc = DWF_breakup.6.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -240,7 +240,7 @@ country_event = { # Texas declares independence
 	}
 
 	option = {
-		name = DIS_breakup.6.a
+		name = DWF_breakup.6.a
 		ai_chance = {
 			base = 100
 		}
@@ -248,14 +248,14 @@ country_event = { # Texas declares independence
 	}
 
 	option = {
-		name = DIS_breakup.6.b
+		name = DWF_breakup.6.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.6.c
+		name = DWF_breakup.6.c
 		ai_chance = {
 			base = 0
 		}
@@ -267,9 +267,9 @@ country_event = { # Texas declares independence
 }
 
 country_event = { # New York declares independence
-	id = DIS_breakup.7
-	title = DIS_breakup.7.t
-	desc = DIS_breakup.7.d
+	id = DWF_breakup.7
+	title = DWF_breakup.7.t
+	desc = DWF_breakup.7.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -283,7 +283,7 @@ country_event = { # New York declares independence
 	}
 
 	option = {
-		name = DIS_breakup.7.a
+		name = DWF_breakup.7.a
 		ai_chance = {
 			base = 100
 		}
@@ -291,14 +291,14 @@ country_event = { # New York declares independence
 	}
 
 	option = {
-		name = DIS_breakup.7.b
+		name = DWF_breakup.7.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.7.c
+		name = DWF_breakup.7.c
 		ai_chance = {
 			base = 0
 		}
@@ -310,9 +310,9 @@ country_event = { # New York declares independence
 }
 
 country_event = { # New England declares independence
-	id = DIS_breakup.8
-	title = DIS_breakup.8.t
-	desc = DIS_breakup.8.d
+	id = DWF_breakup.8
+	title = DWF_breakup.8.t
+	desc = DWF_breakup.8.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -326,7 +326,7 @@ country_event = { # New England declares independence
 	}
 
 	option = {
-		name = DIS_breakup.8.a
+		name = DWF_breakup.8.a
 		ai_chance = {
 			base = 100
 		}
@@ -334,14 +334,14 @@ country_event = { # New England declares independence
 	}
 
 	option = {
-		name = DIS_breakup.8.b
+		name = DWF_breakup.8.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.8.c
+		name = DWF_breakup.8.c
 		ai_chance = {
 			base = 0
 		}
@@ -353,9 +353,9 @@ country_event = { # New England declares independence
 }
 
 country_event = { # Oklahoma declares independence
-	id = DIS_breakup.9
-	title = DIS_breakup.9.t
-	desc = DIS_breakup.9.d
+	id = DWF_breakup.9
+	title = DWF_breakup.9.t
+	desc = DWF_breakup.9.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -369,7 +369,7 @@ country_event = { # Oklahoma declares independence
 	}
 
 	option = {
-		name = DIS_breakup.9.a
+		name = DWF_breakup.9.a
 		ai_chance = {
 			base = 100
 		}
@@ -377,14 +377,14 @@ country_event = { # Oklahoma declares independence
 	}
 
 	option = {
-		name = DIS_breakup.9.b
+		name = DWF_breakup.9.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.9.c
+		name = DWF_breakup.9.c
 		ai_chance = {
 			base = 0
 		}
@@ -396,9 +396,9 @@ country_event = { # Oklahoma declares independence
 }
 
 country_event = { # CSA declares independence
-	id = DIS_breakup.10
-	title = DIS_breakup.10.t
-	desc = DIS_breakup.10.d
+	id = DWF_breakup.10
+	title = DWF_breakup.10.t
+	desc = DWF_breakup.10.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -418,7 +418,7 @@ country_event = { # CSA declares independence
 	}
 
 	option = {
-		name = DIS_breakup.10.a
+		name = DWF_breakup.10.a
 		ai_chance = {
 			base = 100
 		}
@@ -426,14 +426,14 @@ country_event = { # CSA declares independence
 	}
 
 	option = {
-		name = DIS_breakup.10.b
+		name = DWF_breakup.10.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.10.c
+		name = DWF_breakup.10.c
 		ai_chance = {
 			base = 0
 		}
@@ -445,9 +445,9 @@ country_event = { # CSA declares independence
 }
 
 country_event = { # Louisiana declares independence
-	id = DIS_breakup.11
-	title = DIS_breakup.11.t
-	desc = DIS_breakup.11.d
+	id = DWF_breakup.11
+	title = DWF_breakup.11.t
+	desc = DWF_breakup.11.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -461,7 +461,7 @@ country_event = { # Louisiana declares independence
 	}
 
 	option = {
-		name = DIS_breakup.11.a
+		name = DWF_breakup.11.a
 		ai_chance = {
 			base = 100
 		}
@@ -469,14 +469,14 @@ country_event = { # Louisiana declares independence
 	}
 
 	option = {
-		name = DIS_breakup.11.b
+		name = DWF_breakup.11.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.11.c
+		name = DWF_breakup.11.c
 		ai_chance = {
 			base = 0
 		}
@@ -488,9 +488,9 @@ country_event = { # Louisiana declares independence
 }
 
 country_event = { # Florida declares independence
-	id = DIS_breakup.12
-	title = DIS_breakup.12.t
-	desc = DIS_breakup.12.d
+	id = DWF_breakup.12
+	title = DWF_breakup.12.t
+	desc = DWF_breakup.12.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -504,7 +504,7 @@ country_event = { # Florida declares independence
 	}
 
 	option = {
-		name = DIS_breakup.12.a
+		name = DWF_breakup.12.a
 		ai_chance = {
 			base = 100
 		}
@@ -512,14 +512,14 @@ country_event = { # Florida declares independence
 	}
 
 	option = {
-		name = DIS_breakup.12.b
+		name = DWF_breakup.12.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.12.c
+		name = DWF_breakup.12.c
 		ai_chance = {
 			base = 0
 		}
@@ -531,9 +531,9 @@ country_event = { # Florida declares independence
 }
 
 country_event = { # Nevada declares independence
-	id = DIS_breakup.13
-	title = DIS_breakup.13.t
-	desc = DIS_breakup.13.d
+	id = DWF_breakup.13
+	title = DWF_breakup.13.t
+	desc = DWF_breakup.13.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -547,7 +547,7 @@ country_event = { # Nevada declares independence
 	}
 
 	option = {
-		name = DIS_breakup.13.a
+		name = DWF_breakup.13.a
 		ai_chance = {
 			base = 100
 		}
@@ -555,14 +555,14 @@ country_event = { # Nevada declares independence
 	}
 
 	option = {
-		name = DIS_breakup.13.b
+		name = DWF_breakup.13.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.13.c
+		name = DWF_breakup.13.c
 		ai_chance = {
 			base = 0
 		}
@@ -574,9 +574,9 @@ country_event = { # Nevada declares independence
 }
 
 country_event = { # Arizona declares independence
-	id = DIS_breakup.14
-	title = DIS_breakup.14.t
-	desc = DIS_breakup.14.d
+	id = DWF_breakup.14
+	title = DWF_breakup.14.t
+	desc = DWF_breakup.14.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -590,7 +590,7 @@ country_event = { # Arizona declares independence
 	}
 
 	option = {
-		name = DIS_breakup.14.a
+		name = DWF_breakup.14.a
 		ai_chance = {
 			base = 100
 		}
@@ -598,14 +598,14 @@ country_event = { # Arizona declares independence
 	}
 
 	option = {
-		name = DIS_breakup.14.b
+		name = DWF_breakup.14.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.14.c
+		name = DWF_breakup.14.c
 		ai_chance = {
 			base = 0
 		}
@@ -617,9 +617,9 @@ country_event = { # Arizona declares independence
 }
 
 country_event = { # New Mexico declares independence
-	id = DIS_breakup.15
-	title = DIS_breakup.15.t
-	desc = DIS_breakup.15.d
+	id = DWF_breakup.15
+	title = DWF_breakup.15.t
+	desc = DWF_breakup.15.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -633,7 +633,7 @@ country_event = { # New Mexico declares independence
 	}
 
 	option = {
-		name = DIS_breakup.15.a
+		name = DWF_breakup.15.a
 		ai_chance = {
 			base = 100
 		}
@@ -641,14 +641,14 @@ country_event = { # New Mexico declares independence
 	}
 
 	option = {
-		name = DIS_breakup.15.b
+		name = DWF_breakup.15.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.15.c
+		name = DWF_breakup.15.c
 		ai_chance = {
 			base = 0
 		}
@@ -660,9 +660,9 @@ country_event = { # New Mexico declares independence
 }
 
 country_event = { # Idaho declares independence
-	id = DIS_breakup.16
-	title = DIS_breakup.16.t
-	desc = DIS_breakup.16.d
+	id = DWF_breakup.16
+	title = DWF_breakup.16.t
+	desc = DWF_breakup.16.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -676,7 +676,7 @@ country_event = { # Idaho declares independence
 	}
 
 	option = {
-		name = DIS_breakup.16.a
+		name = DWF_breakup.16.a
 		ai_chance = {
 			base = 100
 		}
@@ -684,14 +684,14 @@ country_event = { # Idaho declares independence
 	}
 
 	option = {
-		name = DIS_breakup.16.b
+		name = DWF_breakup.16.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.16.c
+		name = DWF_breakup.16.c
 		ai_chance = {
 			base = 0
 		}
@@ -703,9 +703,9 @@ country_event = { # Idaho declares independence
 }
 
 country_event = { # Arkansas declares independence
-	id = DIS_breakup.17
-	title = DIS_breakup.17.t
-	desc = DIS_breakup.17.d
+	id = DWF_breakup.17
+	title = DWF_breakup.17.t
+	desc = DWF_breakup.17.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -719,7 +719,7 @@ country_event = { # Arkansas declares independence
 	}
 
 	option = {
-		name = DIS_breakup.17.a
+		name = DWF_breakup.17.a
 		ai_chance = {
 			base = 100
 		}
@@ -727,14 +727,14 @@ country_event = { # Arkansas declares independence
 	}
 
 	option = {
-		name = DIS_breakup.17.b
+		name = DWF_breakup.17.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.17.c
+		name = DWF_breakup.17.c
 		ai_chance = {
 			base = 0
 		}
@@ -746,9 +746,9 @@ country_event = { # Arkansas declares independence
 }
 
 country_event = { # Missouri declares independence
-	id = DIS_breakup.18
-	title = DIS_breakup.18.t
-	desc = DIS_breakup.18.d
+	id = DWF_breakup.18
+	title = DWF_breakup.18.t
+	desc = DWF_breakup.18.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -762,7 +762,7 @@ country_event = { # Missouri declares independence
 	}
 
 	option = {
-		name = DIS_breakup.18.a
+		name = DWF_breakup.18.a
 		ai_chance = {
 			base = 100
 		}
@@ -770,14 +770,14 @@ country_event = { # Missouri declares independence
 	}
 
 	option = {
-		name = DIS_breakup.18.b
+		name = DWF_breakup.18.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.18.c
+		name = DWF_breakup.18.c
 		ai_chance = {
 			base = 0
 		}
@@ -789,9 +789,9 @@ country_event = { # Missouri declares independence
 }
 
 country_event = { # Tennessee declares independence
-	id = DIS_breakup.19
-	title = DIS_breakup.19.t
-	desc = DIS_breakup.19.d
+	id = DWF_breakup.19
+	title = DWF_breakup.19.t
+	desc = DWF_breakup.19.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -805,7 +805,7 @@ country_event = { # Tennessee declares independence
 	}
 
 	option = {
-		name = DIS_breakup.19.a
+		name = DWF_breakup.19.a
 		ai_chance = {
 			base = 100
 		}
@@ -813,14 +813,14 @@ country_event = { # Tennessee declares independence
 	}
 
 	option = {
-		name = DIS_breakup.19.b
+		name = DWF_breakup.19.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.19.c
+		name = DWF_breakup.19.c
 		ai_chance = {
 			base = 0
 		}
@@ -832,9 +832,9 @@ country_event = { # Tennessee declares independence
 }
 
 country_event = { # Kentucky declares independence
-	id = DIS_breakup.20
-	title = DIS_breakup.20.t
-	desc = DIS_breakup.20.d
+	id = DWF_breakup.20
+	title = DWF_breakup.20.t
+	desc = DWF_breakup.20.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -848,7 +848,7 @@ country_event = { # Kentucky declares independence
 	}
 
 	option = {
-		name = DIS_breakup.20.a
+		name = DWF_breakup.20.a
 		ai_chance = {
 			base = 100
 		}
@@ -856,14 +856,14 @@ country_event = { # Kentucky declares independence
 	}
 
 	option = {
-		name = DIS_breakup.20.b
+		name = DWF_breakup.20.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.20.c
+		name = DWF_breakup.20.c
 		ai_chance = {
 			base = 0
 		}
@@ -875,9 +875,9 @@ country_event = { # Kentucky declares independence
 }
 
 country_event = { # Virginia declares independence
-	id = DIS_breakup.21
-	title = DIS_breakup.21.t
-	desc = DIS_breakup.21.d
+	id = DWF_breakup.21
+	title = DWF_breakup.21.t
+	desc = DWF_breakup.21.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -891,7 +891,7 @@ country_event = { # Virginia declares independence
 	}
 
 	option = {
-		name = DIS_breakup.21.a
+		name = DWF_breakup.21.a
 		ai_chance = {
 			base = 100
 		}
@@ -899,14 +899,14 @@ country_event = { # Virginia declares independence
 	}
 
 	option = {
-		name = DIS_breakup.21.b
+		name = DWF_breakup.21.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.21.c
+		name = DWF_breakup.21.c
 		ai_chance = {
 			base = 0
 		}
@@ -918,9 +918,9 @@ country_event = { # Virginia declares independence
 }
 
 country_event = { # North Carolina declares independence
-	id = DIS_breakup.22
-	title = DIS_breakup.22.t
-	desc = DIS_breakup.22.d
+	id = DWF_breakup.22
+	title = DWF_breakup.22.t
+	desc = DWF_breakup.22.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -934,7 +934,7 @@ country_event = { # North Carolina declares independence
 	}
 
 	option = {
-		name = DIS_breakup.22.a
+		name = DWF_breakup.22.a
 		ai_chance = {
 			base = 100
 		}
@@ -942,14 +942,14 @@ country_event = { # North Carolina declares independence
 	}
 
 	option = {
-		name = DIS_breakup.22.b
+		name = DWF_breakup.22.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.22.c
+		name = DWF_breakup.22.c
 		ai_chance = {
 			base = 0
 		}
@@ -961,9 +961,9 @@ country_event = { # North Carolina declares independence
 }
 
 country_event = { # Maryland declares independence
-	id = DIS_breakup.23
-	title = DIS_breakup.23.t
-	desc = DIS_breakup.23.d
+	id = DWF_breakup.23
+	title = DWF_breakup.23.t
+	desc = DWF_breakup.23.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -977,7 +977,7 @@ country_event = { # Maryland declares independence
 	}
 
 	option = {
-		name = DIS_breakup.23.a
+		name = DWF_breakup.23.a
 		ai_chance = {
 			base = 100
 		}
@@ -985,14 +985,14 @@ country_event = { # Maryland declares independence
 	}
 
 	option = {
-		name = DIS_breakup.23.b
+		name = DWF_breakup.23.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.23.c
+		name = DWF_breakup.23.c
 		ai_chance = {
 			base = 0
 		}
@@ -1004,9 +1004,9 @@ country_event = { # Maryland declares independence
 }
 
 country_event = { # New Jersey declares independence
-	id = DIS_breakup.24
-	title = DIS_breakup.24.t
-	desc = DIS_breakup.24.d
+	id = DWF_breakup.24
+	title = DWF_breakup.24.t
+	desc = DWF_breakup.24.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -1020,7 +1020,7 @@ country_event = { # New Jersey declares independence
 	}
 
 	option = {
-		name = DIS_breakup.24.a
+		name = DWF_breakup.24.a
 		ai_chance = {
 			base = 100
 		}
@@ -1028,14 +1028,14 @@ country_event = { # New Jersey declares independence
 	}
 
 	option = {
-		name = DIS_breakup.24.b
+		name = DWF_breakup.24.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.24.c
+		name = DWF_breakup.24.c
 		ai_chance = {
 			base = 0
 		}
@@ -1047,9 +1047,9 @@ country_event = { # New Jersey declares independence
 }
 
 country_event = { # Puerto Rico declares independence
-	id = DIS_breakup.25
-	title = DIS_breakup.25.t
-	desc = DIS_breakup.25.d
+	id = DWF_breakup.25
+	title = DWF_breakup.25.t
+	desc = DWF_breakup.25.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -1063,7 +1063,7 @@ country_event = { # Puerto Rico declares independence
 	}
 
 	option = {
-		name = DIS_breakup.25.a
+		name = DWF_breakup.25.a
 		ai_chance = {
 			base = 100
 		}
@@ -1071,14 +1071,14 @@ country_event = { # Puerto Rico declares independence
 	}
 
 	option = {
-		name = DIS_breakup.25.b
+		name = DWF_breakup.25.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.25.c
+		name = DWF_breakup.25.c
 		ai_chance = {
 			base = 0
 		}
@@ -1090,9 +1090,9 @@ country_event = { # Puerto Rico declares independence
 }
 
 country_event = { # Rocky Mountains declare independence
-	id = DIS_breakup.26
-	title = DIS_breakup.26.t
-	desc = DIS_breakup.26.d
+	id = DWF_breakup.26
+	title = DWF_breakup.26.t
+	desc = DWF_breakup.26.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -1110,7 +1110,7 @@ country_event = { # Rocky Mountains declare independence
 	}
 
 	option = {
-		name = DIS_breakup.26.a
+		name = DWF_breakup.26.a
 		ai_chance = {
 			base = 100
 		}
@@ -1118,14 +1118,14 @@ country_event = { # Rocky Mountains declare independence
 	}
 
 	option = {
-		name = DIS_breakup.26.b
+		name = DWF_breakup.26.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.26.c
+		name = DWF_breakup.26.c
 		ai_chance = {
 			base = 0
 		}
@@ -1137,9 +1137,9 @@ country_event = { # Rocky Mountains declare independence
 }
 
 country_event = { # Great Plains declare independence
-	id = DIS_breakup.27
-	title = DIS_breakup.27.t
-	desc = DIS_breakup.27.d
+	id = DWF_breakup.27
+	title = DWF_breakup.27.t
+	desc = DWF_breakup.27.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -1163,7 +1163,7 @@ country_event = { # Great Plains declare independence
 	}
 
 	option = {
-		name = DIS_breakup.27.a
+		name = DWF_breakup.27.a
 		ai_chance = {
 			base = 100
 		}
@@ -1171,14 +1171,14 @@ country_event = { # Great Plains declare independence
 	}
 
 	option = {
-		name = DIS_breakup.27.b
+		name = DWF_breakup.27.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.27.c
+		name = DWF_breakup.27.c
 		ai_chance = {
 			base = 0
 		}
@@ -1190,9 +1190,9 @@ country_event = { # Great Plains declare independence
 }
 
 country_event = { # Rust Belt declares independence
-	id = DIS_breakup.28
-	title = DIS_breakup.28.t
-	desc = DIS_breakup.28.d
+	id = DWF_breakup.28
+	title = DWF_breakup.28.t
+	desc = DWF_breakup.28.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -1214,7 +1214,7 @@ country_event = { # Rust Belt declares independence
 	}
 
 	option = {
-		name = DIS_breakup.28.a
+		name = DWF_breakup.28.a
 		ai_chance = {
 			base = 100
 		}
@@ -1222,14 +1222,14 @@ country_event = { # Rust Belt declares independence
 	}
 
 	option = {
-		name = DIS_breakup.28.b
+		name = DWF_breakup.28.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.28.c
+		name = DWF_breakup.28.c
 		ai_chance = {
 			base = 0
 		}
@@ -1241,9 +1241,9 @@ country_event = { # Rust Belt declares independence
 }
 
 country_event = { # Pennsylvania declares independence
-	id = DIS_breakup.29
-	title = DIS_breakup.29.t
-	desc = DIS_breakup.29.d
+	id = DWF_breakup.29
+	title = DWF_breakup.29.t
+	desc = DWF_breakup.29.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
@@ -1257,7 +1257,7 @@ country_event = { # Pennsylvania declares independence
 	}
 
 	option = {
-		name = DIS_breakup.29.a
+		name = DWF_breakup.29.a
 		ai_chance = {
 			base = 100
 		}
@@ -1265,14 +1265,14 @@ country_event = { # Pennsylvania declares independence
 	}
 
 	option = {
-		name = DIS_breakup.29.b
+		name = DWF_breakup.29.b
 		ai_chance = {
 			base = 0
 		}
 	}
 
 	option = {
-		name = DIS_breakup.29.c
+		name = DWF_breakup.29.c
 		ai_chance = {
 			base = 0
 		}
@@ -1284,43 +1284,43 @@ country_event = { # Pennsylvania declares independence
 }
 
 country_event = { # test event, all nations revolt at once
-	id = DIS_breakup.100
-	title = DIS_breakup.100.t
-	desc = DIS_breakup.100.d
+	id = DWF_breakup.100
+	title = DWF_breakup.100.t
+	desc = DWF_breakup.100.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
 	
 	option = {
-		name = DIS_breakup.100.a
-		country_event = { id = DIS_breakup.1 }
-		country_event = { id = DIS_breakup.2 }
-		country_event = { id = DIS_breakup.3 }
-		country_event = { id = DIS_breakup.4 }
-		country_event = { id = DIS_breakup.5 }
-		country_event = { id = DIS_breakup.6 }
-		country_event = { id = DIS_breakup.7 }
-		country_event = { id = DIS_breakup.8 }
-		country_event = { id = DIS_breakup.9 }
-		country_event = { id = DIS_breakup.10 }
-		country_event = { id = DIS_breakup.11 }
-		country_event = { id = DIS_breakup.12 }
-		country_event = { id = DIS_breakup.13 }
-		country_event = { id = DIS_breakup.14 }
-		country_event = { id = DIS_breakup.15 }
-		country_event = { id = DIS_breakup.16 }
-		country_event = { id = DIS_breakup.17 }
-		country_event = { id = DIS_breakup.18 }
-		country_event = { id = DIS_breakup.19 }
-		country_event = { id = DIS_breakup.20 }
-		country_event = { id = DIS_breakup.21 }
-		country_event = { id = DIS_breakup.22 }
-		country_event = { id = DIS_breakup.23 }
-		country_event = { id = DIS_breakup.24 }
-		country_event = { id = DIS_breakup.25 }
-		country_event = { id = DIS_breakup.26 }
-		country_event = { id = DIS_breakup.27 }
-		country_event = { id = DIS_breakup.28 }
-		country_event = { id = DIS_breakup.29 }
+		name = DWF_breakup.100.a
+		country_event = { id = DWF_breakup.1 }
+		country_event = { id = DWF_breakup.2 }
+		country_event = { id = DWF_breakup.3 }
+		country_event = { id = DWF_breakup.4 }
+		country_event = { id = DWF_breakup.5 }
+		country_event = { id = DWF_breakup.6 }
+		country_event = { id = DWF_breakup.7 }
+		country_event = { id = DWF_breakup.8 }
+		country_event = { id = DWF_breakup.9 }
+		country_event = { id = DWF_breakup.10 }
+		country_event = { id = DWF_breakup.11 }
+		country_event = { id = DWF_breakup.12 }
+		country_event = { id = DWF_breakup.13 }
+		country_event = { id = DWF_breakup.14 }
+		country_event = { id = DWF_breakup.15 }
+		country_event = { id = DWF_breakup.16 }
+		country_event = { id = DWF_breakup.17 }
+		country_event = { id = DWF_breakup.18 }
+		country_event = { id = DWF_breakup.19 }
+		country_event = { id = DWF_breakup.20 }
+		country_event = { id = DWF_breakup.21 }
+		country_event = { id = DWF_breakup.22 }
+		country_event = { id = DWF_breakup.23 }
+		country_event = { id = DWF_breakup.24 }
+		country_event = { id = DWF_breakup.25 }
+		country_event = { id = DWF_breakup.26 }
+		country_event = { id = DWF_breakup.27 }
+		country_event = { id = DWF_breakup.28 }
+		country_event = { id = DWF_breakup.29 }
 	}
 }
