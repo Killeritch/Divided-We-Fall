@@ -529,3 +529,101 @@ country_event = { #Florida wants to join CSA
 		}
 	}
 }
+
+country_event = { # New Mexico
+	id = DWF_join.15
+	title = DWF_join.15.t
+	desc = DWF_join.15.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	trigger = {
+		tag = NMX
+		owns_state = 376
+		has_war = no
+		AZX = {
+			owns_state = 377
+			has_war = no
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { #ask to join Arizona
+		name = DWF_join.15.a
+		ai_chance = {
+			base = 50
+		}
+		AZX = {
+			country_event = { id = DWF_join.16 days = 1 }
+		}
+	}
+
+	option = { #ask to join faction with Arizona
+		name = DWF_join.15.c
+		ai_chance = {
+			base = 50
+		}
+		trigger = {
+			AZX = {
+				is_in_faction = no
+			}
+		}
+		AZX = {
+			country_event = { id = DWF_join.17 days = 1 }
+		}
+	}
+}
+
+country_event = { #New Mexico wants to join Arizona
+	id = DWF_join.16
+	title = DWF_join.16.t
+	desc = DWF_join.16.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DWF_join.16.a
+		annex_country = { target = NMX }
+		add_state_core = 376
+		ai_chance = {
+			base = 100
+		}
+		set_cosmetic_tag = SOUTHWEST
+	}
+	
+	option = { #no thanks
+		name = DWF_join.16.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = { #New Mexico wants to join faction with Arizona
+	id = DWF_join.17
+	title = DWF_join.17.t
+	desc = DWF_join.17.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	option = { #yes please
+		name = DWF_join.17.a
+		create_faction = "Southwestern Alliance"
+		add_to_faction = NMX
+	}
+	
+	option = { #no thanks
+		name = DWF_join.17.b
+		add_political_power = -50
+		ai_chance = {
+			base = 0
+		}
+	}
+}
