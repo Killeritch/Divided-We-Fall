@@ -90,6 +90,16 @@ set_technology = {
 		dispersed_industry3 = 1
 	}
 }
+create_country_leader = {
+	name = "Frank Merriam"
+	desc = "POLITICS_HARRY_TRUMAN_DESC"
+	picture = "Portrait_Frank_Merriam.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
 
 
 

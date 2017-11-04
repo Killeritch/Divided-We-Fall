@@ -482,7 +482,7 @@
  RKY_neutrality_ADJ:0 "Rocky Mountains"
  RKY_communism_ADJ:0 "Rocky Mountains"
  RKY_subject:0 "$OVERLORDADJ$ Rocky Mountains"
- RKY_subject_DEF:0 The $OVERLORDADJ$ Rocky Mountains"
+ RKY_subject_DEF:0 "The $OVERLORDADJ$ Rocky Mountains"
  
  RST_fascism:0 "Empire of Steel"
  RST_fascism_DEF:0 "The Empire of Steel"
