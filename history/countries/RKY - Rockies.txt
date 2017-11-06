@@ -119,6 +119,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+	name = "Edwin C. Johnson"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Edwin_Johnson.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 
 ### Ship Variants ###
 

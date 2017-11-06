@@ -120,6 +120,17 @@ set_politics = {
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	name = "George Howard Earle III"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_George_Earle.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
 ### Ship Variants ###
 
 create_equipment_variant = {

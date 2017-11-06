@@ -90,6 +90,26 @@ set_technology = {
 		dispersed_industry3 = 1
 	}
 }
+create_country_leader = {
+	name = "Colonel Harland David Sanders"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Colonel_Sanders.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Albert Benjamin 'Happy' Chandler"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Happy_Chandler.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 
 
 

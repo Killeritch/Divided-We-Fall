@@ -1150,13 +1150,11 @@ country_event = { # Great Plains declare independence
 			add_state_core = 384
 			add_state_core = 389
 			add_state_core = 390
-			add_state_core = 391
 			add_state_core = 392
 			transfer_state = 383
 			transfer_state = 384
 			transfer_state = 389
 			transfer_state = 390
-			transfer_state = 391
 			transfer_state = 392
 			# load_oob = GPL_1936
 		}
@@ -1283,6 +1281,48 @@ country_event = { # Pennsylvania declares independence
 	}
 }
 
+country_event = { # Minnesota declares independence
+	id = DWF_breakup.30
+	title = DWF_breakup.30.t
+	desc = DWF_breakup.30.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		MNX = {
+			add_state_core = 391
+			transfer_state = 391
+			# load_oob = MNX_1936
+		}
+	}
+
+	option = {
+		name = DWF_breakup.30.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = MNX type = annex_everything }
+	}
+
+	option = {
+		name = DWF_breakup.30.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DWF_breakup.30.c
+		ai_chance = {
+			base = 0
+		}
+		MNX = {
+			change_tag_from = USA
+		}
+	}
+}
+
 country_event = { # test event, all nations revolt at once
 	id = DWF_breakup.100
 	title = DWF_breakup.100.t
@@ -1322,5 +1362,6 @@ country_event = { # test event, all nations revolt at once
 		country_event = { id = DWF_breakup.27 }
 		country_event = { id = DWF_breakup.28 }
 		country_event = { id = DWF_breakup.29 }
+		country_event = { id = DWF_breakup.30 }
 	}
 }

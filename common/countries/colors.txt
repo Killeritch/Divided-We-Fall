@@ -626,8 +626,8 @@ MIX = {
 	color_ui = rgb { 87 160 255 }
 }
 MNX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 0  0  156 } #the blue from the reverse of Minnesota's state flag
+	color_ui = rgb { 0  0  156 } #the blue from the reverse of Minnesota's state flag
 }
 MSX = {
 	color = rgb { 20 133 237 }

@@ -101,6 +101,9 @@
  LAX_democratic_party:0 "Longites"
  LAX_democratic_party_long:0 "Longite Democrats"
  
+ MNX_communism_party:0 "FLP"
+ MNX_communism_party_long:0 "Farmer–Labor Party"
+ 
  NYX_communism_party:0 "Socialists"
  NYX_communism_party_long:0 "Socialist Party of New York"
  
@@ -256,6 +259,19 @@
  MDX_democratic_ADJ:0 "Marylander""
  MDX_neutrality_ADJ:0 "Marylander""
  MDX_communism_ADJ:0 "Marylander""
+ 
+ MNX_fascism:0 "Minnesota"
+ MNX_fascism_DEF:0 "Minnesota"
+ MNX_democratic:0 "Minnesota"
+ MNX_democratic_DEF:0 "Minnesota"
+ MNX_neutrality:0 "Minnesota"
+ MNX_neutrality_DEF:0 "Minnesota"
+ MNX_communism:0 "Workers' Republic of Minnesota"
+ MNX_communism_DEF:0 "The Workers' Republic of Minnesota"
+ MNX_fascism_ADJ:0 "Minnesotan"
+ MNX_democratic_ADJ:0 "Minnesotan"
+ MNX_neutrality_ADJ:0 "Minnesotan"
+ MNX_communism_ADJ:0 "Minnesotan"
  
  MOX_fascism:0 "Missouri"
  MOX_fascism_DEF:0 "Missouri"
