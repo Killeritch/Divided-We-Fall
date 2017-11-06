@@ -91,6 +91,16 @@ set_technology = {
 	}
 }
 create_country_leader = {
+	name = "Upton Sinclair"
+	desc = "POLITICS_HARRY_TRUMAN_DESC"
+	picture = "Portrait_Upton_Sinclair.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
 	name = "Frank Merriam"
 	desc = "POLITICS_HARRY_TRUMAN_DESC"
 	picture = "Portrait_Frank_Merriam.dds"

@@ -101,16 +101,20 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 60
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 20
 		}
 	}
 	
@@ -128,6 +132,26 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		
+	}
+}
+create_country_leader = {
+	name = "Strom Thurmond"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Strom_Thurmond.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Eugene Talmadge"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Eugene_Talmadge.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
 	}
 }
 

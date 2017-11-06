@@ -119,6 +119,56 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+	name = "Rose McConnell Long" #Huey's widow, became senator after his death but did not run for re-election
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Rose_Long.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Earl Long"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Earl_Long.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Richard W. Leche" #compromise candidate between Longites and anti-Longites
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Richard_Leche.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "James A. Noe" #Longite governor for some months in 1936
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_James_Noe.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Oscar K. Allen" #Longite governor who died in early 1936
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Oscar_Allen.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
 
 ### Ship Variants ###
 

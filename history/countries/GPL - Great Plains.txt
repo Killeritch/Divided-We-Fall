@@ -147,8 +147,26 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		staunch_constitutionalist
+		#
 	}
+}
+create_country_leader = {
+	name = "Henry A. Wallace"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Henry_Wallace.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Dwight D. Eisenhower"
+		picture = "gfx/leaders/USA/Portrait_USA_Dwight_D_Eisenhower.dds"
+	traits = { logistics_wizard offensive_doctrine }
+	skill = 5
+
 }
 
 ### Ship Variants ###

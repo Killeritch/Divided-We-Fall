@@ -90,6 +90,16 @@ set_technology = {
 		dispersed_industry3 = 1
 	}
 }
+create_country_leader = {
+	name = "Clarence D. Martin"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "gfx/leaders/CSC/Portrait_Clarence_Martin.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 
 
 

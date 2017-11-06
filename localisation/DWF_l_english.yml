@@ -85,6 +85,10 @@
  DWF_breakup.100.d:0 "This is a dev event which makes all breakaway states declare independence"
  DWF_breakup.100.a:0 "Oh noes"
  
+ DWF_louisiana.1.t:0 "Death of Oscar K. Allen"
+ DWF_louisiana.1.d:0 "Oscar K. Allen, 42nd Governor of Louisiana, passed away this morning due to a brain hemorrhage. He had served in the state's highest office since 1932, but was considered a stooge of the late Huey Long. He is succeeded as governor by his Lieutenant Governor, [LAX.GetLeader]."
+ DWF_louisiana.1.a:0 "Rest in Peace."
+ 
  ##############################
  # Focuses
  ##############################
@@ -94,8 +98,17 @@
  # Parties
  ##############################
  
+ LAX_democratic_party:0 "Longites"
+ LAX_democratic_party_long:0 "Longite Democrats"
+ 
+ NYX_communism_party:0 "Socialists"
+ NYX_communism_party_long:0 "Socialist Party of New York"
+ 
  RKY_communism_party:0 "IWW"
  RKY_communism_party_long:0 "Industrial Workers of the World"
+ 
+ UTX_neutrality_party:0 "Mormon Church"
+ UTX_neutrality_party_long:0 "The Church of Jesus Christ of Latter-Day Saints"
  
  ##################################
  # Country Names
@@ -497,7 +510,7 @@
  RST_neutrality_ADJ:0 "Rust Belt"
  RST_communism_ADJ:0 "Rust Belt"
  RST_subject:0 "$OVERLORDADJ$ Great Lakes Territories"
- RST_subject_DEF:0 The $OVERLORDADJ$ Great Lakes Territories"
+ RST_subject_DEF:0 "The $OVERLORDADJ$ Great Lakes Territories"
  
  SOUTHWEST_fascism:0 "Southwestern State"
  SOUTHWEST_fascism_DEF:0 "The Southwestern State"
@@ -512,6 +525,6 @@
  SOUTHWEST_neutrality_ADJ:0 "Southwestern"
  SOUTHWEST_communism_ADJ:0 "Southwestern"
  SOUTHWEST_subject:0 "$OVERLORDADJ$ Southwestern Territories"
- SOUTHWEST_subject_DEF:0 The $OVERLORDADJ$ Southwestern Territories"
+ SOUTHWEST_subject_DEF:0 "The $OVERLORDADJ$ Southwestern Territories"
  
  

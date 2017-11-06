@@ -101,7 +101,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 60
 		}
 
 		fascism = {
@@ -109,8 +109,12 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 40
 		}
 	}
 	
@@ -118,6 +122,28 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Heber J. Grant"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Heber_Grant.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Henry H. Blood"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Henry_Blood.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
 }
 
 ### Ship Variants ###
