@@ -120,6 +120,17 @@ set_politics = {
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	name = "Joseph Poindexter"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_Joseph_Poindexter.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
 ### Ship Variants ###
 
 create_equipment_variant = {
