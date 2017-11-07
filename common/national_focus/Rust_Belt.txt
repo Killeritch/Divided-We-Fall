@@ -1,0 +1,27 @@
+focus_tree = {
+	id = Rust_Belt
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RST
+		}
+	}
+	default = no
+	focus = {
+		id = RST_west
+		icon = GFX_focus_generic_soviet_politics
+		cost = 0.00
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = RST_east
+		icon = GFX_focus_generic_soviet_politics
+		cost = 0.00
+		x = 5
+		y = 0
+
+	}
+}

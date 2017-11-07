@@ -1,0 +1,134 @@
+focus_tree = {
+	id = CSA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+	default = no
+	focus = {
+		id = CSA_arkansas
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = CSA_tennessee
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = CSA_north_carolina
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = CSA_florida
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = CSA_louisiana
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_arkansas
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = CSA_texas
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_louisiana
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = CSA_new_mexico
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_texas
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = CSA_missouri
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_arkansas
+		}
+		prerequisite = {
+			focus = CSA_tennessee
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = CSA_kentucky
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_tennessee
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = CSA_oklahoma
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_louisiana
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = CSA_virginia
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_north_carolina
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = CSA_arizona
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CSA_new_mexico
+		}
+		x = 1
+		y = 5
+
+	}
+}

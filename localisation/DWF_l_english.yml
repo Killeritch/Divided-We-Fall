@@ -80,6 +80,21 @@
  DWF_breakup.15.a:0 "Outrageous! Send in the troops to put down those insolent New Mexicans!"
  DWF_breakup.15.b:0 "There is nothing we can do."
  DWF_breakup.15.c:0 "Arise, brothers, for a free [NMX.GetName]!"
+ DWF_breakup.16.t:0 "[IDX.GetName] declares independence"
+ DWF_breakup.16.d:0 "[IDX.GetNameDef] has declared independence!"
+ DWF_breakup.16.a:0 "Outrageous! Send in the troops to put down those insolent Idahoans!"
+ DWF_breakup.16.b:0 "There is nothing we can do."
+ DWF_breakup.16.c:0 "Arise, brothers, for a free [IDX.GetName]!"
+ DWF_breakup.17.t:0 "[ARX.GetName] declares independence"
+ DWF_breakup.17.d:0 "[ARX.GetNameDef] has declared independence!"
+ DWF_breakup.17.a:0 "Outrageous! Send in the troops to put down those insolent Arkansans!"
+ DWF_breakup.17.b:0 "There is nothing we can do."
+ DWF_breakup.17.c:0 "Arise, brothers, for a free [ARX.GetName]!"
+ DWF_breakup.18.t:0 "[MOX.GetName] declares independence"
+ DWF_breakup.18.d:0 "[MOX.GetNameDef] has declared independence!"
+ DWF_breakup.18.a:0 "Outrageous! Send in the troops to put down those insolent Missourians!"
+ DWF_breakup.18.b:0 "There is nothing we can do."
+ DWF_breakup.18.c:0 "Arise, brothers, for a free [MOX.GetName]!"
  
  DWF_breakup.100.t:0 "USA collapses"
  DWF_breakup.100.d:0 "This is a dev event which makes all breakaway states declare independence"
@@ -107,11 +122,14 @@
  NYX_communism_party:0 "Socialists"
  NYX_communism_party_long:0 "Socialist Party of New York"
  
- RKY_communism_party:0 "IWW"
- RKY_communism_party_long:0 "Industrial Workers of the World"
+ RST_communism_party:0 "UAW"
+ RST_communism_party_long:0 "United Auto Workers"
  
  UTX_neutrality_party:0 "Mormon Church"
  UTX_neutrality_party_long:0 "The Church of Jesus Christ of Latter-Day Saints"
+ 
+ WIX_communism_party:0 "Socialists"
+ WIX_communism_party_long:0 "Socialist Party of Wisconsin"
  
  ##################################
  # Country Names
@@ -429,6 +447,19 @@
  VAX_neutrality_ADJ:0 "Virginian"
  VAX_communism_ADJ:0 "Virginian"
  
+ WIX_fascism:0 "Wisconsin"
+ WIX_fascism_DEF:0 "Wisconsin"
+ WIX_democratic:0 "Wisconsin"
+ WIX_democratic_DEF:0 "Wisconsin"
+ WIX_neutrality:0 "Wisconsin"
+ WIX_neutrality_DEF:0 "Wisconsin"
+ WIX_communism:0 "Socialist Republic of Wisconsin"
+ WIX_communism_DEF:0 "The Socialist Republic of Wisconsin"
+ WIX_fascism_ADJ:0 "Wisconsinite"
+ WIX_democratic_ADJ:0 "Wisconsinite"
+ WIX_neutrality_ADJ:0 "Wisconsinite"
+ WIX_communism_ADJ:0 "Wisconsinite"
+ 
  ##
  
  CSA_fascism:0 "Confederate States of America"
@@ -519,8 +550,8 @@
  RST_democratic_DEF:0 "The Rust Belt"
  RST_neutrality:0 "Rust Belt"
  RST_neutrality_DEF:0 "The Rust Belt"
- RST_communism:0 "Socialist Republic of The Rust Belt"
- RST_communism_DEF:0 "The Socialist Republic of The Rust Belt"
+ RST_communism:0 "United Workers' Republic"
+ RST_communism_DEF:0 "The United Workers' Republic"
  RST_fascism_ADJ:0 "Rust Belt"
  RST_democratic_ADJ:0 "Rust Belt"
  RST_neutrality_ADJ:0 "Rust Belt"

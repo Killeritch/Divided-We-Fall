@@ -1,0 +1,33 @@
+focus_tree = {
+	id = Florida
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FLX
+		}
+	}
+	default = no
+	focus = {
+		id = FLX_CSA_ties
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		mutually_exclusive = {
+			focus = FLX_caribbean_ties
+		}
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = FLX_caribbean_ties
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		mutually_exclusive = {
+			focus = FLX_CSA_ties
+		}
+		x = 3
+		y = 0
+
+	}
+}

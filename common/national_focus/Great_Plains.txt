@@ -1,0 +1,99 @@
+focus_tree = {
+	id = Great_Plains
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GPL
+		}
+	}
+	default = no
+	focus = {
+		id = GPL_west
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 0.00
+		mutually_exclusive = {
+			focus = GPL_east
+		}
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = GPL_east
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		mutually_exclusive = {
+			focus = GPL_west
+		}
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = GPL_west_roads_1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = GPL_west
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = GPL_west_roads_2
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = GPL_west_roads_1
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = GPL_west_roads_3
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = GPL_west_roads_2
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = GPL_MOX
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = GPL_east
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = GPL_annex_RKY
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = GPL_west_roads_3
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = GPL_red_scare
+		icon = GFX_focus_generic_soviet_politics
+		cost = 0.00
+		prerequisite = {
+			focus = GPL_east
+		}
+		x = 5
+		y = 1
+
+	}
+}

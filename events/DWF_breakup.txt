@@ -15,10 +15,12 @@ country_event = { # Alaska declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		AKX = {
-			add_state_core = 463
-			transfer_state = 463
-			# load_oob = AKX_1936
+		hidden_effect  = {
+			AKX = {
+				add_state_core = 463
+				transfer_state = 463
+				# load_oob = AKX_1936
+			}
 		}
 	}
 
@@ -58,10 +60,12 @@ country_event = { # Hawaii declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		HIX = {
-			add_state_core = 629
-			transfer_state = 629
-			# load_oob = HIX_1936
+		hidden_effect  = {
+			HIX = {
+				add_state_core = 629
+				transfer_state = 629
+				# load_oob = HIX_1936
+			}
 		}
 	}
 
@@ -101,12 +105,14 @@ country_event = { # Cascadia declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		CSC = {
-			add_state_core = 385
-			add_state_core = 386
-			transfer_state = 385
-			transfer_state = 386
-			# load_oob = CSC_1936
+		hidden_effect  = {
+			CSC = {
+				add_state_core = 385
+				add_state_core = 386
+				transfer_state = 385
+				transfer_state = 386
+				# load_oob = CSC_1936
+			}
 		}
 	}
 
@@ -146,10 +152,12 @@ country_event = { # California declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		CAX = {
-			add_state_core = 378
-			transfer_state = 378
-			# load_oob = CAX_1936
+		hidden_effect  = {
+			CAX = {
+				add_state_core = 378
+				transfer_state = 378
+				# load_oob = CAX_1936
+			}
 		}
 	}
 
@@ -189,10 +197,12 @@ country_event = { # Utah declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		UTX = {
-			add_state_core = 380
-			transfer_state = 380
-			# load_oob = UTX_1936
+		hidden_effect  = {
+			UTX = {
+				add_state_core = 380
+				transfer_state = 380
+				# load_oob = UTX_1936
+			}
 		}
 	}
 
@@ -232,10 +242,12 @@ country_event = { # Texas declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		TXX = {
-			add_state_core = 375
-			transfer_state = 375
-			# load_oob = TXX_1936
+		hidden_effect  = {
+			TXX = {
+				add_state_core = 375
+				transfer_state = 375
+				# load_oob = TXX_1936
+			}
 		}
 	}
 
@@ -275,10 +287,12 @@ country_event = { # New York declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		NYX = {
-			add_state_core = 358
-			transfer_state = 358
-			# load_oob = NYX_1936
+		hidden_effect  = {
+			NYX = {
+				add_state_core = 358
+				transfer_state = 358
+				# load_oob = NYX_1936
+			}
 		}
 	}
 
@@ -318,10 +332,12 @@ country_event = { # New England declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		NWN = {
-			add_state_core = 357
-			transfer_state = 357
-			# load_oob = NWN_1936
+		hidden_effect  = {
+			NWN = {
+				add_state_core = 357
+				transfer_state = 357
+				# load_oob = NWN_1936
+			}
 		}
 	}
 
@@ -361,10 +377,12 @@ country_event = { # Oklahoma declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		OKX = {
-			add_state_core = 374
-			transfer_state = 374
-			# load_oob = OKX_1936
+		hidden_effect  = {
+			OKX = {
+				add_state_core = 374
+				transfer_state = 374
+				# load_oob = OKX_1936
+			}
 		}
 	}
 
@@ -404,16 +422,18 @@ country_event = { # CSA declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		CSA = {
-			add_state_core = 364
-			add_state_core = 365
-			add_state_core = 367
-			add_state_core = 370
-			transfer_state = 364
-			transfer_state = 365
-			transfer_state = 367
-			transfer_state = 370
-			# load_oob = CSA_1936
+		hidden_effect  = {
+			CSA = {
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 367
+				add_state_core = 370
+				transfer_state = 364
+				transfer_state = 365
+				transfer_state = 367
+				transfer_state = 370
+				# load_oob = CSA_1936
+			}
 		}
 	}
 
@@ -453,10 +473,12 @@ country_event = { # Louisiana declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		LAX = {
-			add_state_core = 371
-			transfer_state = 371
-			# load_oob = LAX_1936
+		hidden_effect  = {
+			LAX = {
+				add_state_core = 371
+				transfer_state = 371
+				# load_oob = LAX_1936
+			}
 		}
 	}
 
@@ -496,10 +518,12 @@ country_event = { # Florida declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		FLX = {
-			add_state_core = 366
-			transfer_state = 366
-			# load_oob = FLX_1936
+		hidden_effect  = {
+			FLX = {
+				add_state_core = 366
+				transfer_state = 366
+				# load_oob = FLX_1936
+			}
 		}
 	}
 
@@ -539,10 +563,12 @@ country_event = { # Nevada declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		NVX = {
-			add_state_core = 379
-			transfer_state = 379
-			# load_oob = NVX_1936
+		hidden_effect  = {
+			NVX = {
+				add_state_core = 379
+				transfer_state = 379
+				# load_oob = NVX_1936
+			}
 		}
 	}
 
@@ -582,10 +608,12 @@ country_event = { # Arizona declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		AZX = {
-			add_state_core = 377
-			transfer_state = 377
-			# load_oob = AZX_1936
+		hidden_effect  = {
+			AZX = {
+				add_state_core = 377
+				transfer_state = 377
+				# load_oob = AZX_1936
+			}
 		}
 	}
 
@@ -625,10 +653,12 @@ country_event = { # New Mexico declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		NMX = {
-			add_state_core = 376
-			transfer_state = 376
-			# load_oob = NMX_1936
+		hidden_effect  = {
+			NMX = {
+				add_state_core = 376
+				transfer_state = 376
+				# load_oob = NMX_1936
+			}
 		}
 	}
 
@@ -668,10 +698,12 @@ country_event = { # Idaho declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		IDX = {
-			add_state_core = 387
-			transfer_state = 387
-			# load_oob = IDX_1936
+		hidden_effect  = {
+			IDX = {
+				add_state_core = 387
+				transfer_state = 387
+				# load_oob = IDX_1936
+			}
 		}
 	}
 
@@ -711,10 +743,12 @@ country_event = { # Arkansas declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		ARX = {
-			add_state_core = 372
-			transfer_state = 372
-			# load_oob = ARX_1936
+		hidden_effect  = {
+			ARX = {
+				add_state_core = 372
+				transfer_state = 372
+				# load_oob = ARX_1936
+			}
 		}
 	}
 
@@ -754,10 +788,12 @@ country_event = { # Missouri declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		MOX = {
-			add_state_core = 373
-			transfer_state = 373
-			# load_oob = MOX_1936
+		hidden_effect  = {
+			MOX = {
+				add_state_core = 373
+				transfer_state = 373
+				# load_oob = MOX_1936
+			}
 		}
 	}
 
@@ -797,10 +833,12 @@ country_event = { # Tennessee declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		TNX = {
-			add_state_core = 368
-			transfer_state = 368
-			# load_oob = TNX_1936
+		hidden_effect  = {
+			TNX = {
+				add_state_core = 368
+				transfer_state = 368
+				# load_oob = TNX_1936
+			}
 		}
 	}
 
@@ -840,10 +878,12 @@ country_event = { # Kentucky declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		KYX = {
-			add_state_core = 369
-			transfer_state = 369
-			# load_oob = KYX_1936
+		hidden_effect  = {
+			KYX = {
+				add_state_core = 369
+				transfer_state = 369
+				# load_oob = KYX_1936
+			}
 		}
 	}
 
@@ -883,10 +923,12 @@ country_event = { # Virginia declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		VAX = {
-			add_state_core = 362
-			transfer_state = 362
-			# load_oob = VAX_1936
+		hidden_effect  = {
+			VAX = {
+				add_state_core = 362
+				transfer_state = 362
+				# load_oob = VAX_1936
+			}
 		}
 	}
 
@@ -926,10 +968,12 @@ country_event = { # North Carolina declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		NCX = {
-			add_state_core = 363
-			transfer_state = 363
-			# load_oob = NCX_1936
+		hidden_effect  = {
+			NCX = {
+				add_state_core = 363
+				transfer_state = 363
+				# load_oob = NCX_1936
+			}
 		}
 	}
 
@@ -969,10 +1013,12 @@ country_event = { # Maryland declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		MDX = {
-			add_state_core = 361
-			transfer_state = 361
-			# load_oob = MDX_1936
+		hidden_effect  = {
+			MDX = {
+				add_state_core = 361
+				transfer_state = 361
+				# load_oob = MDX_1936
+			}
 		}
 	}
 
@@ -1012,10 +1058,12 @@ country_event = { # New Jersey declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		NJX = {
-			add_state_core = 359
-			transfer_state = 359
-			# load_oob = NJX_1936
+		hidden_effect  = {
+			NJX = {
+				add_state_core = 359
+				transfer_state = 359
+				# load_oob = NJX_1936
+			}
 		}
 	}
 
@@ -1055,10 +1103,12 @@ country_event = { # Puerto Rico declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		PRX = {
-			add_state_core = 686
-			transfer_state = 686
-			# load_oob = PRX_1936
+		hidden_effect  = {
+			PRX = {
+				add_state_core = 686
+				transfer_state = 686
+				# load_oob = PRX_1936
+			}
 		}
 	}
 
@@ -1098,14 +1148,16 @@ country_event = { # Rocky Mountains declare independence
 	is_triggered_only = yes
 	
 	immediate = {
-		RKY = {
-			add_state_core = 381
-			add_state_core = 382
-			add_state_core = 388
-			transfer_state = 381
-			transfer_state = 382
-			transfer_state = 388
-			# load_oob = RKY_1936
+		hidden_effect  = {
+			RKY = {
+				add_state_core = 381
+				add_state_core = 382
+				add_state_core = 388
+				transfer_state = 381
+				transfer_state = 382
+				transfer_state = 388
+				# load_oob = RKY_1936
+			}
 		}
 	}
 
@@ -1145,18 +1197,20 @@ country_event = { # Great Plains declare independence
 	is_triggered_only = yes
 	
 	immediate = {
-		GPL = {
-			add_state_core = 383
-			add_state_core = 384
-			add_state_core = 389
-			add_state_core = 390
-			add_state_core = 392
-			transfer_state = 383
-			transfer_state = 384
-			transfer_state = 389
-			transfer_state = 390
-			transfer_state = 392
-			# load_oob = GPL_1936
+		hidden_effect  = {
+			GPL = {
+				add_state_core = 383
+				add_state_core = 384
+				add_state_core = 389
+				add_state_core = 390
+				add_state_core = 392
+				transfer_state = 383
+				transfer_state = 384
+				transfer_state = 389
+				transfer_state = 390
+				transfer_state = 392
+				# load_oob = GPL_1936
+			}
 		}
 	}
 
@@ -1196,18 +1250,18 @@ country_event = { # Rust Belt declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		RST = {
-			add_state_core = 261
-			add_state_core = 393
-			add_state_core = 394
-			add_state_core = 395
-			add_state_core = 396
-			transfer_state = 261
-			transfer_state = 393
-			transfer_state = 394
-			transfer_state = 395
-			transfer_state = 396
-			# load_oob = RST_1936
+		hidden_effect  = {
+			RST = {
+				add_state_core = 261
+				add_state_core = 393
+				add_state_core = 395
+				add_state_core = 396
+				transfer_state = 261
+				transfer_state = 393
+				transfer_state = 395
+				transfer_state = 396
+				# load_oob = RST_1936
+			}
 		}
 	}
 
@@ -1247,10 +1301,12 @@ country_event = { # Pennsylvania declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		PAX = {
-			add_state_core = 360
-			transfer_state = 360
-			# load_oob = PAX_1936
+		hidden_effect  = {
+			PAX = {
+				add_state_core = 360
+				transfer_state = 360
+				# load_oob = PAX_1936
+			}
 		}
 	}
 
@@ -1290,10 +1346,12 @@ country_event = { # Minnesota declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		MNX = {
-			add_state_core = 391
-			transfer_state = 391
-			# load_oob = MNX_1936
+		hidden_effect  = {
+			MNX = {
+				add_state_core = 391
+				transfer_state = 391
+				# load_oob = MNX_1936
+			}
 		}
 	}
 
@@ -1318,6 +1376,50 @@ country_event = { # Minnesota declares independence
 			base = 0
 		}
 		MNX = {
+			change_tag_from = USA
+		}
+	}
+}
+
+country_event = { # Wisconsin declares independence
+	id = DWF_breakup.31
+	title = DWF_breakup.31.t
+	desc = DWF_breakup.31.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect  = {
+			WIX = {
+				add_state_core = 394
+				transfer_state = 394
+				# load_oob = WIX_1936
+			}
+		}
+	}
+
+	option = {
+		name = DWF_breakup.31.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = WIX type = annex_everything }
+	}
+
+	option = {
+		name = DWF_breakup.31.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = DWF_breakup.31.c
+		ai_chance = {
+			base = 0
+		}
+		WIX = {
 			change_tag_from = USA
 		}
 	}
@@ -1363,5 +1465,6 @@ country_event = { # test event, all nations revolt at once
 		country_event = { id = DWF_breakup.28 }
 		country_event = { id = DWF_breakup.29 }
 		country_event = { id = DWF_breakup.30 }
+		country_event = { id = DWF_breakup.31 }
 	}
 }

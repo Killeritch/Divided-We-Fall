@@ -1,0 +1,158 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_initiate_government_reform
+				FRA_support_status_quo
+				FRA_revise_versailles
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				tizard_mission_focus
+				ENG_war_with_germany
+				ENG_war_with_italy
+			}
+		}
+
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_ussr_war_goal
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}	
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}		
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_shintoism
+			}	
+			focuses = {
+				southern_expansion_focus
+				divine_wind_focus
+				found_own_faction_focus
+			}			
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				trotskyite_plot
+				home_of_revolution
+			}
+			focuses = {
+				SOV_great_purge
+				SOV_claims_on_baltic
+				SOV_war_with_uk
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"CAX"={
+			minor = yes
+			history = "CAX_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GPL"={
+			minor = yes
+			history = "GPL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"RST"={
+			minor = yes
+			history = "RST_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"CSA"={
+			minor = yes
+			history = "CSA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FLX"={
+			minor = yes
+			history = "FLX_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

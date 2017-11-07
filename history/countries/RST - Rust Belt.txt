@@ -1,4 +1,4 @@
-﻿capital = 395 #Illinois - or 393, Michigan
+﻿capital = 393 # Michigan - or 395, Illinois
 
 set_research_slots = 3
 
@@ -120,9 +120,19 @@ set_politics = {
 	elections_allowed = no
 }
 create_country_leader = {
-	name = "Daniel Hoan"
+	name = "William Z. Foster"
 	desc = "POLITICS_ALF_LANDON_DESC"
-	picture = "Portrait_Daniel_Hoan.dds"
+	picture = "Portrait_William_Foster.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Walter Reuther"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Walter_Reuther.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {

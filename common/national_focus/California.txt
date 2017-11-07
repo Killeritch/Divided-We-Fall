@@ -1,0 +1,138 @@
+focus_tree = {
+	id = California
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAX
+		}
+	}
+	default = no
+	focus = {
+		id = CAX_left_coast
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		mutually_exclusive = {
+			focus = CAX_south_west
+		}
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = CAX_south_west
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		mutually_exclusive = {
+			focus = CAX_left_coast
+		}
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = CAX_highways_1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = CAX_highways_CSC
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_left_coast
+		}
+		prerequisite = {
+			focus = CAX_highways_1
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = CAX_annex_CSC
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_CSC
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = CAX_highways_NVX
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_1
+		}
+		prerequisite = {
+			focus = CAX_south_west
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = CAX_annex_NVX
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_NVX
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = CAX_highways_AZX
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_1
+		}
+		prerequisite = {
+			focus = CAX_south_west
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = CAX_annex_AZX
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_AZX
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = CAX_highways_NMX
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_AZX
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = CAX_annex_NMX
+		icon = GFX_goal_tripartite_pact
+		cost = 0.00
+		prerequisite = {
+			focus = CAX_highways_NMX
+		}
+		x = 7
+		y = 4
+
+	}
+}
