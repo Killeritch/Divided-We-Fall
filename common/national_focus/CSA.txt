@@ -11,72 +11,225 @@ focus_tree = {
 	focus = {
 		id = CSA_arkansas
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		x = 1
 		y = 0
-
+		
+		available = {
+			is_subject = no
+			owns_state = 370
+			has_war = no
+			ARX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			ARX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 	}
 	focus = {
 		id = CSA_tennessee
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		x = 3
 		y = 0
+		
+		available = {
+			is_subject = no
+			owns_state = 367
+			has_war = no
+			TNX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			TNX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_north_carolina
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		x = 5
 		y = 0
+		
+		available = {
+			is_subject = no
+			owns_state = 364
+			has_war = no
+			NCX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			NCX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_florida
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		x = 7
 		y = 0
+		
+		available = {
+			is_subject = no
+			owns_state = 365
+			has_war = no
+			FLX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			FLX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_louisiana
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_arkansas
 		}
 		x = 1
 		y = 2
+		
+		available = {
+			is_subject = no
+			owns_state = 370
+			OR = {
+				owns_state = 372
+				any_allied_country = {
+					owns_state = 372
+				}
+			}
+			has_war = no
+			LAX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			LAX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_texas
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_louisiana
 		}
 		x = 1
 		y = 3
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 372
+				any_allied_country = {
+					owns_state = 372
+				}
+			}
+			OR = {
+				owns_state = 371
+				any_allied_country = {
+					owns_state = 371
+				}
+			}
+			has_war = no
+			TXX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			TXX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_new_mexico
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_texas
 		}
 		x = 1
 		y = 4
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 372
+				any_allied_country = {
+					owns_state = 372
+				}
+			}
+			OR = {
+				owns_state = 371
+				any_allied_country = {
+					owns_state = 371
+				}
+			}
+			OR = {
+				owns_state = 375
+				any_allied_country = {
+					owns_state = 375
+				}
+			}
+			
+			has_war = no
+			NMX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		bypass = {
+			376 = {
+				is_owned_by = AZX
+				is_core_of = AZX
+			}
+		}
 
+		completion_reward = {
+			NMX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 	}
+
 	focus = {
 		id = CSA_missouri
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_arkansas
 		}
@@ -85,50 +238,189 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 372
+				any_allied_country = {
+					owns_state = 372
+				}
+			}
+			OR = {
+				owns_state = 368
+				any_allied_country = {
+					owns_state = 368
+				}
+			}
+			has_war = no
+			MOX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			GPL = {
+				country_event = { id = DWF_join.8 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_kentucky
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_tennessee
 		}
 		x = 3
 		y = 2
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 368
+				any_allied_country = {
+					owns_state = 368
+				}
+			}
+			has_war = no
+			KYX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			KYX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_oklahoma
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_louisiana
 		}
 		x = 3
 		y = 3
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 372
+				any_allied_country = {
+					owns_state = 372
+				}
+			}
+			OR = {
+				owns_state = 371
+				any_allied_country = {
+					owns_state = 371
+				}
+			}
+			has_war = no
+			OKX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			OKX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_virginia
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_north_carolina
 		}
 		x = 5
 		y = 2
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 363
+				any_allied_country = {
+					owns_state = 363
+				}
+			}
+			has_war = no
+			VAX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			VAX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 	focus = {
 		id = CSA_arizona
 		icon = GFX_goal_tripartite_pact
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = CSA_new_mexico
 		}
 		x = 1
 		y = 5
+		
+		available = {
+			is_subject = no
+			OR = {
+				owns_state = 372
+				any_allied_country = {
+					owns_state = 372
+				}
+			}
+			OR = {
+				owns_state = 371
+				any_allied_country = {
+					owns_state = 371
+				}
+			}
+			OR = {
+				owns_state = 375
+				any_allied_country = {
+					owns_state = 375
+				}
+			}
+			OR = {
+				owns_state = 376
+				AZX = {
+					owns_state = 376
+				}
+				any_allied_country = {
+					owns_state = 376
+				}
+			}
+			
+			has_war = no
+			AZX = {
+				exists = yes
+				is_subject = no
+			}
+		}
+		
+		completion_reward = {
+			AZX = {
+				country_event = { id = DWF_join.5 }
+			}
+		}
 
 	}
 }

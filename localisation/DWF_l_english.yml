@@ -100,6 +100,20 @@
  DWF_breakup.100.d:0 "This is a dev event which makes all breakaway states declare independence"
  DWF_breakup.100.a:0 "Oh noes"
  
+ DWF_join.5.t:0 "An invitation to join the Confederacy"
+ DWF_join.5.d:0 "[CSA.GetNameDef] has sent a delegation to us asking if we would like to join the Confederacy."
+ DWF_join.5.a:0 "Yes, certainly."
+ DWF_join.5.b:0 "We would like to retain our independence, but a defence agreement would benefit us both."
+ DWF_join.5.c:0 "No, we would prefer to stay independent."
+ DWF_join.6.t:0 "[From.GetName] joins the Confederacy"
+ DWF_join.6.d:0 "[From.GetNameDef] has agreed to join the Confederacy."
+ DWF_join.6.a:0 "Excellent."
+ DWF_join.6.b:0 "On second thoughts, we don't want to admit them right now."
+ DWF_join.7.t:0 "[From.GetName] requests an alliance"
+ DWF_join.7.d:0 "[From.GetNameDef] has refused our offer of annexation, but made a counter-proposal of an alliance between our two nations."
+ DWF_join.7.a:0 "That is acceptable."
+ DWF_join.7.b:0 "No, we don't need their help."
+ 
  DWF_louisiana.1.t:0 "Death of Oscar K. Allen"
  DWF_louisiana.1.d:0 "Oscar K. Allen, 42nd Governor of Louisiana, passed away this morning due to a brain hemorrhage. He had served in the state's highest office since 1932, but was considered a stooge of the late Huey Long. He is succeeded as governor by his Lieutenant Governor, [LAX.GetLeader]."
  DWF_louisiana.1.a:0 "Rest in Peace."
@@ -107,6 +121,31 @@
  ##############################
  # Focuses
  ##############################
+ 
+ CSA_arizona:0 "Offer annexation to Arizona"
+ CSA_arizona_desc:0 "Arizona is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_arkansas:0 "Offer annexation to Arkansas"
+ CSA_arkansas_desc:0 "Arkansas is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_florida:0 "Offer annexation to Florida"
+ CSA_florida_desc:0 "Florida is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_kentucky:0 "Offer annexation to Kentucky"
+ CSA_kentucky_desc:0 "Kentucky is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_louisiana:0 "Offer annexation to Louisiana"
+ CSA_louisiana_desc:0 "Louisiana is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_missouri:0 "The Missouri question"
+ CSA_missouri_desc:0 "We would like to annex Missouri, but the Great Plains is also interested in the state. We should open negotiations with them before acting."
+ CSA_new_mexico:0 "Offer annexation to New Mexico"
+ CSA_nex_mexico_desc:0 "New Mexico is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_north_carolina:0 "Offer annexation to North Carolina"
+ CSA_north_carolina_desc:0 "North Carolina is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_oklahoma:0 "Offer annexation to Oklahoma"
+ CSA_oklahoma_desc:0 "Oklahoma is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_tennessee:0 "Offer annexation to Tennessee"
+ CSA_tennessee_desc:0 "Tennessee is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_texas:0 "Offer annexation to Texas"
+ CSA_texas_desc:0 "Texas is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
+ CSA_virginia:0 "Offer annexation to Virginia"
+ CSA_virginia_desc:0 "Virginia is currently independent, but we share deep cultural and historic ties with them. We should invite them to join the Confederacy."
  
  
  ##############################

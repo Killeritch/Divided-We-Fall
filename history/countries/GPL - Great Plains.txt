@@ -143,7 +143,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Dwight D. Eisenhower"
 	desc = "POLITICS_ALF_LANDON_DESC"
-	picture = "gfx/leaders/USA/Portrait_USA_Dwight_D_Eisenhower.dds"
+	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -163,7 +163,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Dwight D. Eisenhower"
-		picture = "gfx/leaders/USA/Portrait_USA_Dwight_D_Eisenhower.dds"
+		picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
 	traits = { logistics_wizard offensive_doctrine }
 	skill = 5
 

@@ -89,76 +89,6 @@ country_event = { #Idaho wants to join Rockies/Cascadia
 	}
 }
 
-country_event = { # Missouri
-	id = DWF_join.3
-	title = DWF_join.3.t
-	desc = DWF_join.3.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	trigger = {
-		tag = MOX
-		owns_state = 373
-		has_war = no
-		GPL = {
-			owns_state = 383
-			owns_state = 392
-			has_war = no
-		}
-		CSA = {
-			owns_state = 364
-			owns_state = 365
-			owns_state = 367
-			owns_state = 370
-			has_war = no
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	option = { #ask to join CSA
-		name = DWF_join.3.a
-		ai_chance = {
-			base = 20
-			modifier = {
-				factor = 2
-				CSA = {
-					owns_state = 372
-				}
-			}
-			modifier = {
-				factor = 2
-				CSA = {
-					owns_state = 368
-				}
-			}
-		}
-		CSA = {
-			country_event = { id = DWF_join.4 days = 1 }
-		}
-	}
-
-	option = { #ask to join Great Plains
-		name = DWF_join.3.b
-		ai_chance = {
-			base = 60
-		}
-		GPL = {
-			country_event = { id = DWF_join.4 days = 1 }
-		}
-	}
-
-	option = { #stay independent
-		name = DWF_join.3.c
-		ai_chance = {
-			base = 20
-		}
-	}
-}
-
 country_event = { #Missouri wants to join CSA/Great Plains
 	id = DWF_join.4
 	title = DWF_join.4.t
@@ -185,50 +115,92 @@ country_event = { #Missouri wants to join CSA/Great Plains
 	}
 }
 
-country_event = { # Arkansas
+country_event = { # join the CSA
 	id = DWF_join.5
 	title = DWF_join.5.t
 	desc = DWF_join.5.d
 	picture = GFX_report_event_soviet_soldiers_tank
-
-	trigger = {
-		tag = ARX
-		owns_state = 372
-		has_war = no
-		CSA = {
-			owns_state = 364
-			owns_state = 365
-			owns_state = 367
-			owns_state = 370
-			has_war = no
-		}
-	}
 	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 30
-	}
+	is_triggered_only = yes
 
 	option = { #ask to join CSA
 		name = DWF_join.5.a
 		ai_chance = {
-			base = 100
+			base = 50
+			modifier = {
+				factor = 0.5
+				tag = TXX
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_state = {
+						any_neighbor_state = {
+							is_owned_by = CSA
+						}
+					}
+				}
+			}
 		}
 		CSA = {
 			country_event = { id = DWF_join.6 days = 1 }
 		}
 	}
 
+	option = { #ask to join faction
+		name = DWF_join.5.b
+		trigger = {
+			is_in_faction = no
+			CSA = {
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+			}
+		}
+		CSA = {
+			country_event = { id = DWF_join.7 days = 1 }
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				OR = {
+					tag = ARX
+					tag = TNX
+					tag = NCX
+					tag = KYX
+					tag = VAX
+					tag = LAX
+				}
+				any_owned_state = {
+					any_neighbor_state = {
+						is_owned_by = CSA
+					}
+				}
+			}
+		}
+	}
+
 	option = { #stay independent
 		name = DWF_join.5.c
 		ai_chance = {
-			base = 0
+			base = 1
+			modifier = {
+				factor = 0				
+				is_in_faction = no
+				CSA = {
+					OR = {
+						is_in_faction = no
+						is_faction_leader = yes
+					}
+				}
+			}
 		}
 	}
 }
 
-country_event = { #Arkansas wants to join CSA
+country_event = { #FROM wants to join CSA
 	id = DWF_join.6
 	title = DWF_join.6.t
 	desc = DWF_join.6.d
@@ -238,8 +210,13 @@ country_event = { #Arkansas wants to join CSA
 	
 	option = { #yes please
 		name = DWF_join.6.a
-		annex_country = { target = ARX }
-		add_state_core = 372
+		annex_country = { target = FROM }
+		every_state = {
+			limit = {
+				is_core_of = FROM
+			}
+			add_core_of = CSA
+		}
 		ai_chance = {
 			base = 100
 		}
@@ -254,50 +231,38 @@ country_event = { #Arkansas wants to join CSA
 	}
 }
 
-country_event = { # Tennessee
+country_event = { #FROM wants to join CSA
 	id = DWF_join.7
 	title = DWF_join.7.t
 	desc = DWF_join.7.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
-	trigger = {
-		tag = TNX
-		owns_state = 368
-		has_war = no
-		CSA = {
-			owns_state = 364
-			owns_state = 365
-			owns_state = 367
-			owns_state = 370
-			has_war = no
-		}
-	}
+	is_triggered_only = yes
 	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	option = { #ask to join CSA
+	option = { #yes please
 		name = DWF_join.7.a
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "Alliance of Southern States"
+		}
+		add_to_faction = FROM
 		ai_chance = {
 			base = 100
 		}
-		CSA = {
-			country_event = { id = DWF_join.8 days = 1 }
-		}
 	}
-
-	option = { #stay independent
-		name = DWF_join.7.c
+	
+	option = { #no thanks
+		name = DWF_join.7.b
+		add_political_power = -50
 		ai_chance = {
 			base = 0
 		}
 	}
 }
 
-country_event = { #Tennessee wants to join CSA
+country_event = { #CSA approaches GPL regarding the status of Missouri
 	id = DWF_join.8
 	title = DWF_join.8.t
 	desc = DWF_join.8.d
@@ -305,227 +270,17 @@ country_event = { #Tennessee wants to join CSA
 
 	is_triggered_only = yes
 	
-	option = { #yes please
+	option = {
 		name = DWF_join.8.a
-		annex_country = { target = TNX }
-		add_state_core = 368
 		ai_chance = {
-			base = 100
+			base = 50
 		}
 	}
 	
-	option = { #no thanks
+	option = {
 		name = DWF_join.8.b
-		add_political_power = -50
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-country_event = { # North Carolina
-	id = DWF_join.9
-	title = DWF_join.9.t
-	desc = DWF_join.9.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	trigger = {
-		tag = NCX
-		owns_state = 363
-		has_war = no
-		CSA = {
-			owns_state = 364
-			owns_state = 365
-			owns_state = 367
-			owns_state = 370
-			has_war = no
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	option = { #ask to join CSA
-		name = DWF_join.9.a
-		ai_chance = {
-			base = 100
-		}
-		CSA = {
-			country_event = { id = DWF_join.10 days = 1 }
-		}
-	}
-
-	option = { #stay independent
-		name = DWF_join.9.c
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-country_event = { #North Carolina wants to join CSA
-	id = DWF_join.10
-	title = DWF_join.10.t
-	desc = DWF_join.10.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	is_triggered_only = yes
-	
-	option = { #yes please
-		name = DWF_join.10.a
-		annex_country = { target = NCX }
-		add_state_core = 363
-		ai_chance = {
-			base = 100
-		}
-	}
-	
-	option = { #no thanks
-		name = DWF_join.10.b
-		add_political_power = -50
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-country_event = { # Louisiana
-	id = DWF_join.11
-	title = DWF_join.11.t
-	desc = DWF_join.11.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	trigger = {
-		tag = LAX
-		owns_state = 371
-		has_war = no
-		CSA = {
-			owns_state = 364
-			owns_state = 365
-			owns_state = 367
-			owns_state = 370
-			has_war = no
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	option = { #ask to join CSA
-		name = DWF_join.11.a
 		ai_chance = {
 			base = 50
-		}
-		CSA = {
-			country_event = { id = DWF_join.12 days = 1 }
-		}
-	}
-
-	option = { #stay independent
-		name = DWF_join.11.c
-		ai_chance = {
-			base = 50
-		}
-	}
-}
-
-country_event = { #Louisiana wants to join CSA
-	id = DWF_join.12
-	title = DWF_join.12.t
-	desc = DWF_join.12.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	is_triggered_only = yes
-	
-	option = { #yes please
-		name = DWF_join.12.a
-		annex_country = { target = LAX }
-		add_state_core = 371
-		ai_chance = {
-			base = 100
-		}
-	}
-	
-	option = { #no thanks
-		name = DWF_join.12.b
-		add_political_power = -50
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-country_event = { # Florida
-	id = DWF_join.13
-	title = DWF_join.13.t
-	desc = DWF_join.13.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	trigger = {
-		tag = FLX
-		owns_state = 366
-		has_war = no
-		CSA = {
-			owns_state = 364
-			owns_state = 365
-			owns_state = 367
-			owns_state = 370
-			has_war = no
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	option = { #ask to join CSA
-		name = DWF_join.13.a
-		ai_chance = {
-			base = 50
-		}
-		CSA = {
-			country_event = { id = DWF_join.14 days = 1 }
-		}
-	}
-
-	option = { #stay independent
-		name = DWF_join.13.c
-		ai_chance = {
-			base = 50
-		}
-	}
-}
-
-country_event = { #Florida wants to join CSA
-	id = DWF_join.14
-	title = DWF_join.14.t
-	desc = DWF_join.14.d
-	picture = GFX_report_event_soviet_soldiers_tank
-
-	is_triggered_only = yes
-	
-	option = { #yes please
-		name = DWF_join.14.a
-		annex_country = { target = FLX }
-		add_state_core = 366
-		ai_chance = {
-			base = 100
-		}
-	}
-	
-	option = { #no thanks
-		name = DWF_join.14.b
-		add_political_power = -50
-		ai_chance = {
-			base = 0
 		}
 	}
 }

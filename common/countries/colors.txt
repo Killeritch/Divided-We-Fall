@@ -738,16 +738,16 @@ WYX = {
 	color_ui = rgb { 87 160 255 }
 }
 CSA = {
-	color = rgb { 193  193  193 } #Confederate grey
+	color = rgb { 140  140  140 } #Confederate grey
 	color_ui = rgb { 193  193  193 } #Confederate grey
 }
 CSC = {
-	color = rgb { 8  93  5 } #the green from Cascadia's flag
-	color_ui = rgb { 8  93  5 } #the green from Cascadia's flag
+	color = rgb { 16  153  9 } #the green from Cascadia's flag
+	color_ui = rgb { 16  153  9 } #the green from Cascadia's flag
 }
 GPL = {
-	color = rgb { 7  106  33 } #dark green - actually from Saskatchewan's flag so not super appropriate
-	color_ui = rgb { 7  106  33 } #dark green - actually from Saskatchewan's flag so not super appropriate
+	color = rgb { 11  165  50 } #dark green - actually from Saskatchewan's flag so not super appropriate
+	color_ui = rgb { 17  255  77 } #dark green - actually from Saskatchewan's flag so not super appropriate
 }
 NWN = {
 	color = rgb { 191  0  0 } #the red in the New England flag

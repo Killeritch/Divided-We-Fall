@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 8  93  5 } #the green from Cascadia's flag
+color = { 16  153  9 } #the green from Cascadia's flag
