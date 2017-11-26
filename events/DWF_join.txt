@@ -231,7 +231,7 @@ country_event = { #FROM wants to join CSA
 	}
 }
 
-country_event = { #FROM wants to join CSA
+country_event = { #FROM wants to ally with CSA
 	id = DWF_join.7
 	title = DWF_join.7.t
 	desc = DWF_join.7.d
