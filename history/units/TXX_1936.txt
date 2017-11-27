@@ -1,0 +1,175 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+
+	# VIII Army Corps #
+	division= {			
+		name = "2nd 'Indianhead' Division"		
+		location = 12782
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "36th 'Texas' Division"		
+		location = 12782
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "45th 'Thunderbird' Division"		
+		location = 12782
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "1st Cavalry 'The 1st Team' Division"		
+		location = 12782
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "Battleship Division 2"				
+		base = 10337
+		location = 10337 # Houston - originally San Diego
+		ship = { name = "USS Oklahoma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TXX version_name = "Pennsylvania Class" } } }				
+		ship = { name = "USS Tennessee" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TXX version_name = "New Mexico Class" } } }				
+		ship = { name = "USS California" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TXX version_name = "New Mexico Class" } } }				
+	}					
+	navy = {					
+		name = "Cruiser Division 6"				
+		base = 10337
+		location = 10337 # Houston - originally San Diego
+		ship = { name = "USS New Orleans" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TXX version_name = "Portland Class" } } }				
+		ship = { name = "USS Astoria" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TXX version_name = "Portland Class" } } }				
+		ship = { name = "USS Minneapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TXX version_name = "Portland Class" } } }				
+		ship = { name = "USS San Francisco" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TXX version_name = "Portland Class" } } }				
+	}					
+	navy = {					
+		name = "Destroyer Flotilla  1"				
+		base = 10337
+		location = 10337 # Houston - originally San Diego
+		ship = { name = "USS Raleigh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TXX } } }				
+		# 1st Destroyer Division				
+		ship = { name = "USS Dewey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		ship = { name = "USS Hull" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		ship = { name = "USS MacDonough" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		ship = { name = "USS Worden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		# 2nd Destroyer Division				
+		ship = { name = "USS Farragut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		ship = { name = "USS Dale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		ship = { name = "USS Monaghan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		ship = { name = "USS Aylwin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX version_name = "Farragut Class" } } }
+		# 34th Destroyer Division			
+		ship = { name = "USS Rathburne" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Talbot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Waters" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Dent" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		# 35th Destroyer Division			
+		ship = { name = "USS Ballard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Thornton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Litchfield" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Zane" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+		ship = { name = "USS Wasmuth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TXX } } }		
+	}					
+	navy = {					
+		name = "6th Submarine Squadron"				
+		base = 10337
+		location = 10337 # Houston - originally San Diego
+		# 61st Submarine Division				
+		ship = { name = "USS R-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS R-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS R-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS R-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS S-46" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS S-47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS S-48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		# 62nd Submarine Division				
+		ship = { name = "USS O-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS R-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS R-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS S-25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS S-26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+		ship = { name = "USS S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TXX } } }
+	}			
+}

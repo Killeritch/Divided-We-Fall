@@ -1,5 +1,7 @@
 ﻿capital = 365 #Georgia - or 362, Virginia
 
+oob = "CSA_1936"
+
 set_research_slots = 3
 
 # Starting tech

@@ -1,5 +1,7 @@
 ﻿capital = 392 #Iowa - could be 383, Kansas, except that has no victory points
 
+oob = "GPL_1936"
+
 set_research_slots = 3
 
 # Starting tech

@@ -1,0 +1,117 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+
+	#none yet - add some!
+
+	##### NAVAL UNITS #####	
+	navy = {					
+		name = "Destroyer Flotilla  6"				
+		base = 6845
+		location = 6845 # Philadelphia
+		# 36th Destroyer Division			
+		ship = { name = "USS Trever" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS Perry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS Hulbert" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS Noa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS William B Preston" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		# 37th Destroyer Division			
+		ship = { name = "USS Palmer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS Hogan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS Howard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+		ship = { name = "USS Stansbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAX } } }		
+	}			
+	navy = {					
+		name = "5th Submarine Squadron"				
+		base = 6845
+		location = 6845 # Philadelphia
+		# 51st Submarine Division			
+		ship = { name = "USS S-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-22" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-29" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		# 52nd Submarine Division			
+		ship = { name = "USS S-30" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		# 53rd Submarine Division			
+		ship = { name = "USS S-42" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+		ship = { name = "USS S-45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PAX } } }
+	}		
+}
