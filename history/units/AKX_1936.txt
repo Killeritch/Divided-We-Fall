@@ -1,0 +1,26 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Brigade"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		#
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+
+	### Alaska Defense Command ###
+	division = {			
+		name = "Alaska Defense Command"		
+		location = 13091
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+}
