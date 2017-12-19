@@ -1,0 +1,8 @@
+### /R/HOI4MODDING MODJAM ###
+ARA = "countries/Aragon.txt"
+COU = "countries/Courland.txt"
+CRI = "countries/Crimea.txt"
+DON = "countries/Don.txt"
+KLM = "countries/Kalmykia.txt"
+KUB = "countries/Kuban.txt"
+RNC = "countries/NorthernCaucasus.txt"

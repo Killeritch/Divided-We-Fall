@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 0  116  168 } #the blue from Oklahoma's state flag
+color = { 15  128  17 } #green, one of Oklahoma's official state colours - or { 0  116  168 } #the blue from Oklahoma's state flag

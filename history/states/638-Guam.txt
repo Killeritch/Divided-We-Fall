@@ -13,9 +13,11 @@ state=
 				naval_base = 1
 			}
 		}
+		add_claim_by = JAP
 		victory_points = {
 			12140 1
 		}
+
 	}
 	provinces={
 		12140

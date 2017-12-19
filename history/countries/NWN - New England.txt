@@ -1,4 +1,4 @@
-﻿capital = 357
+﻿capital = 932 # Massachusetts (KR)
 
 oob = "NWN_1936"
 
@@ -120,17 +120,6 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "James Michael Curley"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_James_Curley.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 ### Ship Variants ###

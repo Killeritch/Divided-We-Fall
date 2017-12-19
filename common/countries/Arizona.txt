@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 222  112  24 } #an orange made by mixing the yellow and red on Arizona's state flag
+color = { 207  181  59 } #old gold, one of Arizona's official state colours (along with Federal Blue)

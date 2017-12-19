@@ -1,0 +1,25 @@
+state={
+	id=819
+	name="STATE_819"
+	manpower = 682741
+	
+	state_category = rural
+	
+	resources={
+		oil=10
+	}
+
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		3916 5014 6826 8123 10793 10811
+	}
+}

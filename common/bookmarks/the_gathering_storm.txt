@@ -49,17 +49,14 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+		"RMA"={
+			history = "RMA_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				#
 			}	
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
+				#
 			}		
 		}
 		"JAP"={
@@ -105,20 +102,9 @@ bookmarks = {
 				
 			}
 		}
-		"GPL"={
+		"MIX"={
 			minor = yes
-			history = "GPL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"RST"={
-			minor = yes
-			history = "RST_GATHERING_STORM_DESC"
+			history = "MIX_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				
@@ -127,9 +113,9 @@ bookmarks = {
 				
 			}
 		}
-		"CSA"={
+		"GAX"={
 			minor = yes
-			history = "CSA_GATHERING_STORM_DESC"
+			history = "GAX_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				
@@ -152,6 +138,28 @@ bookmarks = {
 		"VAX"={
 			minor = yes
 			history = "VAX_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SCO"={
+			minor = yes
+			history = "SCO_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SAV"={
+			minor = yes
+			history = "SAV_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				

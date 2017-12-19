@@ -1,4 +1,4 @@
-﻿capital = 389 #wrong
+﻿capital = 934
 
 set_research_slots = 3
 

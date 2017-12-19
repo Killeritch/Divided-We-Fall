@@ -101,16 +101,20 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 60
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 20
 		}
 	}
 	
@@ -118,6 +122,16 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Strom Thurmond"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_Strom_Thurmond.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }
 
 ### Ship Variants ###

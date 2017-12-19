@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 0  51  102 } #the blue in South Carolina's state flag
+color = { 5  66  104 } #the indigo in South Carolina's state flag, its official state colour - 0  51  102 on the flag in-game

@@ -1,0 +1,32 @@
+state= {
+	id=800
+	name="STATE_800"
+	manpower = 500000
+	state_category = city
+	resources={
+		steel= 2
+	}
+
+	history= {
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = {
+			7067 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7067 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	provinces={
+		7067
+	}
+}

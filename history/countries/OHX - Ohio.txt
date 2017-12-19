@@ -1,5 +1,7 @@
 ﻿capital = 261
 
+oob = "OHX_1936"
+
 set_research_slots = 3
 
 # Starting tech
@@ -101,7 +103,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 50
 		}
 
 		fascism = {
@@ -109,7 +111,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 50
 			#banned = no #default is no
 		}
 	}

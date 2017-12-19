@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 67  123  237 }
+color = { 240  220  130 } #buff from the 1901 Maine state flag - Maine has no official state colours

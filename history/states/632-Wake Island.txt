@@ -13,12 +13,14 @@ state={
 				naval_base = 1
 			}
 		}
+		add_core_of = HIX
+		add_claim_by = JAP
 		victory_points = {
-			13047 1 
+			13047 1
 		}
 
 	}
 	provinces={
-		13047 
+		13047
 	}
 }

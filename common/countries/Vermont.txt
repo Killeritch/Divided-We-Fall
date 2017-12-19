@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 67  123  237 }
+color = { 7  76  7 } #the green from the Vermont Republic flag, one of Vermont's official state colours

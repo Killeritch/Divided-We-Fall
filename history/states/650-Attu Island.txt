@@ -9,7 +9,7 @@ state=
 	{
 		owner = AKX
 		victory_points = {
-			13067 1 
+			13067 1
 		}
 		buildings = {
 			infrastructure = 3

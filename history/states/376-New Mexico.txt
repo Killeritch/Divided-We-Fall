@@ -16,13 +16,12 @@ state={
 		owner = NMX
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 		}
 		add_core_of = NMX
 	}
 
 	provinces={
-		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 
+		1972 2102 3867 3883 4975 8070 10642 10645 10867 10914 12552 12684 12720 12791
 	}
 	
 }

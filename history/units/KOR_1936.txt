@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Daehanminguk Yuk-gun"				
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Modelled on Chinese divisions
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	#Chosen Gun - Korea Army
+	division = {
+		name = "19 'Tora' Hohei Shidan"
+		location = 4052 #Pyongyang
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "20 'Asa' Hohei Shidan"
+		location = 7125 #Seoul
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Chinkai Kichi Kaiheidan"
+		location = 4056 #Pusan
+		division_template = "Daehanminguk Yuk-gun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
+	
+
+#Pusan
+
+	navy = {
+		name = "Bogojunyokan Kantai"
+		base = 4056
+		location = 4056  # Pusan
+		#Mutsuki-class destroyers
+		ship = { name = "Iwate" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = KOR} } }
+		ship = { name = "Hirado" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = KOR} } }
+		ship = { name = "Yahagi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = KOR} } }	
+	}
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+}

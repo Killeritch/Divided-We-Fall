@@ -299,8 +299,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
+	color = rgb { 255  153  51 } #the orange in India's flag
+	color_ui = rgb { 255  153  51 } #the orange in India's flag
 }
 
 CRO = {
@@ -452,8 +452,8 @@ BOT = {
 	color_ui = rgb { 11 132 112 }
 }
 PAK = {
-	color = rgb { 21 38 66 }
-	color_ui = rgb { 21 38 66 }
+	color = rgb { 0 102 0 } #the green in Pakistan's flag
+	color_ui = rgb { 0 102 0 } #the green in Pakistan's flag
 }
 WGR = {
     color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
@@ -533,210 +533,215 @@ D15 = {
 }
 
 ################################
-# Divided We Fall countries
+# Divided We Fall USA countries
 ################################
 
 
 ALX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 177  0  33 } #the red in the Alabama state flag, one of Alabama's official state colours
+	color_ui = rgb { 177  0  33 } #the red in the Alabama state flag, one of Alabama's official state colours
 }
 AKX = {
-	color = rgb { 15  32  75 } #the dark blue of the Alaska flag
-	color_ui = rgb { 15  32  75 } #the dark blue of the Alaska flag
+	color = rgb { 15  32  75 } #the dark blue of the Alaska flag - Alaska has no official state colours
+	color_ui = rgb { 15  32  75 } #the dark blue of the Alaska flag - Alaska has no official state colours
 }
 AZX = {
-	color = rgb { 222  112  24 } #an orange made by mixing the yellow and red on Arizona's state flag
-	color_ui = rgb { 222  112  24 } #an orange made by mixing the yellow and red on Arizona's state flag
+	color = rgb { 207  181  59 } #old gold, one of Arizona's official state colours (along with Federal Blue)
+	color_ui = rgb { 207  181  59 } #old gold, one of Arizona's official state colours (along with Federal Blue)
 }
 ARX = {
-	color = rgb { 191  10  48 } #the red on the Arkansas state flag
-	color_ui = rgb { 191  10  48 } #the red on the Arkansas state flag
+	color = rgb { 191  10  48 } #the red on the Arkansas state flag - Arkansas has no official state colours
+	color_ui = rgb { 191  10  48 } #the red on the Arkansas state flag - Arkansas has no official state colours
 }
 CAX = {
-	color = rgb { 183  18  52 } #the red on California's state flag
-	color_ui = rgb { 183  18  52 } #the red on California's state flag
+	color = rgb { 183  18  52 } #the red on California's state flag - not one of California's official state colours but it's ok because they're blue and gold
+	color_ui = rgb { 183  18  52 } #the red on California's state flag - not one of California's official state colours but it's ok because they're blue and gold
 }
 COX = {
-	color = rgb { 16  46  130 } #the blue on Colorado's state flag
-	color_ui = rgb { 16  46  130 } #the blue on Colorado's state flag
+	color = rgb { 16  46  130 } #the blue on Colorado's state flag - Colorado has no official state colours
+	color_ui = rgb { 16  46  130 } #the blue on Colorado's state flag - Colorado has no official state colours
 }
 CTX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 180  0  180 } #purple from Connecticut's state flag - Connecticut has no official state colours
+	color_ui = rgb { 180  0  180 } #purple from Connecticut's state flag - Connecticut has no official state colours
 }
 DEX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 118  161  160 } #Colonial Blue, one of Delaware's official state colours
+	color_ui = rgb { 118  161  160 } #Colonial Blue, one of Delaware's official state colours
 }
 FLX = {
-	color = rgb { 255  185  0 } #the golden yellow from Florida's state seal
-	color_ui = rgb { 255  185  0 } #the golden yellow from Florida's state seal
+	color = rgb { 255  185  0 } #the golden yellow from Florida's state seal - orange is one of Florida's official state colours
+	color_ui = rgb { 255  185  0 } #the golden yellow from Florida's state seal - orange is one of Florida's official state colours
 }
 GAX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 0  51  102 } #the blue from the 1906-20 flag - more distinctive than the blue from the 1920-56 flag, and Georgia has no official state colours
+	color_ui = rgb { 0  51  102 } #the blue from the 1906-20 flag - more distinctive than the blue from the 1920-56 flag, and Georgia has no official state colours
 }
 HIX = {
-	color = rgb { 255  200  22 } #yellow from Hawaii's state seal
-	color_ui = rgb { 255  200  22 } #yellow from Hawaii's state seal
+	color = rgb { 255  200  22 } #yellow from Hawaii's state seal - Hawaii has no official state colours
+	color_ui = rgb { 255  200  22 } #yellow from Hawaii's state seal - Hawaii has no official state colours
 }
 IDX = {
-	color = rgb { 0  55  118 } #blue from Idaho's state flag
-	color_ui = rgb { 0  55  118 } #blue from Idaho's state flag
+	color = rgb { 15  128  17 } #green, one of Idaho's official state colours
+	color_ui = rgb { 15  128  17 } #green, one of Idaho's official state colours
 }
 ILX = {
-	color = rgb { 255  255  255 }
-	color_ui = rgb { 255  255  255 }
+	color = rgb { 255  255  255 } #the white from Illinois' state flag - Illinois has no official state colours
+	color_ui = rgb { 255  255  255 } #the white from Illinois' state flag - Illinois has no official state colours
 }
 INX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 213  159  15 } #the gold from the Indiana state flag, one of Indiana's official state colours
+	color_ui = rgb { 213  159  15 } #the gold from the Indiana state flag, one of Indiana's official state colours
 }
 IAX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 217  0  38 } #the red from Iowa's state flag - Iowa has no official state colours
+	color_ui = rgb { 217  0  38 } #the red from Iowa's state flag - Iowa has no official state colours
 }
 KSX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 41  185  16 } #the green from Kansas' state flag - Kansas has no official state colours
+	color_ui = rgb { 41  185  16 } #the green from Kansas' state flag - Kansas has no official state colours
 }
 KYX = {
-	color = rgb { 0  0  102 } #blue from Kentucky's state flag
-	color_ui = rgb { 0  0  102 } #blue from Kentucky's state flag
+	color = rgb { 0  0  102 } #blue from Kentucky's state flag - Kentucky has no official state colours
+	color_ui = rgb { 0  0  102 } #blue from Kentucky's state flag - Kentucky has no official state colours
 }
 LAX = {
-	color = rgb { 0  0  160 } #the blue in Louisiana's state flag
-	color_ui = rgb { 0  0  160 } #the blue in Louisiana's state flag
+	color = rgb { 0  0  160 } #the blue in Louisiana's state flag - one of Louisiana's official state colours
+	color_ui = rgb { 0  0  160 } #the blue in Louisiana's state flag - one of Louisiana's official state colours
 }
 MEZ = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 240  220  130 } #buff from the 1901 Maine state flag - Maine has no official state colours
+	color_ui = rgb { 240  220  130 } #buff from the 1901 Maine state flag - Maine has no official state colours
 }
 MDX = {
-	color = rgb { 152  30  30 } #the red from Maryland's state flag
-	color_ui = rgb { 152  30  30 } #the red from Maryland's state flag
+	color = rgb { 152  30  30 } #the red from Maryland's state flag - one of Maryland's official state colours
+	color_ui = rgb { 152  30  30 } #the red from Maryland's state flag - one of Maryland's official state colours
 }
 MAX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 194  24  61 } #cranberry, one of Massachusetts' official state colours
+	color_ui = rgb { 194  24  61 } #cranberry, one of Massachusetts' official state colours
 }
 MIX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 198  52  49 } #the rust colour from the Seal of Michigan - Michigan has no official state colours
+	color_ui = rgb { 198  52  49 } #the rust colour from the Seal of Michigan - Michigan has no official state colours
 }
 MNX = {
-	color = rgb { 0  57  166 } #the blue from the North Star Flag
-	color_ui = rgb { 0  57  166 } #the blue from the North Star Flag
+	color = rgb { 150  0  150 } #purple, a proposed state colour - or { 0  57  166 } #the blue from the North Star Flag
+	color_ui = rgb { 150  0  150 } #purple, a proposed state colour - or { 0  57  166 } #the blue from the North Star Flag
 }
 MSX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 244  233  216 } #magnolia, after the state flower - Mississippi has no official state colours
+	#color = rgb { 0  0  128 } #the blue from the Bonnie Blue Flag - Mississippi has no official state colours
+	color_ui = rgb { 244  233  216 } #magnolia, after the state flower - Mississippi has no official state colours
 }
 MOX = {
-	color = rgb { 0  75  141 } #blue from Missouri's state flag
-	color_ui = rgb { 0  75  141 } #blue from Missouri's state flag
+	color = rgb { 0  75  141 } #blue from Missouri's state flag - Missouri has no official state colours
+	color_ui = rgb { 0  75  141 } #blue from Missouri's state flag - Missouri has no official state colours
 }
 MTX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 168  24  0 } #the brown from Montana's state flag - Montana has no official state colours
+	color_ui = rgb { 168  24  0 } #the brown from Montana's state flag - Montana has no official state colours
 }
 NEX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 255  204  0 } #yellow from Nebraska's state flag - Nebraska has no official state colours
+	color_ui = rgb { 255  204  0 } #yellow from Nebraska's state flag - Nebraska has no official state colours
 }
 NVX = {
-	color = rgb { 0  51  153 } #blue from Nevada's state flag
-	color_ui = rgb { 0  51  153 } #blue from Nevada's state flag
+	color = rgb { 192  192  192 } #silver, one of Nevada's official state colours
+	color_ui = rgb { 192  192  192 } #silver, one of Nevada's official state colours
 }
 NHX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 255  163  38 } #orange, one of New Hampshire's proposed official state colours
+	color_ui = rgb { 255  163  38 } #orange, one of New Hampshire's proposed official state colours
 }
 NJX = {
-	color = rgb { 255  202  102 } #beige from New Jersey's state flag
-	color_ui = rgb { 255  202  102 } #beige from New Jersey's state flag
+	color = rgb { 255  202  102 } #the buff from New Jersey's state flag, one of New Jersey's official state colours
+	color_ui = rgb { 255  202  102 } #the buff from New Jersey's state flag, one of New Jersey's official state colours
 }
 NMX = {
-	color = rgb { 255  215  0 } #the yellow from New Mexico's state flag
-	color_ui = rgb { 255  215  0 } #the yellow from New Mexico's state flag
+	color = rgb { 191  10  48 } #the red from New Mexico's state flag - one of New Mexico's official state colours
+	#color = rgb { 255  215  0 } #the yellow from New Mexico's state flag - one of New Mexico's official state colours
+	color_ui = rgb { 191  10  48 } #the red from New Mexico's state flag - one of New Mexico's official state colours
 }
 NYX = {
-	color = rgb { 255  102  0 } #the orange from NYC's flag - maybe not appropriate for New York State
-	color_ui = rgb { 255  102  0 } #the orange from NYC's flag - maybe not appropriate for New York State
+	color = rgb { 255  132  0 } #the orange from Albany's flag - not one of New York's official state colours but it's ok because they're blue and yellow
+	color_ui = rgb { 255  132  0 } #the orange from Albany's flag - not one of New York's official state colours but it's ok because they're blue and yellow
 }
 NCX = {
-	color = rgb { 191  10  48 } #red from North Carolina's flag
-	color_ui = rgb { 191  10  48 } #red from North Carolina's flag
+	color = rgb { 191  10  48 } #red from North Carolina's flag - kind of one of North Carolina's official state colours
+	color_ui = rgb { 191  10  48 } #red from North Carolina's flag - kind of one of North Carolina's official state colours
 }
 NDX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 0  42  134 } #the blue from North Dakota's state flag - North Dakota has no official state colours
+	color_ui = rgb { 0  42  134 } #the blue from North Dakota's state flag - North Dakota has no official state colours
 }
 OHX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 193  19  61 } #the red on Ohio's state flag, one of Ohio's official colours
+	color_ui = rgb { 193  19  61 } #the red on Ohio's state flag, one of Ohio's official colours
 }
 OKX = {
-	color = rgb { 0  116  168 } #the blue from Oklahoma's state flag
-	color_ui = rgb { 0  116  168 } #the blue from Oklahoma's state flag
+	color = rgb { 15  128  17 } #green, one of Oklahoma's official state colours - or { 0  116  168 } #the blue from Oklahoma's state flag
+	color_ui = rgb { 15  128  17 } #green, one of Oklahoma's official state colours - or { 0  116  168 } #the blue from Oklahoma's state flag
 }
 ORX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 255  234  15 } #the yellow from Oregon's state flag - one of Oregon's official state colours
+	color_ui = rgb { 255  234  15 } #the yellow from Oregon's state flag - one of Oregon's official state colours
 }
 PAX = {
-	color = rgb  { 67  149  189 } #the blue from Pennsylvania's state seal
-	color_ui = rgb  { 67  149  189 } #the blue from Pennsylvania's state seal
+	color = rgb  { 67  149  189 } #the blue from Pennsylvania's state seal - kind of one of Pennsylvania's official state colours
+	color_ui = rgb  { 67  149  189 } #the blue from Pennsylvania's state seal - kind of one of Pennsylvania's official state colours
 }
 RIX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 38  55  77 } #faded blue from Rhode Island's state seal - a nice colour I think (it has no official state colours)
+	color_ui = rgb { 38  55  77 } #faded blue from Rhode Island's state seal - a nice colour I think (it has no official state colours)
 }
 SCX = {
-	color = rgb { 0  51  102 } #the blue in South Carolina's state flag
-	color_ui = rgb { 0  51  102 } #the blue in South Carolina's state flag
+	color = rgb { 5  66  104 } #the indigo in South Carolina's state flag, its official state colour - { 0  51  102 } on the flag in-game
+	color_ui = rgb { 5  66  104 } #the indigo in South Carolina's state flag, its official state colour - { 0  51  102 } on the flag in-game
 }
 SDX = {
-	color = rgb { 255  240  80 } #the yellow of South Dakota's state flag - could also use the blue maybe
-	color_ui = rgb { 255  240  80 } #the yellow of South Dakota's state flag - could also use the blue maybe
+	color = rgb { 255  240  80 } #the yellow of South Dakota's state flag - could also use the blue maybe - South Dakota has no official state colours
+	color_ui = rgb { 255  240  80 } #the yellow of South Dakota's state flag - could also use the blue maybe - South Dakota has no official state colours
 }
 TNX = {
-	color = rgb { 204  0  0 } #the red from Tennessee's state flag
-	color_ui = rgb { 204  0  0 } #the red from Tennessee's state flag
+	color = rgb { 255  125  0 } #orange, unofficial state colour of Tennessee
+	color_ui = rgb { 255  125  0 } #orange, unofficial state colour of Tennessee
 }
 TXX = {
-	color = rgb { 0  40  104 } #the blue from Texas' state flag
-	color_ui = rgb { 0  40  104 } #the blue from Texas' state flag
+	color = rgb { 0  40  104 } #the blue from Texas' state flag - one of Texas's official state colours
+	color_ui = rgb { 0  40  104 } #the blue from Texas' state flag - one of Texas's official state colours
 }
 UTX = {
-	color = rgb { 252  194  29 } #beehive yellow
-	color_ui = rgb { 252  194  29 } #beehive yellow
+	color = rgb { 252  194  29 } #beehive yellow - kind of one of Utah's official state colours
+	color_ui = rgb { 252  194  29 } #beehive yellow - kind of one of Utah's official state colours
 }
 VTX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 7  76  7 } #the green from the Vermont Republic flag, one of Vermont's official state colours
+	color_ui = rgb { 15  151  15 } #green, one of Vermont's official state colours
 }
 VAX = {
-	color = rgb { 0  41  123 } #blue from Virginia's state flag
-	color_ui = rgb { 0  41  123 } #blue from Virginia's state flag
+	color = rgb { 0  41  123 } #blue from Virginia's state flag - Virginia has no official state colours
+	color_ui = rgb { 0  41  123 } #blue from Virginia's state flag - Virginia has no official state colours
 }
 WAX = {
-	color = rgb { 0  132  87 } #the green from Washington's state flag
-	color_ui = rgb { 0  132  87 } #the green from Washington's state flag
+	color = rgb { 0  132  87 } #the green from Washington's state flag, one of Washington's unofficial state colours
+	color_ui = rgb { 0  132  87 } #the green from Washington's state flag, one of Washington's unofficial state colours
 }
 WVX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 207  181  59 } #Old Gold, one of West Virginia's official state colours
+	color_ui = rgb { 207  181  59 } #Old Gold, one of West Virginia's official state colours
 }
 WIX = {
-	color = rgb { 0  41  134 } #the blue from Wisconsin's state flag
-	color_ui = rgb { 0  41  134 } #the blue from Wisconsin's state flag
+	color = rgb { 0  41  134 } #the blue from Wisconsin's state flag - Wisconsin has no official state colours
+	color_ui = rgb { 0  41  134 } #the blue from Wisconsin's state flag - Wisconsin has no official state colours
 }
 WYX = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 163  39  45 } #brown, one of Wyoming's proposed state colours - or { 191  10  48 } #the red from Wyoming's state flag
+	color_ui = rgb { 163  39  45 } #brown, one of Wyoming's proposed state colours - or { 191  10  48 } #the red from Wyoming's state flag
 }
+
+###
+
 CSA = {
 	color = rgb { 140  140  140 } #Confederate grey
 	color_ui = rgb { 193  193  193 } #Confederate grey
@@ -764,4 +769,237 @@ RKY = {
 RST = {
 	color = rgb { 255  0  0 } #red for the workers' blood
 	color_ui = rgb { 255  0  0 } #red for the workers' blood
+}
+
+################################
+# DIPLOMACY MOD
+################################
+
+ALG = {
+	color = rgb { 13 140 13 }
+	color_ui = rgb { 13 140 13 }
+}
+MOR = {
+	color = rgb { 141 10 10 }
+	color_ui = rgb { 141 10 10 }
+}
+TUN = {
+	color = rgb { 210 15 15 }
+	color_ui = rgb { 210 15 15 }
+}
+CAT = {
+	color = rgb { 252 221 9 }
+	color_ui = rgb { 252 221 9 }
+}
+GAL = {
+	color = rgb { 12 153 204 }
+	color_ui = rgb { 12 153 204 }
+}
+
+################################
+# /R/HOI4MODDING MODJAM
+################################
+
+ARA = {
+	color = rgb { 232 25 6 }
+	color_ui = rgb { 232 25 6 }
+}
+COU = {
+	color = rgb { 19 79 195 }
+	color_ui = rgb { 19 79 195 }
+}
+CRI = {
+	color = rgb { 255 234 0 }
+	color_ui = rgb { 255 234 0 }
+}
+DON = {
+	color = rgb { 247 197 0 }
+	color_ui = rgb { 247 197 0 }
+}
+KLM = {
+	color = rgb { 216 30 5 }
+	color_ui = rgb { 255 30 5 }
+}
+KUB = {
+	color = rgb { 221 19 123 }
+	color_ui = rgb { 221 19 123 }
+}
+RNC = {
+	color = rgb { 19 112 189 }
+	color_ui = rgb { 19 112 189 }
+}
+
+################################
+# Countries with flags in vanilla
+################################
+
+BIH = {
+	color = rgb { 0 62 158 } #the blue on Bosnia's coat of arms
+	color_ui = rgb { 0 62 158 } #the blue on Bosnia's coat of arms
+}
+BUR = {
+	color = rgb { 0  36  125 } #the blue on Burma's flag
+	color_ui = rgb { 0  36  125 } #the blue on Burma's flag
+}
+GUY = {
+	color = rgb { 255  255  0 } #the yellow in Guyana's flag
+	color_ui = rgb { 255  255  0 } #the yellow in Guyana's flag
+}
+KAZ = {
+	color = rgb { 75  184  203 } #from Vanilla
+	color_ui = rgb { 75  184  203 } #from Vanilla
+}
+KGZ = {
+	color = rgb { 248  255  8 } #the yellow on Kyrgyzstan's flag
+	color_ui = rgb { 248  255  8 } #the yellow on Kyrgyzstan's flag
+}
+KOS = {
+	color = rgb { 253 201 11 } #the yellow on Kosovo's flag
+	color_ui = rgb { 253 201 11 } #the yellow on Kosovo's flag
+}
+LKA = {
+	color = rgb { 156  30  61 } #the purple on Sri Lanka's flag
+	color_ui = rgb { 156  30  61 } #the purple on Sri Lanka's flag
+}
+MDA = {
+	color = rgb { 248 195 0 } #the yellow on Moldova's flag
+	color_ui = rgb { 248 195 0 } #the yellow on Moldova's flag
+}
+MKD = {
+	color = rgb { 221 0 0 } #the red on Macedonia's flag
+	color_ui = rgb { 221 0 0 } #the red on Macedonia's flag
+}
+PNG = {
+	color = rgb { 206  17  38 } #the red on PNG's flag
+	color_ui = rgb { 206  17  38 } #the red on PNG's flag
+}
+SIE = {
+	color = rgb { 30  181  58 } #the green in Sierra Leone's flag
+	color_ui = rgb { 30  181  58 } #the green in Sierra Leone's flag
+}
+SVN = {
+	color = rgb { 0 93 164 } #the blue on Slovenia's flag
+	color_ui = rgb { 0 93 164 } #the blue on Slovenia's flag
+}
+TJK = {
+	color = rgb { 249  204  39 } #the yellow on Tajikistan's flag
+	color_ui = rgb { 249  204  39 } #the yellow on Tajikistan's flag
+}
+TKM = {
+	color = rgb { 35  158  70 } #the green on Turkmenistan's flag
+	color_ui = rgb { 35  158  70 } #the green on Turkmenistan's flag
+}
+UZB = {
+	color = rgb { 0  153  204 } #the sky blue on Uzbekistan's flag
+	color_ui = rgb { 0  153  204 } #the sky blue on Uzbekistan's flag
+}
+
+###########################################
+# Divided We Fall EUROPEAN countries
+###########################################
+
+NIR = {
+	color = rgb { 255  143  0 } #the orange on the Orange Order flag
+	color_ui = rgb { 255  143  0 } #the orange on the Orange Order flag
+}
+SCO = {
+	color = rgb { 0  101  189 } #the blue on Scotland's flag
+	color_ui = rgb { 0  101  189 } #the blue on Scotland's flag
+}
+WAL = {
+	color = rgb { 0  171  57 } #the green on Wales' flag
+	color_ui = rgb { 0  171  57 } #the green on Wales' flag
+}
+
+
+GEN = {
+	color = rgb { 190  22  34 } #the red on Genoa's flag
+	color_ui = rgb { 190  22  34 } #the red on Genoa's flag
+}
+LOM = {
+	color = rgb { 0  160  64 } #the green on Lombardy's flag
+	color_ui = rgb { 0  160  64 } #the green on Lombardy's flag
+}
+NAP = {
+	color = rgb { 0  0  153 } #the blue on Naples's flag
+	color_ui = rgb { 0  0  153 } #the blue on Naples's flag
+}
+RMA = {
+	color = rgb { 142  0  28 } #the dark red on Rome's flag
+	color_ui = rgb { 142  0  28 } #the dark red on Rome's flag
+}
+SAR = {
+	color = rgb { 216  25  33 } #the red on Sardinia's flag
+	color_ui = rgb { 216  25  33 } #the red on Sardinia's flag
+}
+SAV = {
+	color = rgb { 12  60  124 } #the blue border on Savoy's flag
+	color_ui = rgb { 12  60  124 } #the blue border on Savoy's flag
+}
+SIC = {
+	color = rgb { 255  223  0 } #the yellow on Sicily's old flag -  { 255  241  0 } #the yellow on Sicily's modern flag
+	color_ui = rgb { 255  223  0 } #the yellow on Sicily's old flag -  { 255  241  0 } #the yellow on Sicily's modern flag
+}
+TUS = {
+	color = rgb { 216  30  5 } #the red on Tuscany's flag
+	color_ui = rgb { 216  30  5 } #the red on Tuscany's flag
+}
+VNC = {
+	color = rgb { 0  53  128 } #blue, a traditional Venetian colour
+	color_ui = rgb { 0  53  128 } #blue, a traditional Venetian colour
+}
+
+###########################################
+# Divided We Fall AFRICAN countries
+###########################################
+
+ERI = {
+	color = rgb { 234  4  55 } #the red on Eritrea's flag
+	color_ui = rgb { 234  4  55 } #the red on Eritrea's flag
+}
+SML = {
+	color = rgb { 0  109  33 } #the green on Somaliland's flag
+	color_ui = rgb { 0  109  33 } #the green on Somaliland's flag
+}
+SOM = {
+	color = rgb { 65  137  221 } #the blue on Somalia's flag
+	color_ui = rgb { 65  137  221 } #the blue on Somalia's flag
+}
+
+###########################################
+# Divided We Fall NORTH AMERICAN countries
+###########################################
+
+RIO = {
+	color = rgb { 218  18  26 } #red from Rio Grande's flag
+	color_ui = rgb { 218  18  26 } #red from Rio Grande's flag
+}
+YUC = {
+	color = rgb { 0  104  71 } #green from Yucatan's flag
+	color_ui = rgb { 0  104  71 } #green from Yucatan's flag
+}
+
+###########################################
+# Divided We Fall SOUTH AMERICAN countries
+###########################################
+
+ACR = {
+	color = rgb { 243  231  24 } #the yellow in Acre's flag
+	color_ui = rgb { 255  235  25 } #the yellow in Acre's flag
+}
+AMP = {
+	color = rgb { 0  153  76 } #the green in Amapá's flag
+	color_ui = rgb { 0  153  76 } #the green in Amapá's flag
+}
+JUL = {
+	color = rgb { 255  255  0 } #yellow from Juliana's flag
+	color_ui = rgb { 255  255  0 } #yellow from Juliana's flag
+}
+PRA = {
+	color = rgb { 255  0  0 } #red from Para's flag
+	color_ui = rgb { 255  0  0 } #red from Para's flag
+}
+PIR = {
+	color = rgb { 49  148  0 } #green from Piratini's flag
+	color_ui = rgb { 49  148  0 } #green from Piratini's flag
 }

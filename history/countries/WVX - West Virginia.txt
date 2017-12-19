@@ -1,4 +1,4 @@
-﻿capital = 362 #wrong
+﻿capital = 929 # West Virginia (KR)
 
 set_research_slots = 3
 

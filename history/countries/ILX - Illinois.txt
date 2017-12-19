@@ -1,5 +1,7 @@
 ﻿capital = 395
 
+oob = "ILX_1936"
+
 set_research_slots = 3
 
 # Starting tech
@@ -101,7 +103,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 30
 		}
 
 		fascism = {
@@ -109,15 +111,25 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 70
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+create_country_leader = {
+	name = "William Z. Foster"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_William_Foster.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
 }
 
 ### Ship Variants ###

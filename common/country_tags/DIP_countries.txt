@@ -1,0 +1,6 @@
+### DIPLOMACY MOD ###
+ALG = "countries/Algeria.txt"
+MOR = "countries/Morocco.txt"
+TUN = "countries/Tunisia.txt"
+CAT = "countries/Catalonia.txt"
+GAL = "countries/Galicia.txt"

@@ -3,4 +3,4 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 255  102  0 } #the orange from NYC's flag - maybe not appropriate for New York State
+color = { 255  132  0 } #the orange from Albany's flag

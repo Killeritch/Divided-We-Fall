@@ -3,4 +3,5 @@
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
 
-color = { 255  215  0 } #the yellow from New Mexico's state flag
+color = { 191  10  48 } #the red from New Mexico's state flag
+# { 255  215  0 } #the yellow from New Mexico's state flag

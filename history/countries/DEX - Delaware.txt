@@ -1,4 +1,4 @@
-﻿capital = 382 #wrong
+﻿capital = 930 # Delaware (KR)
 
 set_research_slots = 3
 

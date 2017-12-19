@@ -8,7 +8,7 @@ state={
 	history={
 		owner = PAN
 		victory_points = {
-			7617 5 
+			7617 5
 		}
 		buildings = {
 			infrastructure = 4

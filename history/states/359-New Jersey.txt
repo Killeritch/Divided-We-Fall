@@ -9,11 +9,12 @@ state={
 	history={
 		owner = NJX
 		victory_points = {
-			6882 5 
+			6882 5
 		}
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 7
+			industrial_complex = 2
+						dockyard = 2
 			air_base = 4
 
 		}
@@ -21,7 +22,7 @@ state={
 	}
 
 	provinces={
-		3693 3863 6882 9801 9864 11740 11782 11900 
+		3693 3863 6882 9801 9864 11740 11782 11900
 	}
 	
 }

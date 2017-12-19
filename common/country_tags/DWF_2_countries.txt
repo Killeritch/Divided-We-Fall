@@ -1,0 +1,26 @@
+NIR = "countries/Northern Ireland.txt"
+SCO = "countries/Scotland.txt"
+WAL = "countries/Wales.txt"
+
+GEN = "countries/Genoa.txt"
+LOM = "countries/Lombardy.txt"
+NAP = "countries/Naples.txt"
+RMA = "countries/Rome.txt"
+SAR = "countries/Sardinia.txt"
+SAV = "countries/Savoy.txt"
+SIC = "countries/Sicily.txt"
+TUS = "countries/Tuscany.txt"
+VNC = "countries/Venice.txt"
+
+ERI = "countries/Eritrea.txt"
+SML = "countries/Somaliland.txt"
+SOM = "countries/Somalia.txt"
+
+RIO = "countries/RioGrande.txt"
+YUC = "countries/Yucatan.txt"
+
+ACR = "countries/Acre.txt"
+AMP = "countries/Amapa.txt"
+JUL = "countries/Juliana.txt"
+PRA = "countries/Para.txt"
+PIR = "countries/Piratini.txt"
