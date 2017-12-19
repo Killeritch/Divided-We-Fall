@@ -1,5 +1,4 @@
 ### /R/HOI4MODDING MODJAM ###
-ARA = "countries/Aragon.txt"
 COU = "countries/Courland.txt"
 CRI = "countries/Crimea.txt"
 DON = "countries/Don.txt"

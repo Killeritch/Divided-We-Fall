@@ -11,8 +11,8 @@ state={
 	state_category = town
 
 	history={
-		owner = GER
-		add_core_of = GER
+		owner = PRS
+		add_core_of = PRS
 		buildings = {
 			infrastructure = 6
 			11372 = {

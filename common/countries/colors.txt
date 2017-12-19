@@ -800,10 +800,6 @@ GAL = {
 # /R/HOI4MODDING MODJAM
 ################################
 
-ARA = {
-	color = rgb { 232 25 6 }
-	color_ui = rgb { 232 25 6 }
-}
 COU = {
 	color = rgb { 19 79 195 }
 	color_ui = rgb { 19 79 195 }
@@ -911,6 +907,67 @@ WAL = {
 	color_ui = rgb { 0  171  57 } #the green on Wales' flag
 }
 
+BAV = {
+	color = rgb { 0  152  212 } #the blue on Bavaria's flag
+	color_ui = rgb { 0  187  255 } #the blue on Bavaria's flag
+}
+HAN = {
+	color = rgb { 255  206  8 } #the yellow from Hanover's flag
+	color_ui = rgb { 255  206  8 } #the yellow from Hanover's flag
+}
+HES = {
+	color = rgb { 226  0  26 } #the red on Hesse's flag
+	color_ui = rgb { 255  0  29 } #the red on Hesse's flag
+}
+HLS = {
+	color = rgb { 226  9  9 } #the red on Holstein's coat of arms
+	color_ui = rgb { 226  9  9 } #the red on Holstein's coat of arms
+}
+MEC = {
+	color = rgb { 0  74  153 } #the blue from Mecklenburg's flag
+	color_ui = rgb { 0  74  153 } #the blue from Mecklenburg's flag
+}
+OLD = {
+	color = rgb { 51  0  154 } #the blue on Oldenburg's flag
+	color_ui = rgb { 51  0  154 } #the blue on Oldenburg's flag
+}
+PRS = {
+	color = rgb { 0  49  83 } #Prussian Blue
+	color_ui = rgb { 0  49  83 } #Prussian Blue
+}
+RHI = {
+	color = rgb { 0  145  54 } #the green on Rhineland's flag
+	color_ui = rgb { 0  145  54 } #the green on Rhineland's flag
+}
+SAA = {
+	color = rgb { 0  32  159 } #the blue on Saarland's flag
+	color_ui = rgb { 0  32  159 } #the blue on Saarland's flag
+}
+SAX = {
+	color = rgb { 22  108  40 } #the green on Saxony's flag
+	color_ui = rgb { 22  108  40 } #the green on Saxony's flag
+}
+SIL = {
+	color = rgb { 250  207  0 } #the yellow on Silesia's flag
+	color_ui = rgb { 255  208  0 } #the yellow on Silesia's flag
+}
+THU = {
+	color = rgb { 27  131  183 } #the blue on Thuringia's coat of arms - or { 225  0  0 } #the red on Thuringia's flag
+	color_ui = rgb { 27  131  183 } #the blue on Thuringia's coat of arms - or { 225  0  0 } #the red on Thuringia's flag
+}
+WPH = {
+	color = rgb { 218  18  26 } #the red on Westphalia's flag
+	color_ui = rgb { 255  22  34 } #the red on Westphalia's flag
+}
+WUR = {
+	color = rgb { 255  242  0 } #the yellow on Wurttemberg's coat of arms
+	color_ui = rgb { 255  242  0 } #the yellow on Wurttemberg's coat of arms
+}
+
+ARA = {
+	color = rgb { 232 25 6 }
+	color_ui = rgb { 232 25 6 }
+}
 
 GEN = {
 	color = rgb { 190  22  34 } #the red on Genoa's flag

@@ -1,0 +1,206 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Celere" 		# Divisione Celere (Fast Division)
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }		# (elite) Bersaglieri Regiment
+		motorized = { x = 2 y = 1 }
+		light_armor = { x = 3 y = 0 }	# L3/35 Tankette Battaltion
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Coloniale"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# Raggruppamento Celere
+	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+
+	# III Corpo d'Armata #
+	division= {	
+		name = "3a Divisione di Fanteria 'Ravenna'"
+		location = 11891
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6a Divisione di Fanteria 'Cuneo'"
+		location = 11891
+		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+
+	# Subordinate to Army
+	division= {	
+		name = "1° Raggruppamento Celere"
+		location = 6788
+		division_template = "Raggruppamento Celere"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}	
+
+	##### NAVAL UNITS #####	
+	navy = {					
+		name = "Comando Navale Mar Rosso"				
+		base = 12766 
+		location = 6788 # Genoa		
+		# 3a Squadriglia Cacciatorpedindiere
+		ship = { name = "RM Francesco Nullo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }
+		ship = { name = "RM Nazario Sauro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		ship = { name = "RM Cesare Battisti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		ship = { name = "RM Daniele Manin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		# 5a Squadriglia Cacciatorpedindiere
+		ship = { name = "RM Leone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		ship = { name = "RM Pantera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		ship = { name = "RM Tigre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		# 5a Squadriglia Torpedindiere de Mar Rosso
+		ship = { name = "RM Giovanni Acerbi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+		ship = { name = "RM Vincenzo Giordano Orsini" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GEN } } }	
+	}				
+	navy = {					
+		name = "8° Gruppo Sommergibili"				
+		base = 12766 
+		location = 6788 # Genoa		
+		# 81a Squadriglia Sommergibili
+		ship = { name = "RM Luigi Settembrini" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GEN version_name = "Bandiera Class" } } }
+		ship = { name = "RM Ruggiero Settimo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GEN version_name = "Bandiera Class" } } }
+		ship = { name = "RM Salpa" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GEN version_name = "Sirena Class" } } }
+		ship = { name = "RM Serpente " definition = submarine equipment = { submarine_1 = { amount = 1 owner = GEN version_name = "Sirena Class" } } }
+	}					
+}
+
+### Air Wings ###
+air_wings = {
+
+	### Commando Aeronautica Africa Orientale -- Eritrea
+	838 = {
+		fighter_equipment_0 =  {
+			owner = "GEN" 
+			amount = 40
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "GEN" 
+			amount = 32
+		}
+		CAS_equipment_1 =  {
+			owner = "GEN" 
+			amount = 48
+		}
+	}
+}
+
+	
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GEN"
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GEN" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "GEN" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GEN" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GEN" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+}
+	#####################

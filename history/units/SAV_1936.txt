@@ -89,30 +89,6 @@ units = {
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
 	}
-
-	# III Corpo d'Armata #
-	division= {	
-		name = "3a Divisione di Fanteria 'Ravenna'"
-		location = 11891
-		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "6a Divisione di Fanteria 'Cuneo'"
-		location = 11891
-		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
-		start_experience_factor = 0.3
-	}
-
-	# Subordinate to Army
-	division= {	
-		name = "1° Raggruppamento Celere"
-		location = 6788
-		division_template = "Raggruppamento Celere"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
 	
 	## 4a Armata ##
 	# Corpo d'Armata Alpina #
@@ -600,24 +576,7 @@ units = {
 		ship = { name = "RM Euro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
 		ship = { name = "RM Nembo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
 		ship = { name = "RM Turbine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } }
-	}					
-	navy = {					
-		name = "Comando Navale Mar Rosso"				
-		base = 12766 
-		location = 12766 # Asmara, Eritrea		
-		# 3a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Francesco Nullo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "RM Nazario Sauro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Cesare Battisti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Daniele Manin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		# 5a Squadriglia Cacciatorpedindiere
-		ship = { name = "RM Leone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Pantera" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Tigre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		# 5a Squadriglia Torpedindiere de Mar Rosso
-		ship = { name = "RM Giovanni Acerbi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-		ship = { name = "RM Vincenzo Giordano Orsini" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
-	}					
+	}				
 	navy = {					
 		name = "5° Gruppo Sommergibili"				
 		base = 1130 
@@ -627,17 +586,7 @@ units = {
 		ship = { name = "RM Narvalo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } }
 		ship = { name = "RM Squalo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } }
 		ship = { name = "RM Tricheco" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } }
-	}					
-	navy = {					
-		name = "8° Gruppo Sommergibili"				
-		base = 12766 
-		location = 12766 # Asmara, Eritrea		
-		# 81a Squadriglia Sommergibili
-		ship = { name = "RM Luigi Settembrini" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } }
-		ship = { name = "RM Ruggiero Settimo" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } }
-		ship = { name = "RM Salpa" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } }
-		ship = { name = "RM Serpente " definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } }
-	}					
+	}				
 }
 
 ### Air Wings ###
@@ -712,22 +661,6 @@ air_wings = {
 		tac_bomber_equipment_0 =  {
 			owner = "SAV" 
 			amount = 32
-		}
-	}
-
-	### Commando Aeronautica Africa Orientale -- Eritrea
-	550 = {
-		fighter_equipment_0 =  {
-			owner = "SAV" 
-			amount = 40
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "SAV" 
-			amount = 32
-		}
-		CAS_equipment_1 =  {
-			owner = "SAV" 
-			amount = 48
 		}
 	}
 }

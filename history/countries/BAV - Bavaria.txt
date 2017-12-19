@@ -1,0 +1,158 @@
+﻿capital = 52
+
+#oob = "GER_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	transport = 1
+}
+
+
+
+
+
+set_research_slots = 3
+set_convoys = 100
+set_national_unity = 0.9
+
+#Trade
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 30
+		}
+		
+		communism = {
+			popularity = 20
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 30
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+#create_country_leader = {
+#	name = "Otto Wels"
+#	desc = "POLITICS_OTTO_WELS_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1939.1.16"
+#	ideology = socialism
+#	traits = {
+#		exiled
+#		union_man
+#	}
+#}
+#
+#create_country_leader = {
+#	name = "Ernst Thälmann"
+#	desc = "POLITICS_ERNST_THALMANN_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1956.1.1"
+#	ideology = stalinism
+#	traits = {
+#		assassination_survivor
+#		stalins_puppet
+#		political_prisoner
+#	}
+#}
+
+
+### Ship Variants ###
+## 1936 Start ##
+# Light Cruisers #
+create_equipment_variant = {
+	name = "Königsberg Class"
+	type = light_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 2
+		ship_gun_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+	obsolete = yes
+}
+# Heavy Cruisers #
+create_equipment_variant = {
+	name = "Deutschland Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 2
+	}
+}
+
+create_equipment_variant = {
+	name = "Ju 86"
+	type = tac_bomber_equipment_0
+	upgrades = {
+		plane_tac_bomb_upgrade = 5
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 5
+		plane_reliability_upgrade = 10
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Do 17"
+	type = tac_bomber_equipment_0
+	upgrades = {
+		plane_tac_bomb_upgrade = 5
+		plane_range_upgrade = 1
+		plane_engine_upgrade = 1
+		plane_reliability_upgrade = 5
+	}
+	obsolete = yes
+}
