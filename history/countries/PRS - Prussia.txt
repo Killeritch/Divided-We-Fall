@@ -79,30 +79,40 @@ set_politics = {
 
 }
 
-#create_country_leader = {
-#	name = "Otto Wels"
-#	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1939.1.16"
-#	ideology = socialism
-#	traits = {
-#		exiled
-#		union_man
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
+create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_OTTO_WELS_DESC"
+	picture = "Portrait_Wilhelm_III.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm Pieck"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#stalins_puppet
+		#exiled
+	}
+}
+
+create_country_leader = {
+	name = "Otto Wels"
+	desc = "POLITICS_OTTO_WELS_DESC"
+	picture = "Portrait_Otto_Wels.dds"
+	expire = "1939.1.16"
+	ideology = socialism
+	traits = {
+		#exiled
+		union_man
+	}
+}
 
 
 ### Ship Variants ###
