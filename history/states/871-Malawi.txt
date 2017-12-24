@@ -4,7 +4,7 @@ state={
 	name="STATE_871"
 
 	history={
-		owner = ENG		
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		12908 12986
+		2255 12908 12986
 	}
 	manpower=1603900
 	buildings_max_level_factor=1
