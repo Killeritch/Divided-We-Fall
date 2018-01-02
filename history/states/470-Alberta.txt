@@ -8,7 +8,7 @@ state={
 
 
 	history={
-		owner = CAN
+		owner = ABX
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -19,7 +19,7 @@ state={
 		victory_points = {
 			3706 2
 		}
-		add_core_of = CAN
+		add_core_of = ABX
 	}
 
 	provinces={

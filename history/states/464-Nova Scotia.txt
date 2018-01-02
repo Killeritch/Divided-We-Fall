@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = CAN
+		owner = NSX
 		victory_points = {
 			7361 8
 		}
@@ -17,11 +17,10 @@ state={
 			air_base = 3
 			7361 = {
 				naval_base = 6
-
 			}
-						dockyard = 1
+			dockyard = 1
 		}
-		add_core_of = CAN
+		add_core_of = NSX
 	}
 
 	provinces={

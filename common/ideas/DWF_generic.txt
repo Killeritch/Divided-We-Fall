@@ -1,0 +1,50 @@
+ideas = {
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+	
+		consumer_economy_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			
+			modifier = {
+				fascism_drift = -0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+
+		military_industrial_complex_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				democratic_drift = -0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+	}
+	
+
+
+}

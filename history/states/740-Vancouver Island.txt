@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = CAN
+		owner = BCX
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -17,7 +17,7 @@ state={
 				coastal_bunker = 2
 			}
 		}
-		add_core_of = CAN
+		add_core_of = BCX
 		victory_points = {
 			7259 5
 		}

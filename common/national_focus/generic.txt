@@ -2,7 +2,7 @@ focus_tree = {
 	id = generic_focus
 	
 	country = {
-		factor = 1
+		factor = 2
 	}
 	
 	default = yes
@@ -466,7 +466,6 @@ focus_tree = {
 		id = rocket_effort
 		icon = GFX_focus_rocketry
 		prerequisite = { focus = aviation_effort_2 }
-		prerequisite = { focus = infrastructure_effort }
 		x = 5
 		y = 4
 		cost = 10
@@ -893,33 +892,55 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-				OR = { 
-					# we dont want chinese minors to go crazy on slots early since they get eaten
-					tag = GXC 
-					tag = YUN
-					tag = SHX
-					tag = XSM
-					tag = BEL
-					tag = LUX
-					tag = HOL
-					tag = DEN
+		}
+	}
 
-					# we also dont want tiny nations to go crazy with slots right away
-					num_of_controlled_states < 2
-				}				
-			}
+	focus = {
+		id = consumer_economy
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = industrial_effort }
+		mutually_exclusive = { focus = military_industrial_complex }
+		x = 12
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = consumer_economy_focus
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = military_industrial_complex
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = industrial_effort }
+		mutually_exclusive = { focus = consumer_economy }
+		x = 14
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = military_industrial_complex_focus
+		}
+
+		ai_will_do = {
+			factor = 2			
 		}
 	}
 
 	focus = {
 		id = construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = industrial_effort }
+		prerequisite = { focus = consumer_economy }
 		x = 12
-		y = 1
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -988,10 +1009,10 @@ focus_tree = {
 
 	focus = {
 		id = production_effort
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = industrial_effort }
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = military_industrial_complex }
 		x = 14
-		y = 1
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1062,7 +1083,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = construction_effort }
 		x = 12
-		y = 2
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1133,7 +1154,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = production_effort }
 		x = 14
-		y = 2
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1202,9 +1223,9 @@ focus_tree = {
 	focus = {
 		id = infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = construction_effort_2 }
-		x = 12
-		y = 3
+		prerequisite = { focus = construction_effort_3 focus = production_effort_3 }
+		x = 13
+		y = 5
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1297,7 +1318,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = production_effort_2 }
 		x = 14
-		y = 3
+		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1367,8 +1388,8 @@ focus_tree = {
 		id = infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = infrastructure_effort }
-		x = 12
-		y = 4
+		x = 13
+		y = 6
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1459,8 +1480,8 @@ focus_tree = {
 	focus = {
 		id = construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = infrastructure_effort }
-		x = 14
+		prerequisite = { focus = construction_effort_2 }
+		x = 12
 		y = 4
 		cost = 10
 
@@ -1531,8 +1552,8 @@ focus_tree = {
 		id = nuclear_effort
 		icon = GFX_focus_wonderweapons
 		prerequisite = { focus = infrastructure_effort_2 }
-		x = 10
-		y = 5
+		x = 15
+		y = 7
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1558,8 +1579,8 @@ focus_tree = {
 		id = extra_tech_slot
 		icon = GFX_focus_research
 		prerequisite = { focus = infrastructure_effort_2 }
-		x = 12
-		y = 5
+		x = 13
+		y = 7
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1578,8 +1599,8 @@ focus_tree = {
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 12
-		y = 6
+		x = 13
+		y = 8
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1593,8 +1614,8 @@ focus_tree = {
 		id = secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = { focus = infrastructure_effort_2 }
-		x = 14
-		y = 5
+		x = 11
+		y = 7
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1647,16 +1668,6 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 0
-				OR = {
-					AND = {
-						is_historical_focus_on = yes
-						has_government = neutrality
-					}
-					has_idea = neutrality_idea
-				}
-			}
 		}
 
 		completion_reward = {
@@ -1763,7 +1774,7 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 95
+			factor = 5
 			modifier = {
 				factor = 0.1
 				any_neighbor_country = {

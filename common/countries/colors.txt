@@ -1027,9 +1027,57 @@ SOM = {
 # Divided We Fall NORTH AMERICAN countries
 ###########################################
 
+ABX = {
+	color = rgb { 13  54  146 } #the blue on Alberta's flag
+	color_ui = rgb { 13  54  146 } #the blue on Alberta's flag
+}
+BCX = {
+	color = rgb { 255  204  0 } #the yellow on British Columbia's flag
+	color_ui = rgb { 255  204  0 } #the yellow on British Columbia's flag
+}
+MBX = {
+	color = rgb { 204  0  0 } #the red on Manitoba's flag
+	color_ui = rgb { 204  0  0 } #the red on Manitoba's flag
+}
+NBX = {
+	color = rgb { 244  198  0 } #the yellow on New Brunswick's flag
+	color_ui = rgb { 255  199  0 } #the yellow on New Brunswick's flag
+}
+NLX = {
+	color = rgb { 205  0  25 } #the red on Newfoundland & Labrador's flag
+	color_ui = rgb { 205  0  25 } #the red on Newfoundland & Labrador's flag
+}
+NSX = {
+	color = rgb { 0  71  182 } #the blue on Nova Scotia's flag
+	color_ui = rgb { 0  71  182 } #the blue on Nova Scotia's flag
+}
+NTX = {
+	color = rgb { 0  84  159 } #the blue on the Northwest Territories's flag
+	color_ui = rgb { 0  84  159 } #the blue on the Northwest Territories's flag
+}
+ONX = {
+	color = rgb { 207  20  43 } #the red on Ontario's flag
+	color_ui = rgb { 207  20  43 } #the red on Ontario's flag
+}
+PEX = {
+	color = rgb { 213  64  64 } #the red on Prince Edward Island's flag
+	color_ui = rgb { 213  64  64 } #the red on Prince Edward Island's flag
+}
+QCX = {
+	color = rgb { 0  36  149 } #the blue on Quebec's flag
+	color_ui = rgb { 0  36  149 } #the blue on Quebec's flag
+}
 RIO = {
 	color = rgb { 218  18  26 } #red from Rio Grande's flag
 	color_ui = rgb { 218  18  26 } #red from Rio Grande's flag
+}
+SKX = {
+	color = rgb { 7  106  33 } #the green on Saskatchewan's flag
+	color_ui = rgb { 7  106  33 } #the green on Saskatchewan's flag
+}
+YTX = {
+	color = rgb { 24  123  1 } #the green on the Yukon's flag
+	color_ui = rgb { 24  123  1 } #the green on the Yukon's flag
 }
 YUC = {
 	color = rgb { 0  104  71 } #green from Yucatan's flag

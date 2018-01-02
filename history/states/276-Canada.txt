@@ -7,14 +7,14 @@ state={
 	state_category = megalopolis
 	
 	history={
-		owner = CAN
+		owner = ONX
 		buildings = {
 			infrastructure = 7
 			arms_factory = 5
 			industrial_complex = 6
 			air_base = 5
 		}
-		add_core_of = CAN
+		add_core_of = ONX
 		victory_points = {
 			3778 20
 		}

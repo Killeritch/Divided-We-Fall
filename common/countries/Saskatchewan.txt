@@ -1,0 +1,6 @@
+
+
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
+
+color = { 7  106  33 } #the green on Saskatchewan's flag

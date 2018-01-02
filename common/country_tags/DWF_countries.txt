@@ -61,6 +61,19 @@ RST = "countries/RustBelt.txt"
 
 #####
 
+ABX = "countries/Alberta.txt"
+BCX = "countries/British Columbia.txt"
+MBX = "countries/Manitoba.txt"
+NBX = "countries/New Brunswick.txt"
+NLX = "countries/Newfoundland.txt"
+NSX = "countries/Nova Scotia.txt"
+NTX = "countries/Northwest Territories.txt"
+ONX = "countries/Ontario.txt"
+PEX = "countries/Prince Edward Island.txt"
+QCX = "countries/Quebec.txt"
+SKX = "countries/Saskatchewan.txt"
+YTX = "countries/Yukon.txt"
+
 NIR = "countries/Northern Ireland.txt"
 SCO = "countries/Scotland.txt"
 WAL = "countries/Wales.txt"

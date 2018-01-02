@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = CAN
+		owner = SKX
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -19,7 +19,7 @@ state={
 		victory_points = {
 			4739 1
 		}
-		add_core_of = CAN
+		add_core_of = SKX
 	}
 
 	provinces={

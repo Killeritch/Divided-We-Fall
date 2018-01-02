@@ -3,15 +3,15 @@ state={
 	name="STATE_472"
 	
 	state_category = wasteland
-        impassable = yes
+    #    impassable = yes
 
 	history={
-		owner = CAN
+		owner = NTX
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = CAN
+		add_core_of = NTX
 
 	}
 
