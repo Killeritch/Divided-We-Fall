@@ -146,38 +146,6 @@ units = {
 	}
 
 	### 3. Armee (Wehrmacht-Gruppenkommando) ###
-	# IV. Armeekorps
-	division= {	
-		name = "4. Infanterie-Division"
-		location = 6462
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "14. Infanterie-Division"
-		location = 6462
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "24. Infanterie-Division"
-		location = 6462
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# VIII. Armeekorps
-	division= {	
-		name = "8. Infanterie-Division"
-		location = 11467
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "18. Infanterie-Division"
-		location = 11467
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
 
 	# I. Armeekorps
 	division= {	
@@ -206,160 +174,24 @@ units = {
 	}
 
 
-	### 2. Armee (Wehrmacht-Gruppenkommando) ###
-	division= {	
-		name = "13. Infanterie-Division"
-		location = 6257
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# VI. Armeekorps
-	division= {	
-		name = "6. Infanterie-Division"
-		location = 11264
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "16. Infanterie-Division"
-		location = 11264
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# IX. Armeekorps
-	division= {	
-		name = "9. Infanterie-Division"
-		location = 11388
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "15. Infanterie-Division"
-		location = 241
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# X. Armeekorps
-	division= {	
-		name = "19. Infanterie-Division"
-		location = 6488
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "20. Infanterie-Division"
-		location = 9572
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "22. Infanterie-Division"
-		location = 9572
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-
-	# V. Armeekorps
-	division= {	
-		name = "5. Infanterie-Division"
-		location = 9517
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-
-	# VII. Armeekorps
-	division= {	
-		name = "7. Infanterie-Division"
-		location = 11544
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "10. Infanterie-Division"
-		location = 11497
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "17. Infanterie-Division"
-		location = 586
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}			
-	division= {	
-		name = "Gebirgs-Brigade" 
-		location = 692
-		division_template = "Gebirgs-Brigade" 
-		start_experience_factor = 0.3
-	}
-
-
 	##### NAVAL UNITS #####
-	navy = {
-		name = "Kriegsmarine"
-		base = 241
-		location = 241  # Wilhemshaven
-		ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
-		ship = { name = "Admiral Scheer" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
-		ship = { name = "Nürnberg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } } 		
-		ship = { name = "Leipzig" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }		
-		ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
-		ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
-		ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
-		ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
-		# 1. Torpedobootflottille
-		ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Leopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Luchs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Tiger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-	}
 
 	navy = {
 		name = "Ostseeflotte"
 		base = 6332
 		location = 6332  # Konigsberg
-		ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }		
+		ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = PRS } } }		
 		# 2. Torpedobootflottille
-		ship = { name = "Möwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Seeadler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Greif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Möwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Seeadler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Greif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
 		# 3. Torpedobootflottille
-		ship = { name = "Falke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Kondor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Iltis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-	}
-	
-	navy = {
-		name = "Unterseebootsflotte Weddigen"
-		base = 6389
-		location = 6389  # Kiel
-		# 1. Unterseebootsflottille
-		ship = { name = "U-7" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-8" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-9" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-10" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		# 4. Unterseebootsflottille
-		ship = { name = "U-11" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-12" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-13" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-17" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-	}
-
-	navy = {
-		name = "Unterseeboots-Schule"
-		base = 241
-		location = 241  # Wilhemshaven
-		# 2. Unterseebootsflottille
-		ship = { name = "U-1" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-2" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-3" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		# 3. Unterseebootsflottille
-		ship = { name = "U-4" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-5" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
-		ship = { name = "U-6" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "Falke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Kondor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		ship = { name = "Iltis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
 	}
 }
 
@@ -369,7 +201,7 @@ air_wings = {
 	5 = { 
 		# Jagdgeschwader 232 	
 		fighter_equipment_0 =  {		# He 51
-			owner = "GER" 
+			owner = "PRS" 
 			amount = 40
 		}
 		name = "Jagdgeschwader 232"
@@ -379,7 +211,7 @@ air_wings = {
 	64 = { 
 		# Jagdgeschwader 132 'Richtofen'		
 		fighter_equipment_0 =  {		# Ar 68
-			owner = "GER" 
+			owner = "PRS" 
 			amount = 80
 		}
 		name = "Jagdgeschwader 132"
@@ -392,85 +224,20 @@ air_wings = {
 		}
 		# Kampfgeschwader 153		
 		tac_bomber_equipment_0 = {		# Do 23
-			owner = "GER" 
+			owner = "PRS" 
 			amount = 80
 		}
 		tac_bomber_equipment_0 = {		# Ju 86
-			owner = "GER" 
+			owner = "PRS" 
 			amount = 40
 			version_name = "Ju 86"
 		}
 		name = "Kampfgeschwader 153"
 		# TODO: REMOVE THIS LATER ???
 		transport_plane_equipment_1 = {
-			owner = "GER" 
+			owner = "PRS" 
 			amount = 4
 		}
-	}
-
-	### III. Luftkreiskommando -- Breslau ###
-	66 = { 
-		# Kampfgeschwader 253 'General Wever'		
-		tac_bomber_equipment_0 = {		# He 45 or Do 23 ?
-			owner = "GER" 
-			amount = 120
-		}
-		name = "Kampfgeschwader 253"
-		# Sturzkampfgeschwader 162		
-		CAS_equipment_1 =  {			# Hs 123
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Sturzkampfgeschwader 162"	
-	}
-
-	### IV. Luftkreiskommando -- Kassel ###
-	57 = { 
-		# Jagdgeschwader 134 'Horst Wessel'		
-		fighter_equipment_0 =  {		# He 51 # Ar 68
-			owner = "GER" 
-			amount = 120
-		}
-		name = "Jagdgeschwader 134"
-		# Kampfgeschwader 152 'Hindenburg'	
-		tac_bomber_equipment_1 = {		# Do 23
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Kampfgeschwader 152"
-		# Kampfgeschwader 155	
-		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Kampfgeschwader 155"
-	}
-
-	### V. Luftkreiskommando -- Munich ###
-	52 = { 
-		# Jagdgeschwader 136		
-		fighter_equipment_0 =  {		# He 51
-			owner = "GER" 
-			amount = 40
-		}
-		name = "Jagdgeschwader 136"
-		# Kampfgeschwader 154	
-		tac_bomber_equipment_0 = {		# Do 23
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Kampfgeschwader 154"
-	}
-
-	### VI. Luftkreiskommando -- Kiel ###
-	58 = { 
-		# Küstenfliegergruppe 106		
-		nav_bomber_equipment_1 =  {		# He 59, Do 18
-			owner = "GER" 
-			amount = 72
-		}
-		name = "Küstenfliegergruppe 106"
-		# Küstenfliegergruppe 206
 	}
 }
 
@@ -483,7 +250,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "GER"
+			creator = "PRS"
 		}
 		requested_factories = 10
 		progress = 0.1
@@ -493,7 +260,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 2
 		progress = 0.3
@@ -503,7 +270,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 1
 		progress = 0.3
@@ -513,7 +280,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_2
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 2
 		progress = 0.4
@@ -523,7 +290,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 2
 		progress = 0.4
@@ -533,7 +300,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_1
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 1
 		progress = 0.15
@@ -543,7 +310,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = CAS_equipment_1
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 1
 		progress = 0.2
@@ -553,7 +320,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = tac_bomber_equipment_1
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 1
 		progress = 0.1
@@ -565,7 +332,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = submarine_2
-			creator = "GER" 
+			creator = "PRS" 
 		}
 		requested_factories = 5
 		progress = 0.75
@@ -575,7 +342,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = destroyer_2
-			creator = "GER"
+			creator = "PRS"
 		}
 		requested_factories = 3
 		progress = 0.75
@@ -585,7 +352,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = heavy_cruiser_1
-			creator = "GER"
+			creator = "PRS"
 			version_name = "Deutschland Class"
 		}
 		requested_factories = 1
@@ -596,7 +363,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = battleship_2
-			creator = "GER"
+			creator = "PRS"
 		}
 		requested_factories = 3
 		progress = 0.25
@@ -606,7 +373,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = battleship_2
-			creator = "GER"
+			creator = "PRS"
 		}
 		requested_factories = 3
 		progress = 0.1

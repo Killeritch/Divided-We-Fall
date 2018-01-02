@@ -1,0 +1,168 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Panzer-Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "SS-Division" 			# SS division
+	# Note: actually a grouping of 3 independent SS-mot regiments
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Gebirgs-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+
+	### 2. Armee (Wehrmacht-Gruppenkommando) ###
+	division= {
+		name = "13. Infanterie-Division"
+		location = 6257
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	
+	##### NAVAL UNITS #####
+	navy = {
+		name = "Unterseebootsflotte Weddigen"
+		base = 6389
+		location = 6389  # Kiel
+		# 1. Unterseebootsflottille
+		ship = { name = "U-7" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		ship = { name = "U-8" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		ship = { name = "U-9" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		ship = { name = "U-10" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		# 4. Unterseebootsflottille
+		ship = { name = "U-11" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		ship = { name = "U-12" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		ship = { name = "U-13" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+		ship = { name = "U-17" definition = submarine equipment = { submarine_2 = { amount = 1 owner = HLS } } }
+	}
+}
+
+### Air oob
+air_wings = {
+	### VI. Luftkreiskommando -- Kiel ###
+	58 = {
+		# Küstenfliegergruppe 106		
+		nav_bomber_equipment_1 =  {		# He 59, Do 18
+			owner = "HLS" 
+			amount = 72
+		}
+		name = "Küstenfliegergruppe 106"
+		# Küstenfliegergruppe 206
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HLS"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "HLS" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "HLS" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+
+#####################
