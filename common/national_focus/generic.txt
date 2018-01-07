@@ -917,7 +917,7 @@ focus_tree = {
 
 	focus = {
 		id = military_industrial_complex
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = industrial_effort }
 		mutually_exclusive = { focus = consumer_economy }
 		x = 14
@@ -1009,7 +1009,7 @@ focus_tree = {
 
 	focus = {
 		id = production_effort
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = military_industrial_complex }
 		x = 14
 		y = 2
@@ -1655,38 +1655,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = collectivist_ethos
-		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = liberty_ethos}
-		x = 18
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		completion_reward = {
-			add_ideas = collectivist_ethos_focus
-		}
-	}
-
-	focus = {
 		id = nationalism_focus
 		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = collectivist_ethos }
+		prerequisite = { focus = political_effort }
 		mutually_exclusive = { focus = internationalism_focus }
-		available = {
-			NOT = {
-				has_government = communism
-			}
-		}
-		x = 16
-		y = 2
+#		available = {
+#			NOT = {
+#				has_government = communism
+#			}
+#		}
+		x = 20
+		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1717,16 +1696,16 @@ focus_tree = {
 	
 	focus = {
 		id = internationalism_focus
-		icon = GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = collectivist_ethos }
+		icon = GFX_goal_generic_national_unity #GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = political_effort }
 		mutually_exclusive = { focus = nationalism_focus }
-		available = {
-			NOT = {
-				has_government = fascism
-			}
-		}
+#		available = {
+#			NOT = {
+#				has_government = fascism
+#			}
+#		}
 		x = 18
-		y = 2
+		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1752,56 +1731,71 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = internationalism
+			if = {
+				limit = {
+					OR = {
+						tag = GUA
+						tag = GUY
+						tag = PRU
+						tag = ARG
+						tag = ETH
+						tag = SAU
+						tag = CHI
+						tag = INS
+					}
+				}
+				country_event = { id = faction.1 }
+			}
 		}
 	}	
 
-	focus = {
-		id = liberty_ethos
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = political_effort }
-		mutually_exclusive = { focus = collectivist_ethos }
-		available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-			}
-		}
-		x = 20
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 0.1
-				any_neighbor_country = {
-					is_major = yes
-					OR = {
-						has_government = communism
-						has_government = fascism
-					}
-				}
-				NOT = {
-					any_neighbor_country = {
-						is_major = yes
-						has_government = democratic
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			add_ideas = liberty_ethos_focus
-		}
-	}
+#	focus = {
+#		id = liberty_ethos
+#		icon = GFX_goal_support_democracy
+#		prerequisite = { focus = political_effort }
+#		mutually_exclusive = { focus = collectivist_ethos }
+#		available = {
+#			OR = {
+#				has_government = democratic
+#				has_government = neutrality
+#			}
+#		}
+#		x = 20
+#		y = 1
+#		cost = 10
+#
+#		available_if_capitulated = yes
+#
+#
+#		ai_will_do = {
+#			factor = 5
+#			modifier = {
+#				factor = 0.1
+#				any_neighbor_country = {
+#					is_major = yes
+#					OR = {
+#						has_government = communism
+#						has_government = fascism
+#					}
+#				}
+#				NOT = {
+#					any_neighbor_country = {
+#						is_major = yes
+#						has_government = democratic
+#					}
+#				}
+#			}
+#		}
+#
+#		completion_reward = {
+#			add_ideas = liberty_ethos_focus
+#		}
+#	}
 
 	focus = {
 		id = militarism
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = nationalism_focus }
+#		prerequisite = { focus = nationalism_focus }
 		x = 16
 		y = 3
 		cost = 10
@@ -1822,7 +1816,7 @@ focus_tree = {
 	focus = {
 		id = political_correctness
 		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = internationalism_focus }
+#		prerequisite = { focus = internationalism_focus }
 		x = 18
 		y = 3
 		cost = 10
@@ -1842,7 +1836,7 @@ focus_tree = {
 	focus = {
 		id = neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = liberty_ethos }
+#		prerequisite = { focus = liberty_ethos }
 		mutually_exclusive = { focus = interventionism_focus }
 		x = 20
 		y = 2
@@ -1862,7 +1856,7 @@ focus_tree = {
 	focus = {
 		id = interventionism_focus
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = liberty_ethos }
+#		prerequisite = { focus = liberty_ethos }
 		mutually_exclusive = { focus = neutrality_focus }
 		x = 22
 		y = 2

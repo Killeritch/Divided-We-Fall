@@ -2,10 +2,10 @@ focus_tree = {
 	id = California
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = CAX
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = CAX
+		#}
 	}
 	default = no
 	focus = {

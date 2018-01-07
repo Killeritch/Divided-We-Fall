@@ -1,0 +1,356 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+#
+
+is_CAN = {
+	OR = {
+		tag = ABX
+		tag = BCX
+		tag = MBX
+		tag = NBX
+		tag = NLX
+		tag = NSX
+		tag = NTX		
+		tag = ONX
+		tag = PEX
+		tag = QCX
+		tag = SKX
+		tag = YTX
+	}
+}
+
+is_USA = {
+	OR = {
+		tag = ALX
+		tag = AKX
+		tag = AZX
+		tag = ARX
+		tag = CAX
+		tag = COX
+		tag = CTX
+		tag = DEX
+		tag = FLX
+		tag = GAX
+		tag = HIX
+		tag = IDX
+		tag = ILX
+		tag = INX
+		tag = IAX
+		tag = KSX
+		tag = KYX
+		tag = LAX
+		tag = MEZ
+		tag = MDX
+		tag = MAX
+		tag = MIX
+		tag = MNX
+		tag = MSX
+		tag = MOX
+		tag = MTX
+		tag = NEX
+		tag = NVX
+		tag = NHX
+		tag = NJX
+		tag = NMX
+		tag = NYX
+		tag = NCX
+		tag = NDX
+		tag = OHX
+		tag = OKX
+		tag = ORX
+		tag = PAX
+		tag = RIX
+		tag = SCX
+		tag = SDX
+		tag = TNX
+		tag = TXX
+		tag = UTX
+		tag = VTX
+		tag = VAX
+		tag = WAX
+		tag = WVX
+		tag = WIX
+		tag = WYX
+	}
+}
+
+is_CSA = {
+	OR = {
+		tag = TXX
+		tag = ARX
+		tag = LAX
+		tag = TNX
+		tag = MSX
+		tag = ALX
+		tag = VAX
+		tag = NCX
+		tag = SCX
+		tag = GAX
+		tag = FLX
+	}
+}
+
+is_MEX = {
+	OR = {
+		tag = MEX
+		tag = RIO
+		tag = YUC
+	}
+}
+
+is_caribbean = {
+	OR = {
+		tag = CUB
+		tag = HAI
+		tag = DOM
+		tag = PRX
+		tag = GUY
+	}
+}
+
+is_central_american = {
+	OR = {
+		tag = GUA
+		tag = ELS
+		tag = HON
+		tag = NIC
+		tag = COS
+		tag = PAN
+	}
+}
+
+is_BRA = {
+	OR = {
+		tag = BRA
+		tag = ACR
+		tag = AMP
+		tag = PRA
+		tag = JUL
+		tag = PIR
+	}
+}
+
+is_south_american = {
+	OR = {
+		is_BRA = yes
+		tag = COL
+		tag = VEN
+		tag = GUY
+		tag = PRU
+		tag = ECU
+		tag = BOL
+		tag = CHL
+		tag = ARG
+		tag = URG
+		tag = PAR
+	}
+}
+
+is_scandinavian = {
+	OR = {
+		tag = ICE
+		tag = DEN
+		tag = SWE
+		tag = NOR
+		tag = FIN
+	}
+}
+
+is_british = {
+	OR = {
+		tag = ENG
+		tag = SCO
+		tag = WAL
+		tag = NIR
+#		tag = CRN
+	}
+}
+
+is_SPR = {
+	OR = {
+		tag = SPR
+		tag = GAL
+		tag = ARA
+		tag = CAT
+	}
+}
+
+is_GER = {
+	OR = {
+		tag = BAV
+		tag = HAN
+		tag = HES
+		tag = HLS
+		tag = MEC
+		tag = OLD
+		tag = PRS
+		tag = RHI
+		tag = SAA
+		tag = SAX
+		tag = SIL
+		tag = THU
+		tag = WPH
+		tag = WUR
+	}
+}
+
+is_ITA = {
+	OR = {
+		tag = GEN
+		tag = LOM
+		tag = NAP
+		tag = RMA
+		tag = SAR
+		tag = SAV
+		tag = SIC
+		tag = TUS
+		tag = VNC
+	}
+}
+
+is_YUG = {
+	OR = {
+		tag = SVN
+		tag = CRO
+		tag = BIH
+		tag = SER
+		tag = KOS
+		tag = MNT
+		tag = MKD
+	}
+}
+
+is_african = {
+	OR = {
+		tag = MOR
+		tag = ALG
+		tag = TUN
+		tag = LBA
+		tag = EGY
+		tag = SML
+		tag = SOM
+		tag = SIE
+		tag = LIB
+		tag = ETH
+		tag = ERI
+		tag = KEN
+		tag = BOT
+		tag = ZIM
+		tag = COG
+		tag = ANG
+		tag = MZB
+		tag = SAF
+	}
+}
+
+is_arab = {
+	OR = {
+		tag = MOR
+		tag = ALG
+		tag = TUN
+		tag = LBA
+		tag = EGY
+		tag = SML
+		tag = SOM
+		tag = PAL
+		tag = LEB
+		tag = SYR
+		tag = IRQ
+		tag = JOR
+		tag = SAU
+		tag = YEM
+		tag = OMA
+	}
+}
+
+is_central_asian = {
+	OR = {
+		tag = KAZ
+		tag = KGZ
+		tag = TJK
+		tag = TKM
+		tag = UZB
+		tag = AFG
+		tag = SIK
+	}
+}
+
+is_muslim = {
+	OR = {
+		is_arab = yes
+		is_central_asian = yes
+		tag = BIH
+		tag = ALB
+		tag = TUR
+		tag = AZR
+		tag = PAK
+		tag = INS
+		tag = MAL
+	}
+}
+
+is_himalayan = {
+	OR = {
+		tag = TIB
+		tag = NEP
+		tag = BHU
+	}
+}
+
+is_CHI = {
+	OR = {
+		tag = CHI
+		tag = PRC
+		tag = YUN
+		tag = MAN
+		tag = SHX
+		tag = GXC
+		tag = XSM
+		tag = MEN
+	}
+}
+
+is_east_asian = {
+	OR = {
+		is_CHI = yes
+		tag = TIB
+		tag = SIK
+		tag = MON
+		tag = KOR
+		tag = JAP
+	}
+}
+
+is_ASEAN = {
+	OR = {
+		tag = BUR
+		tag = SIA
+		tag = LAO
+		tag = VIN
+		tag = CAM
+		tag = PHI
+		tag = MAL
+		tag = INS
+		tag = PNG
+	}
+}
+
+is_CANZUK = {
+	OR = {
+		is_CAN = yes
+		is_british = yes
+		tag = AST
+		tag = NZL
+	}
+}

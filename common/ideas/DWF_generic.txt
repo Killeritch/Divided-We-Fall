@@ -43,6 +43,46 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 			}
 		}
+	
+		nationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				communism_drift = -0.1
+			}
+		}
+
+		internationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				#justify_war_goal_time = -0.25
+				fascism_drift = -0.1
+			}
+		}
 	}
 	
 

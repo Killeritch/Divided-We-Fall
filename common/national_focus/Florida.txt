@@ -2,10 +2,10 @@ focus_tree = {
 	id = Florida
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = FLX
-		}
+		#modifier = {
+		#	add = 10
+		#	tag = FLX
+		#}
 	}
 	default = no
 	focus = {
