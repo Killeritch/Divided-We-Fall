@@ -46,4 +46,24 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_convoys = 200
+create_country_leader = {
+	name = "James Craig"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_James_Craig.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Davison"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_Joseph_Davison.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+	}
+}
+
+set_convoys = 100

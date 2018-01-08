@@ -1,0 +1,337 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+###############################################################
+# British Isles
+###############################################################
+
+NIR = {
+	male = {
+		names = { Albert Alexander Alfred Arthur Bernard Charles
+			Colin David Donald Douglas Edmund Edward Francis
+			Geoffrey George Graham Henry Hugh Ian
+			James Jeremy John Martin Nigel Max
+			Percy Richard Robert Russell Stanley Thomas Wallace William Zachary Jake
+			#
+			Brian Cathal Christopher Conor Daniel Denis Desmond Éamon
+			Ernes Fionán Frank Harry Jack Joseph
+			Kevin Liam Michael Patrick Peter Séan
+			#
+			Rory Trevor
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne }
+	}
+	surnames = { 	Beatty Brown Butler Campbell
+			Cochrane Cockburn Dundas French Grant Haig
+			Hamilton Hope Lyons Madden Milne Montgomery Murphy
+			Napier Roberts Seaton
+			Smith Stewart Williams Wood
+			#
+			Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly
+			FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+			Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunkett White
+			#
+			Graham Hughes Johnston Martin McLaughlin Moore Murray O'Neill Quinn Robinson Smyth
+			Thompson Wilson
+			
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+SCO = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles
+			Colin David Donald Douglas Edmund Edward Francis
+			Geoffrey George Graham Henry Hugh Ian
+			James Jeremy John Martin Nigel Max
+			Percy Richard Robert Russell Stanley Thomas Wallace William Zachary Jake
+			#
+			Brian Christopher Daniel Denis Frank Harry Jack Joseph
+			Kevin Liam Michael Patrick Peter
+			#
+			Aidan Alan Alasdair Angus Bruce Callum Craig Duncan Euan Gordon Hamish Jock
+			Keir Kenneth Malcolm Mungo Neil Rory Ross Roy Scott Stuart Tavish
+		  }
+	}
+	female = {
+		names = {
+			Elizabeth Anne
+			#
+			Catriona Fiona Isobel Kirsty Moira
+		}
+	}
+	surnames = {
+			Beatty Brown Butler Campbell Cochrane Cockburn Dundas French Grant Haig Hamilton
+			Hope Milne Montgomery Napier Roberts Seaton Smith Stewart Williams Wood
+			#
+			Ainslie Anderson Arthur Alexander Blyth Bowie Boyd Boyle Bruce Cameron Carmichael
+			Clark Cowan Craig Curry Dalglish Docherty Donaldson Duncan Ferguson Fraser Hall Harper
+			Harvie Henderson Hepburn Hood Hume Hutchinson Johnston Keith Kerr Laing Laird
+			MacAlasdair MacArthur MacAskill MacDonald MacGregor MacLellan MacLeod MacNeill
+			MacRae MacTavish McClelland McDiarmid McDuffie McFadden McGowan McIlroy McLennan
+			McPhee Menzies Mercer Miller Mitchell Morrison Murray Naughton Osborne Paterson Patrick
+			Patten Ramsay Reid Robertson Ross Sanders Scott Simpson Sinclair Somerville Stein Strachan
+			Taylor Thomson Wallace Watson White Wilson Young
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+WAL = {
+	male = {
+		names = { Albert Alexander Alfred Arthur Bernard Charles
+			Colin David Donald Douglas Edmund Edward Francis
+			Geoffrey George Graham Henry Hugh Ian
+			James Jeremy John Martin Nigel Max
+			Percy Richard Robert Russell Stanley Thomas Wallace William Zachary Jake
+			#
+			Christopher Daniel Denis Frank Harry Jack Joseph
+			Kevin Liam Michael Patrick Peter
+			#
+			Aled Dylan Gareth Gavin Evan Lloyd Llywelyn Mervyn Morgan Owen Rhys Trevor
+		}
+	}
+	female = {
+		names = {
+			Elizabeth Anne
+			#
+			Gladys Glenys Gwyneth Megan Meredith Morgan Rhiannon
+		}
+	}
+	surnames = { 
+			#
+			Collins Cox Davies Driscoll Edwards Evans Griffiths Hughes James Jenkins Jones Lewis
+			Lloyd Llywellyn Morgan Moss Owen Phillips Powell Price Pritchard Rees Roberts
+			Smith Thomas Vaughan Watkins Williams Wogan Wynne
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+###############################################################
+# Spain
+###############################################################
+
+ARA = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+
+CAT = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+
+CST = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+
+GAL = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+
+LEO = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Augusto Baldomero
+			Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+			Joaquín José  Juan Julio Leopoldo Lorenzo 
+			Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+			Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente 
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Blázquez
+		Acuña Aguirre Allendesalazar Alonso Álvarez  Aranda  Asensio
+		Aznar Barradas Bugallal Cabrera Cano Cervera "de Albornoz" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco 
+		García  González Heredia Hernández Herrera Hevia  Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
+	
+	
+	}
+	callsigns = { }
+}
+
+###############################################################
+# Middle East
+###############################################################
+
+TUN = {
+	male = {
+		names = {  
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+		}
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+	
+	}
+	callsigns = { }
+}
+ALG = {
+	male = {
+		names = {  
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+		}
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+	
+	}
+	callsigns = { }
+}
+MOR = {
+	male = {
+		names = {  
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+		}
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+	
+	}
+	callsigns = { }
+}

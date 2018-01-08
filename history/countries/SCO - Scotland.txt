@@ -46,4 +46,34 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_convoys = 200
+create_country_leader = {
+	name = "Archibald Sinclair"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_Archibald_Sinclair.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "James Maxton"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_James_Maxton.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "King John"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_John_MacCormick.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+set_convoys = 100

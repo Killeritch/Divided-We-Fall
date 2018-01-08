@@ -46,4 +46,24 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_convoys = 200
+create_country_leader = {
+	name = "Clement Davies"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_Clement_Davies.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arthurt Horner"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_Arthur_Horner.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+set_convoys = 100

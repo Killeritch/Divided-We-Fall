@@ -94,7 +94,7 @@ set_technology = {
 
 
 
-set_convoys = 400
+set_convoys = 100
 set_national_unity = 0.8
 
 set_politics = {
@@ -118,6 +118,17 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Charles H. Martin"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_Charles_Martin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }
 
 ### Ship Variants ###
