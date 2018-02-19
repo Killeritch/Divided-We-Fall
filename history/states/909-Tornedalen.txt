@@ -5,8 +5,9 @@ state={
 	state_category=wasteland
 	
 	history={
-		owner=SWE
-		add_core_of=SWE
+		owner = SAP
+		add_core_of = SAP
+		#add_core_of = SWE
 		buildings={
 			infrastructure=4
 		}

@@ -6,7 +6,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = SGS
+		add_core_of = SGS
 		buildings = {
 			infrastructure = 1
 			10995 = {

@@ -894,6 +894,23 @@ UZB = {
 # Divided We Fall EUROPEAN countries
 ###########################################
 
+FAR = {
+	color = rgb { 33  64  154 } #the blue on the Faroes's coat of arms
+	color_ui = rgb { 33  64  154 } #the blue on the Faroes's coat of arms
+}
+GRN = {
+	color = rgb { 0  83  149 } #the blue on Greenland's coat of arms - or { 208  12  51 } #the red on Greenland's flag
+	color_ui = rgb { 0  83  149 } #the blue on Greenland's coat of arms - or { 208  12  51 } #the red on Greenland's flag
+}
+SAP = {
+	color = rgb { 0  122  61 } #the green on Sapmi's flag
+	color_ui = rgb { 0  122  61 } #the green on Sapmi's flag
+}
+
+CRN = {
+	color = rgb { 0  0  0 } #the black on Cornwall's flag
+	color_ui = rgb { 0  0  0 } #the black on Cornwall's flag
+}
 NIR = {
 	color = rgb { 255  143  0 } #the orange on the Orange Order flag
 	color_ui = rgb { 255  143  0 } #the orange on the Orange Order flag
@@ -905,6 +922,39 @@ SCO = {
 WAL = {
 	color = rgb { 0  171  57 } #the green on Wales' flag
 	color_ui = rgb { 0  171  57 } #the green on Wales' flag
+}
+
+ALS = {
+	color = rgb { 255  210  3 } #the yellow on Alsace's flag
+	color_ui = rgb { 255  210  3 } #the yellow on Alsace's flag
+}
+AQU = {
+	color = rgb { 200  10  15 } #the red on Aquitaine's flag
+	color_ui = rgb { 200  10  15 } #the red on Aquitaine's flag
+}
+BRG = {
+	color = rgb { 144  0  32 } #the colour burgundy
+	color_ui = rgb { 144  0  32 } #the colour burgundy
+}
+BRI = {
+	color = rgb { 255  255  255 } #the white on Brittany's flag
+	color_ui = rgb { 255  255  255 } #the white on Brittany's flag
+}
+COR = {
+	color = rgb { 255  255  255 } #the white on Corsica's flag
+	color_ui = rgb { 255  255  255 } #the white on Corsica's flag
+}
+NRM = {
+	color = rgb { 200  10  15 } #the red on Normandy's flag
+	color_ui = rgb { 200  10  15 } #the red on Normandy's flag
+}
+OCC = {
+	color = rgb { 212  0  28 } #the red on Occitania's flag
+	color_ui = rgb { 212  0  28 } #the red on Occitania's flag
+}
+PRO = {
+	color = rgb { 0  33  132 } #the blue on Provence's flag
+	color_ui = rgb { 0  33  132 } #the blue on Provence's flag
 }
 
 BAV = {
@@ -967,6 +1017,18 @@ WUR = {
 ARA = {
 	color = rgb { 232 25 6 }
 	color_ui = rgb { 232 25 6 }
+}
+CST = {
+	color = rgb { 252  221  9 } #the yellow on Castile's flag
+	color_ui = rgb { 255  222  10 } #the yellow on Castile's flag
+}
+EUS = {
+	color = rgb { 213 43 30 } #the red in the Basque flag
+	color_ui = rgb { 213 43 30 } #the red in the Basque flag
+}
+LEO = {
+	color = rgb { 116  44  100 } #the purple on Leon's flag
+	color_ui = rgb { 116  44  100 } #the purple on Leon's flag
 }
 
 GEN = {
@@ -1031,9 +1093,17 @@ ABX = {
 	color = rgb { 13  54  146 } #the blue on Alberta's flag
 	color_ui = rgb { 13  54  146 } #the blue on Alberta's flag
 }
+BAH = {
+	color = rgb { 0  119  139 } #the blue on the Bahamas's flag
+	color_ui = rgb { 0  119  139 } #the blue on the Bahamas's flag
+}
 BCX = {
 	color = rgb { 255  204  0 } #the yellow on British Columbia's flag
 	color_ui = rgb { 255  204  0 } #the yellow on British Columbia's flag
+}
+JAM = {
+	color = rgb { 0  155  58 } #the green on Jamaica's flag
+	color_ui = rgb { 0  155  58 } #the green on Jamaica's flag
 }
 MBX = {
 	color = rgb { 204  0  0 } #the red on Manitoba's flag
@@ -1075,6 +1145,10 @@ SKX = {
 	color = rgb { 7  106  33 } #the green on Saskatchewan's flag
 	color_ui = rgb { 7  106  33 } #the green on Saskatchewan's flag
 }
+SPM = {
+	color = rgb { 0  146  200 } #the blue on St Pierre & Miquelon's flag
+	color_ui = rgb { 0  146  200 } #the blue on St Pierre & Miquelon's flag
+}
 YTX = {
 	color = rgb { 24  123  1 } #the green on the Yukon's flag
 	color_ui = rgb { 24  123  1 } #the green on the Yukon's flag
@@ -1096,9 +1170,29 @@ AMP = {
 	color = rgb { 0  153  76 } #the green in Amapá's flag
 	color_ui = rgb { 0  153  76 } #the green in Amapá's flag
 }
+BLZ = {
+	color = rgb { 0  63  135 } #the blue in Belize's flag
+	color_ui = rgb { 0  63  135 } #the blue in Belize's flag
+}
+FLK = {
+	color = rgb { 0  113  195 } #the blue on the Falklands's coat of arms
+	color_ui = rgb { 0  113  195 } #the blue on the Falklands's coat of arms
+}
+GLP = {
+	color = rgb { 0  173  64 } #the green in Galapagos's flag
+	color_ui = rgb { 0  173  64 } #the green in Galapagos's flag
+}
+GUI = {
+	color = rgb { 0  0  255 } #the blue in Guiana's flag
+	color_ui = rgb { 0  0  255 } #the blue in Guiana's flag
+}
 JUL = {
 	color = rgb { 255  255  0 } #yellow from Juliana's flag
 	color_ui = rgb { 255  255  0 } #yellow from Juliana's flag
+}
+PAT = {
+	color = rgb { 12  15  131 } #the blue in Patagonia's flag
+	color_ui = rgb { 12  15  131 } #the blue in Patagonia's flag
 }
 PRA = {
 	color = rgb { 255  0  0 } #red from Para's flag
@@ -1107,4 +1201,22 @@ PRA = {
 PIR = {
 	color = rgb { 49  148  0 } #green from Piratini's flag
 	color_ui = rgb { 49  148  0 } #green from Piratini's flag
+}
+SGS = {
+	color = rgb { 63  164  213 } #the blue on South Georgia and the South Sandwich Islands's coat of arms
+	color_ui = rgb { 63  164  213 } #the blue on South Georgia and the South Sandwich Islands's coat of arms
+}
+SUR = {
+	color = rgb { 180  10  45 } #the red in Suriname's flag
+	color_ui = rgb { 180  10  45 } #the red in Suriname's flag
+}
+
+
+###########################################
+# Divided We Fall ASIAN countries
+###########################################
+
+KUR = {
+	color = rgb { 254 189 17 } #the gold in Kurdistan's flag
+	color_ui = rgb { 255 189 17 } #the gold in Kurdistan's flag
 }

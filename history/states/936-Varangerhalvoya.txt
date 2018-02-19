@@ -4,8 +4,9 @@ state={
 	name="STATE_936"
 
 	history={
-		owner=NOR
-		add_core_of=NOR
+		owner=SAP
+		add_core_of=SAP
+		#add_core_of = NOR
 		buildings={
 			infrastructure=3
 			9116={

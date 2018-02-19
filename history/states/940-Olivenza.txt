@@ -4,8 +4,8 @@ state={
 	name="STATE_940"
 
 	history={
-		owner=SPR
-		add_core_of=SPR
+		owner=LEO
+		add_core_of=LEO
 		add_core_of=POR
 		buildings={
 			infrastructure=5

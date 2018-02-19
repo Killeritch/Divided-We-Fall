@@ -7,12 +7,12 @@ state={
 	state_category = town
 
 	history={
-		owner = SPR
+		owner = CST
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 6
 		}
-		add_core_of = SPR
+		add_core_of = CST
 	}
 
 	provinces={

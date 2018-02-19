@@ -1,5 +1,7 @@
 ﻿capital = 171
 
+#OOB = "GAL_1936"
+
 set_research_slots = 3
 
 set_technology = {
@@ -45,5 +47,5 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_convoys = 150
-set_national_unity = 0.9
+set_convoys = 100
+set_national_unity = 0.7

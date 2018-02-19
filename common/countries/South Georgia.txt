@@ -1,0 +1,6 @@
+
+
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d
+
+color = { 63  164  213 } #the blue on South Georgia and the South Sandwich Islands's coat of arms

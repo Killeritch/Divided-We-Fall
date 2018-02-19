@@ -8,14 +8,14 @@ state=
 	
 	history=
 	{
-		owner = DEN
+		owner = FAR
 		buildings = {
 			infrastructure = 4
 			13003 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = DEN
+		add_core_of = FAR
 	}
 	provinces= { 13003 }
 }

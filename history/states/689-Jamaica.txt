@@ -6,7 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = ENG
+		owner = JAM
+		add_core_of = JAM
 		buildings = {
 			infrastructure = 4
 						industrial_complex = 1
