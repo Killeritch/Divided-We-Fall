@@ -1,0 +1,6 @@
+
+
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+
+color = { 43  129  100 } #the green on Sikkim's flag # or { 241  201  26 } #the gold on Sikkim's flag

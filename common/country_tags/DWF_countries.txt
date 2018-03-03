@@ -149,3 +149,10 @@ SML = "countries/Somaliland.txt"
 SOM = "countries/Somalia.txt"
 
 KUR = "countries/Kurdistan.txt"
+
+HYD = "countries/Hyderabad.txt"
+KAS = "countries/Kashmir.txt"
+MYS = "countries/Mysore.txt"
+PUN = "countries/Punjab.txt"
+SKK = "countries/Sikkim.txt"
+TRA = "countries/Travancore.txt"

@@ -7,8 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = PAK
-		add_core_of = PAK
+		owner = PUN
+		add_core_of = PUN
 		victory_points = { 10772 1 } #Ludhiana
 		buildings = {
 			infrastructure = 5

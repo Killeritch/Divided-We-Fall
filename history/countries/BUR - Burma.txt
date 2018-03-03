@@ -1,6 +1,6 @@
-﻿capital = 288 #Yangon - idk if this is right?
+﻿capital = 288 #Yangon
 
-#no oob needed
+oob = BUR_1936
 
 set_research_slots = 3
 
