@@ -28,49 +28,6 @@ division_template = {
 units = {
 	#India Command
 	
-	#Northern Command
-	
-	division= {	
-		name = "Pashawar District"
-		location = 12717
-		division_template = "Indian Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "Kohat District"
-		location = 4998
-		division_template = "Indian Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "Rawalpindi District"
-		location = 12005
-		division_template = "Indian Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "Lahore District"
-		location = 10843
-		division_template = "Indian Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "Waziristan District"
-		location = 1978
-		division_template = "Indian Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	
 	#Eastern Command
 	division= {	
 		name = "Meerut District"

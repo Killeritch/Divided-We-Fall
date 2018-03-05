@@ -1,6 +1,6 @@
-﻿capital = 867 #Travancore I think
+﻿capital = 444 #Baluchistan
 
-oob = "TRA_1936"
+oob = "KAL_1936"
 
 # Starting tech
 set_technology = {

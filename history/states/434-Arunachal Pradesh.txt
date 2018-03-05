@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
-		add_core_of = RAJ
+		owner = MNP
+		add_core_of = MNP
 		victory_points = { 1581 1 } #Imphal
 		buildings = {
 			infrastructure = 1

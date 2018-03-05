@@ -1,6 +1,6 @@
 ﻿capital = 440 #Punjab I think
 
-#oob = "PUN_1936"
+oob = "PUN_1936"
 
 # Starting tech
 set_technology = {

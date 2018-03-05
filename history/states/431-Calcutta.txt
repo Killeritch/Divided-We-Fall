@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
-		add_core_of = RAJ
+		owner = BNG
+		add_core_of = BNG
 		victory_points = { 4245 15 } #Calcutta
 		victory_points = { 12338 1 } #Darjeeling
 		buildings = {

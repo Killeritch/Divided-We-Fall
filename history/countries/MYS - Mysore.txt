@@ -1,6 +1,6 @@
 ﻿capital = 425 #Mysore I think
 
-#oob = "MYS_1936"
+oob = "MYS_1936"
 
 # Starting tech
 set_technology = {

@@ -1216,9 +1216,25 @@ SUR = {
 # Divided We Fall ASIAN countries
 ###########################################
 
+BAR = {
+	color = rgb { 255 0 0 } #the red in Baroda's flag
+	color_ui = rgb { 255 0 0 } #the red in Baroda's flag
+}
+BNG = {
+	color = rgb { 244 34 44 } #the red in Bengal's flag
+	color_ui = rgb { 255 35 50 } #the red in Bengal's flag
+}
+GWA = {
+	color = rgb { 255 127 0 } #the orange in Gwalior's flag
+	color_ui = rgb { 255 127 0 } #the orange in Gwalior's flag
+}
 HYD = {
 	color = rgb { 99 0 0 } #the brown in Hyderabad's flag
 	color_ui = rgb { 125 0 0 } #the brown in Hyderabad's flag
+}
+KAL = {
+	color = rgb { 16 148 0 } #the green in Kalat's flag
+	color_ui = rgb { 16 148 0 } #the green in Kalat's flag
 }
 KAS = {
 	color = rgb { 255 0 0 } #the red in Kashmir's flag
@@ -1227,6 +1243,10 @@ KAS = {
 KUR = {
 	color = rgb { 254 189 17 } #the gold in Kurdistan's flag
 	color_ui = rgb { 255 189 17 } #the gold in Kurdistan's flag
+}
+MNP = {
+	color = rgb { 218 37 26 } #the red in Manipur's flag
+	color_ui = rgb { 218 37 26 } #the red in Manipur's flag
 }
 MYS = {
 	color = rgb { 153  51  51 } #the brown on Mysore's flag
@@ -1243,4 +1263,8 @@ SKK = {
 TRA = {
 	color = rgb { 237  28  36 } #the red on Travancore's flag
 	color_ui = rgb { 255  30  41 } #the red on Travancore's flag
+}
+UDA = {
+	color = rgb { 182 49 50 } #the red in Udaipur's flag
+	color_ui = rgb { 182 49 50 } #the red in Udaipur's flag
 }

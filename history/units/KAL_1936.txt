@@ -1,0 +1,34 @@
+﻿Brigade_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	Brigade= {	
+		name = "1. Infantry Brigade"
+		location = 8066 #Kalat
+		Brigade_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KAL"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

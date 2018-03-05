@@ -49,15 +49,7 @@ WVX = "countries/WestVirginia.txt"
 WIX = "countries/Wisconsin.txt"
 WYX = "countries/Wyoming.txt"
 
-#####
-
-CSC = "countries/Cascadia.txt"
-CSA = "countries/CSA.txt"
-GPL = "countries/GreatPlains.txt"
-NWN = "countries/NewEngland.txt"
 PRX = "countries/PuertoRico.txt"
-RKY = "countries/Rockies.txt"
-RST = "countries/RustBelt.txt"
 
 #####
 
@@ -150,9 +142,15 @@ SOM = "countries/Somalia.txt"
 
 KUR = "countries/Kurdistan.txt"
 
+BAR = "countries/Baroda.txt"
+BNG = "countries/Bengal.txt"
+GWA = "countries/Gwalior.txt"
 HYD = "countries/Hyderabad.txt"
+KAL = "countries/Kalat.txt"
 KAS = "countries/Kashmir.txt"
+MNP = "countries/Manipur.txt"
 MYS = "countries/Mysore.txt"
 PUN = "countries/Punjab.txt"
 SKK = "countries/Sikkim.txt"
 TRA = "countries/Travancore.txt"
+UDA = "countries/Udaipur.txt"

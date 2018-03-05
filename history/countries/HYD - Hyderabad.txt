@@ -1,6 +1,6 @@
 ﻿capital = 427 #Hyderabad I think
 
-#oob = "HYD_1936"
+oob = "HYD_1936"
 
 # Starting tech
 set_technology = {

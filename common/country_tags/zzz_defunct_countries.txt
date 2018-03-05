@@ -1,0 +1,6 @@
+CSC = "countries/Cascadia.txt"
+CSA = "countries/CSA.txt"
+GPL = "countries/GreatPlains.txt"
+NWN = "countries/NewEngland.txt"
+RKY = "countries/Rockies.txt"
+RST = "countries/RustBelt.txt"

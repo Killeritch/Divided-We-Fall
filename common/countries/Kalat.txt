@@ -1,0 +1,6 @@
+
+
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d
+
+color = { 16 148 0 } #the green in Kalat's flag

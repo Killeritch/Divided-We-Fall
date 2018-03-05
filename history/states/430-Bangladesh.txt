@@ -7,8 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = RAJ
-		add_core_of = RAJ
+		owner = BNG
+		add_core_of = BNG
 		victory_points = { 11929 3 } #Dacca
 		victory_points = { 9991 1 } #Chittagong
 		buildings = {

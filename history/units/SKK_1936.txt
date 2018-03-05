@@ -1,0 +1,49 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Mountaineer-Division"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Mountaineer-Division"
+		location = 4435 #Sikkim
+		division_template = "Mountaineer-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SKK"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

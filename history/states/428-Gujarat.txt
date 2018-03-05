@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
-		add_core_of = RAJ
+		owner = BAR
+		add_core_of = BAR
 		victory_points = { 9975 2 } #Ahmedabad
 		buildings = {
 			industrial_complex = 3

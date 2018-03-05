@@ -1,6 +1,6 @@
-﻿capital = 867 #Travancore I think
+﻿capital = 434 #Manipur
 
-oob = "TRA_1936"
+oob = "MNP_1936"
 
 # Starting tech
 set_technology = {

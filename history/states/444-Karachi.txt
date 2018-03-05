@@ -7,8 +7,9 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = PAK
-		add_core_of = PAK
+		owner = KAL
+		add_core_of = KAL
+		victory_points = { 8066 1 } #Kalat
 		buildings = {
 			infrastructure = 2
 		}
