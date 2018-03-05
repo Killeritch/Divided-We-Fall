@@ -1,4 +1,4 @@
-﻿Brigade_template = {
+﻿division_template = {
 	name = "Infantry Brigade"
 
 	regiments = {
@@ -9,10 +9,10 @@
 }
 
 units = {
-	Brigade= {	
+	division= {	
 		name = "1. Infantry Brigade"
 		location = 8066 #Kalat
-		Brigade_template = "Infantry Brigade"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 

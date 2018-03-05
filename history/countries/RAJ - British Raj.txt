@@ -2,6 +2,14 @@
 
 oob = "RAJ_1936"
 
+create_faction = "Indian National Congress"
+#add_to_faction = MYS
+#add_to_faction = TRA
+#add_to_faction = MNP
+#add_to_faction = GWA
+#add_to_faction = BAR
+#add_to_faction = UDA
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

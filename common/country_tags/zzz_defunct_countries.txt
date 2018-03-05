@@ -1,3 +1,13 @@
+GER	= "countries/Germany.txt"
+SPR = "countries/Spain.txt"
+ITA = "countries/Italy.txt"
+ROM = "countries/Romania.txt"
+YUG = "countries/Yugoslavia.txt"
+USA = "countries/USA.txt"
+WGR = "countries/West Germany.txt"
+DDR = "countries/East Germany.txt"
+PAL = "countries/Palestine.txt"
+
 CSC = "countries/Cascadia.txt"
 CSA = "countries/CSA.txt"
 GPL = "countries/GreatPlains.txt"
