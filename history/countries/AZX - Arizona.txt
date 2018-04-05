@@ -1,5 +1,7 @@
 ﻿capital = 377
 
+oob = "AKX_1936" # from my USCW side-project
+
 set_research_slots = 3
 
 # Starting tech

@@ -1,0 +1,39 @@
+﻿division_template = {
+	name = "National Guard Brigade"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+# 394
+
+units = {
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1827  # Denver
+		division_template = "National Guard Brigade"
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1827  # Denver
+		division_template = "National Guard Brigade"
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1827  # Denver
+		division_template = "National Guard Brigade"
+	}
+}
