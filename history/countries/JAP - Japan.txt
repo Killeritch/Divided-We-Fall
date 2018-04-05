@@ -2,7 +2,7 @@
 
 oob = "JAP_1936"
 
-set_national_unity = 0.65
+set_stability = 0.65
 
 set_research_slots = 4
 
@@ -137,8 +137,8 @@ set_technology = {
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1

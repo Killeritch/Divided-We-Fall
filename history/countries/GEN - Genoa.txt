@@ -53,7 +53,7 @@ set_politics = {
 }
 
 set_convoys = 150
-set_national_unity = 0.7
+set_stability = 0.7
 
 ### Ship Variants ###
 
