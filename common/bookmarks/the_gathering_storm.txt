@@ -63,9 +63,9 @@ bookmarks = {
 				state_shintoism
 			}	
 			focuses = {
-				southern_expansion_focus
-				divine_wind_focus
-				found_own_faction_focus
+			#	southern_expansion_focus
+			#	divine_wind_focus
+			#	found_own_faction_focus
 			}			
 		}
 		"SOV"={
